@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  position:fixed;
+  z-index:10; 
+}
+
+img{
+  width:400px; 
+  position:fixed;
+  z-index:0;
+}

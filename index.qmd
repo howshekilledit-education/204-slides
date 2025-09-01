@@ -1,0 +1,255 @@
+
+---
+title: "Intentionally Random"
+format:
+  revealjs:
+    theme: dark
+    css: bl.css
+    header-includes: |
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+
+mainfont: 'Josefin Sans'
+---
+
+# Reference Links 
+
+::: {.biglink}
+`bit.ly/random-demo`
+<br>
+&#8593; keep this page open in a brower tab!
+:::
+
+
+## Try to create a random composition {.vert}
+
+Open Link 1 in the Google Doc. Click to place shapes randomly. 
+
+
+## Let the computer create a random composition {.vert}
+
+Open Link 2 in the Google Doc. Watch the computer place the shapes.
+
+# Which composition appears more organic and random? 
+
+# Coding Goals
+
+Review or introduce
+
+  * p5.js basics
+  * JavaScript functions and arguments
+  * `random()` function
+
+# Conceptual + Design Goals
+
+  * How does randomness reflect our world? 
+  * How can randomness enhance a design?
+  * How can you control randomness for design that is both intentional and suprising?
+
+
+## p5 `ellipse()`
+
+<br>
+
+:::: {.columns}
+::: {.column width="42%"}
+::: {.tryit} 
+Try it yourself:<br> **LINK 3** in Google Doc
+
+<br>
+
+Press play button to run sketch. Try directions to the right. 
+:::
+:::
+::: {.column width="8%"}
+:::
+::: {.column width="50%"}
+
+What happens if we change<br>
+<br>
+
+`ellipse(200, 200, 100)`<br> 
+to <br>
+`ellipse(300, 200, 100)`<br>
+<br>
+?
+:::
+::::
+
+## p5 Randomness
+<br>
+From there, what happens if we change<br>
+<br>
+
+`ellipse(300, 200, 100)`<br> 
+to <br>
+`ellipse(random(300), 200, 100)`<br>
+?<br>
+<br>
+Be careful to match the text exactly! 
+Try running several times.
+
+## `random()` with one argument
+
+<br>
+
+:::: {.columns}
+::: {.column width="42%"}
+::: {.tryit} 
+Try it yourself:<br> **LINK 4** in Google Doc
+
+<br>
+
+Press play button to run sketch. Try directions to the right. 
+:::
+:::
+::: {.column width="8%"}
+:::
+::: {.column width="50%"}
+
+What happens if we change<br>
+<br>
+
+`random(300)`<br> 
+to <br>
+`random(10)`<br>
+<br>
+?
+:::
+::::
+
+## `random()` with two arguments
+<br>
+
+From there, what happens if we change <br>
+<br>
+
+`random(10)`<br> 
+to <br>
+`random(10, 20)`<br>
+<br>
+
+?
+
+<aside class = "notes">
+Where else does random() appear?
+</aside>
+
+
+
+## [Pseudorandomness vs True Randomness]{.stlth_hd} 
+
+<br>
+
+{{<video images/pseudo-random.mov >}}
+
+::: {.caption}
+Pseudorandomness vs True Randomness
+:::
+
+
+# People all over the world use randomness to predict the future.
+
+# This has been true for many centuries.
+
+
+## [Tea Divination in Europe]{.stlth_hd}
+![Tea Divination illustration, 1842, London](images/tea-fortune-telling.jpg)
+
+## [Contemporary Tasseography Instructions]{.stlth_hd}
+
+![Tasseography Instructions](images/tea-symbols.jpg)
+
+## [Ifa Divination in West Africa]{.stlth_hd}
+![Ifa Divination Board, West Africa, pseudorandom number generating technique](images/ogunnaike-4.jpg)
+
+## [Ifa Instructions]{.stlth_hd}
+![Ifa Divination Instructions](images/ifa-board.webp)
+
+## [Predictive Modeling]{.stlth_hd}
+![Many contemporary predictive models include a pseudorandom element](images/winter-weather-temperature-forecast-february-2025-anomaly-united-states-canada-end-month-prediction.png)
+
+## How does human intention guide each of these examples? {.vert} 
+
+# Dada 
+
+# [Duchamp]{.stlth_hd}
+![Marcel Duchamp, *Fountain*, 1917](images/fountain.jpg)
+
+
+## [Jean Arp]{.stlth_hd}
+
+:::: {.columns}
+::: {.column width = "50%"}
+![Jean (Hans) Arp, *Untitled (Collage with Squares Arranged according to the Law of Chance)*, 1916–17](images/arp1.jpg)
+:::
+::: {.column width = "50%"}
+<blockquote>While chance was undoubtedly the point of departure for this and other works in the series According to the Laws of Chance, the relatively ordered appearance of Arp’s collages suggest he did not fully relinquish control.
+</blockquote>
+source: [moma.org](https://www.moma.org/collection/works/37013)
+
+:::
+::::
+
+## [Inspiration for next demo]{.stlth_hd}
+![Jean (Hans) Arp, *Untitled (Collage with Squares Arranged according to the Law of Chance)*, 1917](images/arp2.jpg)
+
+# JavaScript + p5.js quick basics
+
+## Defintions {.vert}
+
+- **JavaScript**: a programming language that makes web pages interactive
+- **p5.js**: a JavaScript library for creative coding
+
+## `setup()` and `draw()`
+
+```javascript
+function setup() {
+   // setup code runs once
+   // at the start of the sketch
+}
+
+function draw() {
+   // draw code runs repeatedly
+   // after setup
+}
+```
+<br>
+
+`setup()` happens at the start <br>
+`draw()` happens on a loop after `setup()` 
+
+## Functions and Arguments
+
+![](images/function_call.webp)
+
+## `random()` and `ellipse()` {.vert}
+
+```javascript
+random(10) // one argument, returns a number between 0 and 10
+
+ellipse(200, 200, 100, 100) // four arguments, x, y, width, height
+```
+
+
+# [Arp Demo](https://editor.p5js.org/howshekilledit/sketches/EvSj_k147)
+Optional: Follow along in LINK 5 from Google Doc
+
+<!--
+## Have people try to be a pseudo-random number generator
+
+## Slowly limit randomness
+
+- color
+- size
+- position (overlap)
+- position (edges)
+
+# Conclusion
+
+- injecting intention
+- if we let computer take control, limits the aesthetic possibilities
+
+-->

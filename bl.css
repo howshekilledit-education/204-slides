@@ -1,0 +1,10 @@
+.me {}
+.vert h2 {margin-top:20% !important;}
+.vert_center {vertical-align: middle;}
+.biglink {font-size: 1.5em; font-weight:bold}
+.tryit {color:black; background-color: #f1f1f1; padding: 10px;}
+iframe{width:100% !important;}
+code{color:black; background:var(--quarto-hl-fu-color);}
+.stlth_hd{display:none;} /* Hide the header, but show in contents */
+caption{font-size: 0.8em; color: white; caption-side: bottom;}
+.caption{text-align: center; font-size: 0.8em;}
