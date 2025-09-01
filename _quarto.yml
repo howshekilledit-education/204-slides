@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Intentionally Random"
+  title: "CTCH 204 | Intro to Creative Coding"
   navbar:
     left:
       - href: index.qmd
@@ -19,4 +19,5 @@ format:
     toc: true
 
 
-
+execute:
+  freeze: auto

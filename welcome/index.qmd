@@ -1,0 +1,54 @@
+
+---
+title: "Welcome to 204"
+format:
+  revealjs:
+    theme: dark
+    css: bl.css
+    header-includes: |
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+
+mainfont: 'Josefin Sans'
+---
+
+# Icebreaker Activity
+
+Complete the **Icebreaker: Summer Media** activity in UR Courses. 
+
+We will go around an introduce ourselves, and share our chosen pieces of media. See if you can explain WHY your choice has stuck with you.
+
+## Introductions
+
+Let's go around and introduce ourselves.
+
+* Your name
+* Your pronouns (if you want)
+* Talk a little bit about why you chose your piece of media
+* Your name again
+
+## Cartesian Coordinates
+
+Most graphical software uses Cartesian coordinates to define locations on the screen.
+
+```{=latex}
+\begin{tikzpicture}
+% Draw grid
+\draw[step=1cm,gray,very thin] (-4,-3) grid (4,3);
+
+% Draw axes
+\draw[thick,->] (-4,0) -- (4.5,0) node[anchor=north west] {$x$};
+\draw[thick,->] (0,-3) -- (0,3.5) node[anchor=south east] {$y$};
+
+% Label origin
+\node[anchor=north east] at (0,0) {$O$};
+
+% Add tick marks and labels
+\foreach \x in {-4,-3,-2,-1,1,2,3,4}
+    \draw (\x cm,1pt) -- (\x cm,-1pt) node[anchor=north] {$\x$};
+\foreach \y in {-3,-2,-1,1,2,3}
+    \draw (1pt,\y cm) -- (-1pt,\y cm) node[anchor=east] {$\y$};
+\end{tikzpicture}
+```
