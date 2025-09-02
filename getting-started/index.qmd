@@ -1,0 +1,94 @@
+
+---
+title: "Getting Started"
+format:
+  revealjs:
+    theme: 
+      - simple
+    css: ../bl.css
+    header-includes: |
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+sansfont: "Josefin Sans"
+---
+
+## Entrance Ticket
+
+Look through your classmates' links in *Forum Response 1 | Shapes and Colors* in UR Courses. If you notice anything that stands out to you, reply with a comment! **Make sure you reply to at least on post.** 
+
+<br>
+OPTIONAL: See if you can figure out which code created the effect you noticed, and include that code in your post. 
+
+# The Syllabus, Highlights
+
+# You can have a one-week extension on ONE of your first two projects. Otherwise, late work is not accepted. 
+
+# If I grade too high, everyone might have their grade reduced. 
+
+# You should not come to class if you are sick. You should always come to class if you are well and able. 
+
+
+## How to Complete Quiz
+
+::: {.column width="30%"}
+
+![](https://brownbagteacher.com/wp-content/uploads/2020/02/BubbledScantron-1024x770.png)
+
+:::
+
+::: {.column width="70%"}
+
+* Only use the left column
+* Write your first and last name
+* Fill in the correct bubble completely!
+
+:::
+
+You can reference the syllabus on UR Courses, or I have a few paper copies.
+This is the **last** quiz where you can reference outside materials. 
+
+## p5.js setup() & draw()
+
+```{javascript}
+// <-- Variables you might access throughout your project goe on top. 
+// Everything else should go {INSIDE A FUNCTION}
+
+function setup(){
+
+    // <-- Instructions in here execute AT THE START
+
+}
+
+function draw(){
+
+    // <-- Instructions in here execute next, 
+    // either over and over on a loop (default), 
+    // or just once (if noLoop() is called)
+
+}
+```
+
+## () {} []
+
+Parentheses ()
+
+Curly braces {}
+
+Square brackets []
+
+^These always come in pairs! Often, they hold important information. If no information is needed, they are empty, but it's still important to include both the open and closing symbols. 
+
+Curly braces usually hold instructions for functions, loops, conditional statements etc. 
+These instructions always go AFTER the opening brace { and BEFORE the closing brace }.
+
+## Coordinate Systems
+
+
+![Adrian Piper, *Charted Work Proposal for January – December 1969, 1968*. Typescript and graph paper with space/time coordinate diagrams under sheet protectors in ring binder](https://www.thomaserben.com/wp-content/uploads/API_1968_Charted-Work-Proposal-for-January_1_400.jpg)
+
+
+
+# Complete Exit Ticket with (x,y) coordinates
+
