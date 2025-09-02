@@ -40,5 +40,33 @@
     "title": "Welcome to 204",
     "section": "",
     "text": "Complete the Icebreaker: Summer Media activity in UR Courses.\n\n\nLet’s go around and introduce ourselves.\n\nYour name\nYour pronouns (if you want)\nTalk a little bit about why you chose your piece of media\nYour name again\n\n\n\n\nMost graphical software uses a Cartesian coordinate system to define where things are on the screen.\n\n\n\n\nNext class, we will have a syllabus quiz (you may reference the syllabus). This will be the last quiz where you can look at outside resources. After that, all quizzes will be closed book.\nMake sure you bring a pen or pencil! (Note that you should bring a notebook and pen/pencil to every class.)"
+  },
+  {
+    "objectID": "getting-started/index.html#how-to-complete-quiz",
+    "href": "getting-started/index.html#how-to-complete-quiz",
+    "title": "Getting Started",
+    "section": "How to Complete Quiz",
+    "text": "How to Complete Quiz\n\n\n\n\nOnly use the left column\nWrite your first and last name\nFill in the correct bubble completely!\n\nYou can reference the syllabus on UR Courses, or I have a few paper copies. This is the last quiz where you can reference outside materials."
+  },
+  {
+    "objectID": "getting-started/index.html#entrance-ticket",
+    "href": "getting-started/index.html#entrance-ticket",
+    "title": "Getting Started",
+    "section": "Entrance Ticket",
+    "text": "Entrance Ticket\nLook through your classmates’ links in Forum Response 1 | Shapes and Colors in UR Courses. If you notice anything that stands out to you, reply with a comment! Make sure you reply to at least on post.\n OPTIONAL: See if you can figure out which code created the effect you noticed, and include that code in your post."
+  },
+  {
+    "objectID": "getting-started/index.html#coordinate-systems",
+    "href": "getting-started/index.html#coordinate-systems",
+    "title": "Getting Started",
+    "section": "Coordinate Systems",
+    "text": "Coordinate Systems\n\nAdrian Piper, Charted Work Proposal for January – December 1969, 1968. Typescript and graph paper with space/time coordinate diagrams under sheet protectors in ring binder"
+  },
+  {
+    "objectID": "getting-started/index.html#p5.js-setup-draw",
+    "href": "getting-started/index.html#p5.js-setup-draw",
+    "title": "Getting Started",
+    "section": "p5.js setup() & draw()",
+    "text": "p5.js setup() & draw()\n// &lt;-- Variables you might access throughout your project goes on top. Everything else should go {INSIDE A FUNCTION}\n\nfunction setup(){\n\n    // &lt;-- Instructions in here execute AT THE START\n\n}\n\nfunction draw(){\n\n    // &lt;-- Instructions in here execute next, either over and over on a loop (default), or just once (if noLoop() is called)\n\n}"
   }
 ]
