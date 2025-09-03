@@ -151,7 +151,14 @@
     "href": "getting-started/index.html#rgba-transparency",
     "title": "Syllabus, Shapes, and Colors",
     "section": "RGBA Transparency",
-    "text": "RGBA Transparency\nYou can add a fourth argument to color settings in p5.js This is for RGBA, where the A stands for Alpha channel, meaning transparency. A values run from 0 for totally transparent to 255 for totally opaque.\n# creates a red circle with 50% transaprency\nfill(255, 0, 0, 127);\ncircle(200, 200, 10);"
+    "text": "RGBA Transparency\nYou can add a fourth “alpha” argument to color settings in p5.js, which sets the opacity.\nAlpha values run from 0 (totally transparent) to 255 for (totally opaque).\n// creates a red circle with 50% transaprency\nfill(255, 0, 0, 127);\ncircle(200, 200, 10);"
+  },
+  {
+    "objectID": "getting-started/index.html#code-along-with-me",
+    "href": "getting-started/index.html#code-along-with-me",
+    "title": "Syllabus, Shapes, and Colors",
+    "section": "Code along with me!",
+    "text": "Code along with me!\n\nor take notes if you prefer"
   },
   {
     "objectID": "getting-started/index.html#key-takeaways",
