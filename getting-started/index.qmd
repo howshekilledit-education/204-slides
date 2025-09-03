@@ -290,17 +290,19 @@ fill(128, 128, 128); // Gray
 
 ## RGBA Transparency
 
-You can add a fourth argument to color settings in p5.js
-This is for RGBA, where the A stands for Alpha channel, meaning transparency.
-A values run from 0 for totally transparent to 255 for totally opaque. 
+You can add a fourth "alpha" argument to color settings in p5.js, which sets the opacity.
+
+Alpha values run from 0 (totally transparent) to 255 for (totally opaque). 
 
 ```javascript
-# creates a red circle with 50% transaprency
+// creates a red circle with 50% transaprency
 fill(255, 0, 0, 127);
 circle(200, 200, 10);
 ```
 
+## Code along with me! {.center}
 
+![or take notes if you prefer](https://img.tpt.cloud/nextavenue/uploads/2021/09/bobrossestate-01.inside.1280x720.jpg)
 
 
 ## Key Takeaways {.smaller}
