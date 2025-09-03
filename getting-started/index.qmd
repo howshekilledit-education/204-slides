@@ -94,7 +94,13 @@ These instructions always go AFTER the opening brace { and BEFORE the closing br
 
 ![Adrian Piper, *Charted Work Proposal for January – December 1969, 1968*. Typescript and graph paper with space/time coordinate diagrams under sheet protectors in ring binder](https://www.thomaserben.com/wp-content/uploads/API_1968_Charted-Work-Proposal-for-January_1_400.jpg)
 
+## What's on the Quiz vs. What's in Class
 
+Slides and Coding Train tutorials will include the material you need to know for the next quiz.
+
+Demos may preview more advanced material so that you can see what's ahead. These may be covered more explicitly for future quizzes, or may be extra material that you can explore on your own.
+
+# In confusion lies the seeds to understanding! 
 
 # Complete Exit Ticket with (x,y) coordinates
 
