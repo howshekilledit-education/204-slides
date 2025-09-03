@@ -1,6 +1,6 @@
 
 ---
-title: "Getting Started"
+title: "Syllabus, Shapes, and Colors"
 format:
   revealjs:
     theme: 
@@ -78,7 +78,6 @@ Demos will cover quiz material and may preview more advanced material.
 - Makes coding accessible for artists, designers, and beginners
 - Based on Processing programming language
 - Runs in web browsers
-- Great for interactive graphics, animations, and data visualization
 
 ## () {} []
 
