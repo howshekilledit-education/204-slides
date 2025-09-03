@@ -1,1 +1,5 @@
 # Welcome to CTCH 204, Introduction to Creative Coding!
+
+## Lecture Slides
+
+* [Sept 5: Syllabus, p5.js, shapes, colors](/getting-started)

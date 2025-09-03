@@ -23,17 +23,24 @@ OPTIONAL: See if you can figure out which code created the effect you noticed, a
 
 # The Syllabus, Highlights
 
-## You can have a one-week extension on ONE of your first two projects. Otherwise, late work is not accepted. 
+::: {.vert}
+
+## You can have a one-week extension on ONE of your first two projects. 
+Otherwise, late work is not accepted. 
+
+::: 
 
 ## If average grade is too high, everyone might have their grade reduced. 
 
 The average grade should be around 70% to avoid a downward curve. Please adjust your grade expecations accordingly. 
 
-## You should not come to class if you are sick. You should always come to class if you are well and able.
+# You should not come to class if you are sick. 
+
+# You should always come to class if you are well and able.
 
 ## Participation is an important part of your grade. 
 
-This includes speaking in class, attendance, and in-class activities. 
+Your engagement score includes speaking in class, attendance, and in-class activities. 
 
 
 ## How to Complete Quiz
@@ -55,9 +62,37 @@ This includes speaking in class, attendance, and in-class activities.
 You can reference the syllabus on UR Courses, or I have a few paper copies.
 This is the **last** quiz where you can reference outside materials. 
 
+
+## What's on the Quiz vs. What's in Class
+
+Slides and Coding Train tutorials will include the material you need to know for the next quiz.
+
+Demos will cover quiz material and may preview more advanced material.
+
+# In confusion lies the seeds to understanding!
+
+
+## What is p5.js?
+
+- A JavaScript library for creative coding
+- Makes coding accessible for artists, designers, and beginners
+- Based on Processing programming language
+- Runs in web browsers
+- Great for interactive graphics, animations, and data visualization
+
+## () {} []
+
+Parentheses ()
+
+Curly braces {}
+
+Square brackets []
+
+^These always come in pairs!
+
 ## p5.js setup() & draw()
 
-```{javascript}
+```{.javascript code-line-numbers="false"}
 // <-- Variables you might access throughout your project goe on top. 
 // Everything else should go {INSIDE A FUNCTION}
 
@@ -76,31 +111,223 @@ function draw(){
 }
 ```
 
-## () {} []
 
-Parentheses ()
 
-Curly braces {}
 
-Square brackets []
+## Core Structure: setup() 
 
-^These always come in pairs! Often, they hold important information. If no information is needed, they are empty, but it's still important to include both the open and closing symbols. 
+```javascript
+function setup() {
+  // Runs once when program starts
+  createCanvas(400, 400);
+  background(220);
+}
+```
 
-Curly braces usually hold instructions for functions, loops, conditional statements etc. 
-These instructions always go AFTER the opening brace { and BEFORE the closing brace }.
+:::{.incremental}
+- `setup()` runs **once** at the beginning
+- Use it to initialize your canvas and set initial conditions
+- Perfect place for `createCanvas()` and one-time configurations
+:::
+
+## Core Structure: draw() 
+
+```javascript
+function draw() {
+  // Runs continuously, ~60 times per second
+  background(220);
+  ellipse(mouseX, mouseY, 50, 50);
+}
+```
+
+:::{.incremental}
+- `draw()` runs **continuously** (like animation frames)
+- Default frame rate: 60 FPS
+- Use for animations and interactive elements
+- Often starts with `background()` to clear previous frame
+:::
+
+## createCanvas() 
+
+```javascript
+function setup() {
+  createCanvas(800, 600);    // width, height in pixels
+  createCanvas(400, 400);    // square canvas
+}
+```
+
+:::{.incremental}
+- Creates the drawing canvas
+- First parameter: **width** in pixels
+- Second parameter: **height** in pixels
+- Usually called once in `setup()`
+- Default size: 100x100 if not specified
+:::
+
+## Drawing Basic Shapes: rect() 
+
+```javascript
+function setup() {
+  createCanvas(400, 400);
+  rect(50, 50, 100, 75);     // x, y, width, height
+  rect(200, 200, 80, 80);    // square rectangle
+}
+```
+
+:::{.incremental}
+- `rect(x, y, width, height)`
+- **x, y**: top-left corner position
+- **width**: horizontal size
+- **height**: vertical size
+- Coordinate system: (0,0) is top-left corner
+:::
+
+## Drawing Lines: line() 
+
+```javascript
+function setup() {
+  createCanvas(400, 400);
+  line(0, 0, 100, 100);      // x1, y1, x2, y2
+  line(50, 200, 350, 50);    // diagonal line
+}
+```
+
+:::{.incremental}
+- `line(x1, y1, x2, y2)`
+- Draws a straight line between two points
+- **x1, y1**: starting point
+- **x2, y2**: ending point
+- Line thickness controlled by `strokeWeight()`
+:::
+
+## Rectangle Drawing Modes: rectMode() {.smaller}
+
+```javascript
+function setup() {
+  createCanvas(400, 400);
+  
+  rectMode(CORNER);          // default: x,y = top-left
+  rect(50, 50, 100, 75);
+  
+  rectMode(CENTER);          // x,y = center point
+  rect(200, 200, 100, 75);
+  
+  rectMode(CORNERS);         // x1,y1 to x2,y2
+  rect(250, 250, 350, 325);
+}
+```
+
+## Fill Colors: fill() {.smaller}
+
+```javascript
+function setup() {
+  createCanvas(400, 400);
+  
+  fill(255, 0, 0);           // red
+  rect(50, 50, 100, 100);
+  
+  fill(0, 255, 0);           // green  
+  rect(200, 50, 100, 100);
+  
+  fill(0, 0, 255);           // blue
+  rect(50, 200, 100, 100);
+}
+```
+
+:::{.incremental}
+- `fill()` sets the interior color of shapes
+- Affects all shapes drawn after it
+- Various formats: RGB, grayscale, hex codes
+:::
+
+## Outline Colors: stroke() {.smaller}
+
+```javascript
+function setup() {
+  createCanvas(400, 400);
+  
+  stroke(255, 0, 0);         // red outline
+  strokeWeight(5);           // thick border
+  fill(255, 255, 0);         // yellow fill
+  rect(50, 50, 100, 100);
+  
+  stroke(0);                 // black outline
+  strokeWeight(1);           // thin border
+  noFill();                  // no interior color
+  rect(200, 200, 100, 100);
+}
+```
+
+## Understanding RGB Colors {.smaller}
+
+```javascript
+fill(255, 0, 0);     // Pure Red
+fill(0, 255, 0);     // Pure Green  
+fill(0, 0, 255);     // Pure Blue
+fill(255, 255, 0);   // Yellow (Red + Green)
+fill(255, 0, 255);   // Magenta (Red + Blue)
+fill(0, 255, 255);   // Cyan (Green + Blue)
+fill(255, 255, 255); // White
+fill(0, 0, 0);       // Black
+fill(128, 128, 128); // Gray
+```
+
+:::{.incremental}
+- **R**ed, **G**reen, **B**lue values
+- Each value: 0-255 (0 = none, 255 = maximum)
+- Mix values to create any color
+:::
+
+## RGB Color System Explained
+
+:::{.incremental}
+- **Additive color model** (light-based)
+- Each pixel has red, green, and blue light components
+- **0**: No light (dark/off)
+- **255**: Maximum light (brightest)
+- Combining all three at 255 = white light
+- All three at 0 = no light (black)
+:::
+
+## RGBA Transparency
+
+You can add a fourth argument to color settings in p5.js
+This is for RGBA, where the A stands for Alpha channel, meaning transparency.
+A values run from 0 for totally transparent to 255 for totally opaque. 
+
+```javascript
+# creates a red circle with 50% transaprency
+fill(255, 0, 0, 127);
+circle(200, 200, 10);
+```
+
+
+
+
+## Key Takeaways {.smaller}
+
+:::{.incremental}
+- `setup()`: runs once, initialize your program
+- `draw()`: runs continuously, create animations
+- `createCanvas()`: set your drawing area size
+- `rect()` and `line()`: basic drawing commands
+- `fill()` and `stroke()`: control colors
+- `rectMode()`: change how rectangles are positioned
+- RGB: mix red, green, blue values (0-255) for any color
+:::
+
+## Resources
+
+- [p5.js Official Website](https://p5js.org/)
+- [p5.js Reference](https://p5js.org/reference/)
+- [p5.js Web Editor](https://editor.p5js.org/)
+
 
 ## Coordinate Systems
 
 
 ![Adrian Piper, *Charted Work Proposal for January – December 1969, 1968*. Typescript and graph paper with space/time coordinate diagrams under sheet protectors in ring binder](https://www.thomaserben.com/wp-content/uploads/API_1968_Charted-Work-Proposal-for-January_1_400.jpg)
 
-## What's on the Quiz vs. What's in Class
-
-Slides and Coding Train tutorials will include the material you need to know for the next quiz.
-
-Demos may preview more advanced material so that you can see what's ahead. These may be covered more explicitly for future quizzes, or may be extra material that you can explore on your own.
-
-# In confusion lies the seeds to understanding! 
-
 # Complete Exit Ticket with (x,y) coordinates
+
 
