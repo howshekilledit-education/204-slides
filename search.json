@@ -4,7 +4,14 @@
     "href": "index.html",
     "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
     "section": "",
-    "text": "Welcome to CTCH 204, Introduction to Creative Coding!"
+    "text": "Sept 5: Syllabus, p5.js, shapes, colors"
+  },
+  {
+    "objectID": "index.html#lecture-slides",
+    "href": "index.html#lecture-slides",
+    "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
+    "section": "",
+    "text": "Sept 5: Syllabus, p5.js, shapes, colors"
   },
   {
     "objectID": "getting-started/index.html#entrance-ticket",
@@ -14,11 +21,11 @@
     "text": "Entrance Ticket\nLook through your classmates’ links in Forum Response 1 | Shapes and Colors in UR Courses. If you notice anything that stands out to you, reply with a comment! Make sure you reply to at least on post.\n OPTIONAL: See if you can figure out which code created the effect you noticed, and include that code in your post."
   },
   {
-    "objectID": "getting-started/index.html#you-can-have-a-one-week-extension-on-one-of-your-first-two-projects.-otherwise-late-work-is-not-accepted.",
-    "href": "getting-started/index.html#you-can-have-a-one-week-extension-on-one-of-your-first-two-projects.-otherwise-late-work-is-not-accepted.",
+    "objectID": "getting-started/index.html#you-can-have-a-one-week-extension-on-one-of-your-first-two-projects.",
+    "href": "getting-started/index.html#you-can-have-a-one-week-extension-on-one-of-your-first-two-projects.",
     "title": "Getting Started",
-    "section": "You can have a one-week extension on ONE of your first two projects. Otherwise, late work is not accepted.",
-    "text": "You can have a one-week extension on ONE of your first two projects. Otherwise, late work is not accepted."
+    "section": "You can have a one-week extension on ONE of your first two projects.",
+    "text": "You can have a one-week extension on ONE of your first two projects.\nOtherwise, late work is not accepted."
   },
   {
     "objectID": "getting-started/index.html#if-average-grade-is-too-high-everyone-might-have-their-grade-reduced.",
@@ -28,18 +35,11 @@
     "text": "If average grade is too high, everyone might have their grade reduced.\nThe average grade should be around 70% to avoid a downward curve. Please adjust your grade expecations accordingly."
   },
   {
-    "objectID": "getting-started/index.html#you-should-not-come-to-class-if-you-are-sick.-you-should-always-come-to-class-if-you-are-well-and-able.",
-    "href": "getting-started/index.html#you-should-not-come-to-class-if-you-are-sick.-you-should-always-come-to-class-if-you-are-well-and-able.",
-    "title": "Getting Started",
-    "section": "You should not come to class if you are sick. You should always come to class if you are well and able.",
-    "text": "You should not come to class if you are sick. You should always come to class if you are well and able."
-  },
-  {
     "objectID": "getting-started/index.html#participation-is-an-important-part-of-your-grade.",
     "href": "getting-started/index.html#participation-is-an-important-part-of-your-grade.",
     "title": "Getting Started",
     "section": "Participation is an important part of your grade.",
-    "text": "Participation is an important part of your grade.\nThis includes speaking in class, attendance, and in-class activities."
+    "text": "Participation is an important part of your grade.\nYour engagement score includes speaking in class, attendance, and in-class activities."
   },
   {
     "objectID": "getting-started/index.html#how-to-complete-quiz",
@@ -49,6 +49,27 @@
     "text": "How to Complete Quiz\n\n\n\n\nOnly use the left column\nWrite your first and last name\nFill in the correct bubble completely!\n\nYou can reference the syllabus on UR Courses, or I have a few paper copies. This is the last quiz where you can reference outside materials."
   },
   {
+    "objectID": "getting-started/index.html#whats-on-the-quiz-vs.-whats-in-class",
+    "href": "getting-started/index.html#whats-on-the-quiz-vs.-whats-in-class",
+    "title": "Getting Started",
+    "section": "What’s on the Quiz vs. What’s in Class",
+    "text": "What’s on the Quiz vs. What’s in Class\nSlides and Coding Train tutorials will include the material you need to know for the next quiz.\nDemos will cover quiz material and may preview more advanced material."
+  },
+  {
+    "objectID": "getting-started/index.html#what-is-p5.js",
+    "href": "getting-started/index.html#what-is-p5.js",
+    "title": "Getting Started",
+    "section": "What is p5.js?",
+    "text": "What is p5.js?\n\nA JavaScript library for creative coding\nMakes coding accessible for artists, designers, and beginners\nBased on Processing programming language\nRuns in web browsers\nGreat for interactive graphics, animations, and data visualization"
+  },
+  {
+    "objectID": "getting-started/index.html#section",
+    "href": "getting-started/index.html#section",
+    "title": "Getting Started",
+    "section": "() {} []",
+    "text": "() {} []\nParentheses ()\nCurly braces {}\nSquare brackets []\n^These always come in pairs!"
+  },
+  {
     "objectID": "getting-started/index.html#p5.js-setup-draw",
     "href": "getting-started/index.html#p5.js-setup-draw",
     "title": "Getting Started",
@@ -56,11 +77,95 @@
     "text": "p5.js setup() & draw()\n// &lt;-- Variables you might access throughout your project goe on top. \n// Everything else should go {INSIDE A FUNCTION}\n\nfunction setup(){\n\n    // &lt;-- Instructions in here execute AT THE START\n\n}\n\nfunction draw(){\n\n    // &lt;-- Instructions in here execute next, \n    // either over and over on a loop (default), \n    // or just once (if noLoop() is called)\n\n}"
   },
   {
-    "objectID": "getting-started/index.html#section",
-    "href": "getting-started/index.html#section",
+    "objectID": "getting-started/index.html#core-structure-setup",
+    "href": "getting-started/index.html#core-structure-setup",
     "title": "Getting Started",
-    "section": "() {} []",
-    "text": "() {} []\nParentheses ()\nCurly braces {}\nSquare brackets []\n^These always come in pairs! Often, they hold important information. If no information is needed, they are empty, but it’s still important to include both the open and closing symbols.\nCurly braces usually hold instructions for functions, loops, conditional statements etc. These instructions always go AFTER the opening brace { and BEFORE the closing brace }."
+    "section": "Core Structure: setup()",
+    "text": "Core Structure: setup()\nfunction setup() {\n  // Runs once when program starts\n  createCanvas(400, 400);\n  background(220);\n}\n\nsetup() runs once at the beginning\nUse it to initialize your canvas and set initial conditions\nPerfect place for createCanvas() and one-time configurations"
+  },
+  {
+    "objectID": "getting-started/index.html#core-structure-draw",
+    "href": "getting-started/index.html#core-structure-draw",
+    "title": "Getting Started",
+    "section": "Core Structure: draw()",
+    "text": "Core Structure: draw()\nfunction draw() {\n  // Runs continuously, ~60 times per second\n  background(220);\n  ellipse(mouseX, mouseY, 50, 50);\n}\n\ndraw() runs continuously (like animation frames)\nDefault frame rate: 60 FPS\nUse for animations and interactive elements\nOften starts with background() to clear previous frame"
+  },
+  {
+    "objectID": "getting-started/index.html#createcanvas",
+    "href": "getting-started/index.html#createcanvas",
+    "title": "Getting Started",
+    "section": "createCanvas()",
+    "text": "createCanvas()\nfunction setup() {\n  createCanvas(800, 600);    // width, height in pixels\n  createCanvas(400, 400);    // square canvas\n}\n\nCreates the drawing canvas\nFirst parameter: width in pixels\nSecond parameter: height in pixels\nUsually called once in setup()\nDefault size: 100x100 if not specified"
+  },
+  {
+    "objectID": "getting-started/index.html#drawing-basic-shapes-rect",
+    "href": "getting-started/index.html#drawing-basic-shapes-rect",
+    "title": "Getting Started",
+    "section": "Drawing Basic Shapes: rect()",
+    "text": "Drawing Basic Shapes: rect()\nfunction setup() {\n  createCanvas(400, 400);\n  rect(50, 50, 100, 75);     // x, y, width, height\n  rect(200, 200, 80, 80);    // square rectangle\n}\n\nrect(x, y, width, height)\nx, y: top-left corner position\nwidth: horizontal size\nheight: vertical size\nCoordinate system: (0,0) is top-left corner"
+  },
+  {
+    "objectID": "getting-started/index.html#drawing-lines-line",
+    "href": "getting-started/index.html#drawing-lines-line",
+    "title": "Getting Started",
+    "section": "Drawing Lines: line()",
+    "text": "Drawing Lines: line()\nfunction setup() {\n  createCanvas(400, 400);\n  line(0, 0, 100, 100);      // x1, y1, x2, y2\n  line(50, 200, 350, 50);    // diagonal line\n}\n\nline(x1, y1, x2, y2)\nDraws a straight line between two points\nx1, y1: starting point\nx2, y2: ending point\nLine thickness controlled by strokeWeight()"
+  },
+  {
+    "objectID": "getting-started/index.html#rectangle-drawing-modes-rectmode",
+    "href": "getting-started/index.html#rectangle-drawing-modes-rectmode",
+    "title": "Getting Started",
+    "section": "Rectangle Drawing Modes: rectMode()",
+    "text": "Rectangle Drawing Modes: rectMode()\nfunction setup() {\n  createCanvas(400, 400);\n  \n  rectMode(CORNER);          // default: x,y = top-left\n  rect(50, 50, 100, 75);\n  \n  rectMode(CENTER);          // x,y = center point\n  rect(200, 200, 100, 75);\n  \n  rectMode(CORNERS);         // x1,y1 to x2,y2\n  rect(250, 250, 350, 325);\n}"
+  },
+  {
+    "objectID": "getting-started/index.html#fill-colors-fill",
+    "href": "getting-started/index.html#fill-colors-fill",
+    "title": "Getting Started",
+    "section": "Fill Colors: fill()",
+    "text": "Fill Colors: fill()\nfunction setup() {\n  createCanvas(400, 400);\n  \n  fill(255, 0, 0);           // red\n  rect(50, 50, 100, 100);\n  \n  fill(0, 255, 0);           // green  \n  rect(200, 50, 100, 100);\n  \n  fill(0, 0, 255);           // blue\n  rect(50, 200, 100, 100);\n}\n\nfill() sets the interior color of shapes\nAffects all shapes drawn after it\nVarious formats: RGB, grayscale, hex codes"
+  },
+  {
+    "objectID": "getting-started/index.html#outline-colors-stroke",
+    "href": "getting-started/index.html#outline-colors-stroke",
+    "title": "Getting Started",
+    "section": "Outline Colors: stroke()",
+    "text": "Outline Colors: stroke()\nfunction setup() {\n  createCanvas(400, 400);\n  \n  stroke(255, 0, 0);         // red outline\n  strokeWeight(5);           // thick border\n  fill(255, 255, 0);         // yellow fill\n  rect(50, 50, 100, 100);\n  \n  stroke(0);                 // black outline\n  strokeWeight(1);           // thin border\n  noFill();                  // no interior color\n  rect(200, 200, 100, 100);\n}"
+  },
+  {
+    "objectID": "getting-started/index.html#understanding-rgb-colors",
+    "href": "getting-started/index.html#understanding-rgb-colors",
+    "title": "Getting Started",
+    "section": "Understanding RGB Colors",
+    "text": "Understanding RGB Colors\nfill(255, 0, 0);     // Pure Red\nfill(0, 255, 0);     // Pure Green  \nfill(0, 0, 255);     // Pure Blue\nfill(255, 255, 0);   // Yellow (Red + Green)\nfill(255, 0, 255);   // Magenta (Red + Blue)\nfill(0, 255, 255);   // Cyan (Green + Blue)\nfill(255, 255, 255); // White\nfill(0, 0, 0);       // Black\nfill(128, 128, 128); // Gray\n\nRed, Green, Blue values\nEach value: 0-255 (0 = none, 255 = maximum)\nMix values to create any color"
+  },
+  {
+    "objectID": "getting-started/index.html#rgb-color-system-explained",
+    "href": "getting-started/index.html#rgb-color-system-explained",
+    "title": "Getting Started",
+    "section": "RGB Color System Explained",
+    "text": "RGB Color System Explained\n\nAdditive color model (light-based)\nEach pixel has red, green, and blue light components\n0: No light (dark/off)\n255: Maximum light (brightest)\nCombining all three at 255 = white light\nAll three at 0 = no light (black)"
+  },
+  {
+    "objectID": "getting-started/index.html#rgba-transparency",
+    "href": "getting-started/index.html#rgba-transparency",
+    "title": "Getting Started",
+    "section": "RGBA Transparency",
+    "text": "RGBA Transparency\nYou can add a fourth argument to color settings in p5.js This is for RGBA, where the A stands for Alpha channel, meaning transparency. A values run from 0 for totally transparent to 255 for totally opaque.\n# creates a red circle with 50% transaprency\nfill(255, 0, 0, 127);\ncircle(200, 200, 10);"
+  },
+  {
+    "objectID": "getting-started/index.html#key-takeaways",
+    "href": "getting-started/index.html#key-takeaways",
+    "title": "Getting Started",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\n\nsetup(): runs once, initialize your program\ndraw(): runs continuously, create animations\ncreateCanvas(): set your drawing area size\nrect() and line(): basic drawing commands\nfill() and stroke(): control colors\nrectMode(): change how rectangles are positioned\nRGB: mix red, green, blue values (0-255) for any color"
+  },
+  {
+    "objectID": "getting-started/index.html#resources",
+    "href": "getting-started/index.html#resources",
+    "title": "Getting Started",
+    "section": "Resources",
+    "text": "Resources\n\np5.js Official Website\np5.js Reference\np5.js Web Editor"
   },
   {
     "objectID": "getting-started/index.html#coordinate-systems",
@@ -68,13 +173,6 @@
     "title": "Getting Started",
     "section": "Coordinate Systems",
     "text": "Coordinate Systems\n\nAdrian Piper, Charted Work Proposal for January – December 1969, 1968. Typescript and graph paper with space/time coordinate diagrams under sheet protectors in ring binder"
-  },
-  {
-    "objectID": "getting-started/index.html#whats-on-the-quiz-vs.-whats-in-class",
-    "href": "getting-started/index.html#whats-on-the-quiz-vs.-whats-in-class",
-    "title": "Getting Started",
-    "section": "What’s on the Quiz vs. What’s in Class",
-    "text": "What’s on the Quiz vs. What’s in Class\nSlides and Coding Train tutorials will include the material you need to know for the next quiz.\nDemos may preview more advanced material so that you can see what’s ahead. These may be covered more explicitly for future quizzes, or may be extra material that you can explore on your own."
   },
   {
     "objectID": "welcome/index.html#introductions",
