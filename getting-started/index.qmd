@@ -48,7 +48,7 @@ The average grade should be around 70% to avoid a downward curve. Please adjust 
 Your engagement score includes speaking in class, attendance, and in-class activities. 
 
 
-## How to Complete Quiz
+## How to Complete Quiz {.smaller}
 
 ::: {.column width="30%"}
 
@@ -58,14 +58,19 @@ Your engagement score includes speaking in class, attendance, and in-class activ
 
 ::: {.column width="70%"}
 
-* Only use the left column
 * Write your first and last name
-* Fill in the correct bubble completely!
+* Write today's date, Sept. 4
+* Use black/blue pen or pencil
+* Only use the left column
+* Fill in the correct bubble completely
+* You have twenty minutes 
 
 :::
 
 You can reference the syllabus on UR Courses, or I have a few paper copies.
-This is the **last** quiz where you can reference outside materials. 
+
+
+**This is the *last* quiz where you can reference outside materials.** 
 
 
 ## What's on the Quiz vs. What's in Class
