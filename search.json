@@ -1,17 +1,87 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
-    "section": "",
-    "text": "Sept 5: Syllabus, p5.js, shapes, colors"
+    "objectID": "variables-conventions/index.html#entrance-ticket",
+    "href": "variables-conventions/index.html#entrance-ticket",
+    "title": "Variables & Conventions",
+    "section": "Entrance Ticket",
+    "text": "Entrance Ticket\n\nLook through your classmates’ links in Forum Response 2 | Variables & Conventions in UR Courses.\nThere are a lot of the posts, so let’s split them up. If you are at the front of the room, look at posts at top; middle, middle; back, bottom.\nLook for a place in a classmate’s sketch defined a variable with let OR used mouseX/mouseY\nReply to the comment with the above line/block of code, and a sentence describing what the code is doing\nMake sure you reply to at least on post by 10:10"
   },
   {
-    "objectID": "index.html#lecture-slides",
-    "href": "index.html#lecture-slides",
-    "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
+    "objectID": "variables-conventions/index.html#experience-levels-in-this-class-vary",
+    "href": "variables-conventions/index.html#experience-levels-in-this-class-vary",
+    "title": "Variables & Conventions",
+    "section": "Experience levels in this class vary!",
+    "text": "Experience levels in this class vary!\nSome students in this class have ten years of coding experience. Others have none!\nTry not to judge yourself by what other students can do. It’s not a fair race if some started earlier than others."
+  },
+  {
+    "objectID": "variables-conventions/index.html#comments",
+    "href": "variables-conventions/index.html#comments",
+    "title": "Variables & Conventions",
+    "section": "Comments",
+    "text": "Comments\nCode comments are text in your code that your computer can’t see. They are great for muting code or explaining it.\n\nlet cx = width/2; // sets center to half canvas width\n// let cx = width/4; // sets center to 1/4 canvas size"
+  },
+  {
+    "objectID": "variables-conventions/index.html#console",
+    "href": "variables-conventions/index.html#console",
+    "title": "Variables & Conventions",
+    "section": "Console",
+    "text": "Console\nThe code console allows you to debug your code. You can see errors or log anything you wish with console.log()"
+  },
+  {
+    "objectID": "variables-conventions/index.html#variables",
+    "href": "variables-conventions/index.html#variables",
+    "title": "Variables & Conventions",
+    "section": "Variables",
+    "text": "Variables\nImagine variables as search and replace. Every time a variable appears, you could simply replace it with its value and the code would be the same.\nThe power here is that the value can VARY.\nYoda example"
+  },
+  {
+    "objectID": "variables-conventions/index.html#built-in-variables",
+    "href": "variables-conventions/index.html#built-in-variables",
+    "title": "Variables & Conventions",
+    "section": "Built-in variables",
+    "text": "Built-in variables\nfunction draw() {\n  background(255, 0, 0);\n  // sets fill based on location in loop\n  fill(frameCount%255);\n  // draws circle at mouse position\n  // with radius based on frames elapsed\n  circle(mouseX, mouseY, frameCount%width);\n}\nSee this example in web editor"
+  },
+  {
+    "objectID": "variables-conventions/index.html#section",
+    "href": "variables-conventions/index.html#section",
+    "title": "Variables & Conventions",
     "section": "",
-    "text": "Sept 5: Syllabus, p5.js, shapes, colors"
+    "text": "let &lt;name&gt; = &lt;value&gt;;"
+  },
+  {
+    "objectID": "variables-conventions/index.html#datatypes",
+    "href": "variables-conventions/index.html#datatypes",
+    "title": "Variables & Conventions",
+    "section": "Datatypes",
+    "text": "Datatypes\n\n// \"strings\" are text values, and should go in quotes\n\nlet lastName = \"Green\";\n\n// ints are numerical values, and should NOT go in quotes\n\nyear = 2025;"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "CTCH 204 | Intro to Creative Coding",
+    "section": "",
+    "text": "\u001a:q— title: “About” —\nAbout this site"
+  },
+  {
+    "objectID": "welcome/index.html#introductions",
+    "href": "welcome/index.html#introductions",
+    "title": "Welcome to 204",
+    "section": "Introductions",
+    "text": "Introductions\nLet’s go around and introduce ourselves.\n\nYour name\nYour pronouns (if you want)\nTalk a little bit about why you chose your piece of media\nYour name again"
+  },
+  {
+    "objectID": "welcome/index.html#cartesian-coordinates",
+    "href": "welcome/index.html#cartesian-coordinates",
+    "title": "Welcome to 204",
+    "section": "Cartesian Coordinates",
+    "text": "Cartesian Coordinates\n\n\n\n\nMost graphical software uses a Cartesian coordinate system to define where things are on the screen."
+  },
+  {
+    "objectID": "welcome/index.html#next-class",
+    "href": "welcome/index.html#next-class",
+    "title": "Welcome to 204",
+    "section": "Next class",
+    "text": "Next class\n\nNext class, we will have a syllabus quiz (you may reference the syllabus). This will be the last quiz where you can look at outside resources. After that, all quizzes will be closed book.\n\nMake sure you bring a pen or pencil! (Note that you should bring a notebook and pen/pencil to every class.)"
   },
   {
     "objectID": "getting-started/index.html#entrance-ticket",
@@ -189,31 +259,17 @@
     "text": "Coordinate Systems\n\nAdrian Piper, Charted Work Proposal for January – December 1969, 1968. Typescript and graph paper with space/time coordinate diagrams under sheet protectors in ring binder"
   },
   {
-    "objectID": "welcome/index.html#introductions",
-    "href": "welcome/index.html#introductions",
-    "title": "Welcome to 204",
-    "section": "Introductions",
-    "text": "Introductions\nLet’s go around and introduce ourselves.\n\nYour name\nYour pronouns (if you want)\nTalk a little bit about why you chose your piece of media\nYour name again"
-  },
-  {
-    "objectID": "welcome/index.html#cartesian-coordinates",
-    "href": "welcome/index.html#cartesian-coordinates",
-    "title": "Welcome to 204",
-    "section": "Cartesian Coordinates",
-    "text": "Cartesian Coordinates\n\n\n\n\nMost graphical software uses a Cartesian coordinate system to define where things are on the screen."
-  },
-  {
-    "objectID": "welcome/index.html#next-class",
-    "href": "welcome/index.html#next-class",
-    "title": "Welcome to 204",
-    "section": "Next class",
-    "text": "Next class\n\nNext class, we will have a syllabus quiz (you may reference the syllabus). This will be the last quiz where you can look at outside resources. After that, all quizzes will be closed book.\n\nMake sure you bring a pen or pencil! (Note that you should bring a notebook and pen/pencil to every class.)"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "CTCH 204 | Intro to Creative Coding",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
     "section": "",
-    "text": "\u001a:q— title: “About” —\nAbout this site"
+    "text": "Sept 5: Syllabus, p5.js, shapes, colors"
+  },
+  {
+    "objectID": "index.html#lecture-slides",
+    "href": "index.html#lecture-slides",
+    "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
+    "section": "",
+    "text": "Sept 5: Syllabus, p5.js, shapes, colors"
   }
 ]

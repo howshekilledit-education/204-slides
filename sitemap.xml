@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://howshekilledit-education.github.io/204-slides/index.html</loc>
-    <lastmod>2025-09-04T15:23:32.438Z</lastmod>
-  </url>
-  <url>
-    <loc>https://howshekilledit-education.github.io/204-slides/getting-started/index.html</loc>
-    <lastmod>2025-09-04T15:23:32.365Z</lastmod>
-  </url>
-  <url>
-    <loc>https://howshekilledit-education.github.io/204-slides/welcome/index.html</loc>
-    <lastmod>2025-09-04T15:23:32.438Z</lastmod>
+    <loc>https://howshekilledit-education.github.io/204-slides/variables-conventions/index.html</loc>
+    <lastmod>2025-09-08T23:18:43.988Z</lastmod>
   </url>
   <url>
     <loc>https://howshekilledit-education.github.io/204-slides/about.html</loc>
-    <lastmod>2025-09-04T15:23:32.348Z</lastmod>
+    <lastmod>2025-09-08T23:18:43.900Z</lastmod>
+  </url>
+  <url>
+    <loc>https://howshekilledit-education.github.io/204-slides/welcome/index.html</loc>
+    <lastmod>2025-09-08T23:18:43.988Z</lastmod>
+  </url>
+  <url>
+    <loc>https://howshekilledit-education.github.io/204-slides/getting-started/index.html</loc>
+    <lastmod>2025-09-08T23:18:43.918Z</lastmod>
+  </url>
+  <url>
+    <loc>https://howshekilledit-education.github.io/204-slides/index.html</loc>
+    <lastmod>2025-09-08T23:18:43.988Z</lastmod>
   </url>
 </urlset>
