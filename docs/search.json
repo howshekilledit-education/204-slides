@@ -319,6 +319,6 @@
     "href": "variables-conventions/index.html#datatypes",
     "title": "Variables & Conventions",
     "section": "Datatypes",
-    "text": "Datatypes\n\n// \"strings\" are text values, and should go in quotes\n\nlet lastName = \"Green\";\n\n// ints are numerical values, and should NOT go in quotes\n\nyear = 2025;"
+    "text": "Datatypes\n\n// \"strings\" are text values, and should go in quotes\n\nlet lastName = \"Green\";\n\n// ints are numerical values, and should NOT go in quotes\n\nlet year = 2025;"
   }
 ]
