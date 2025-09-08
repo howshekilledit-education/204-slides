@@ -1,0 +1,92 @@
+
+---
+title: "Variables & Conventions"
+format:
+  revealjs:
+    theme: 
+      - simple
+    css: ../bl.css
+    header-includes: |
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+sansfont: "Josefin Sans"
+---
+
+
+## Entrance Ticket {.smaller}
+
+* Look through your classmates' links in *Forum Response 2 | Variables & Conventions* in UR Courses. 
+* There are a lot of the posts, so let's split them up. If you are at the front of the room, look at posts at top; middle, middle; back, bottom.
+* Look for a place in a classmate's sketch defined a variable with `let` OR used `mouseX`/`mouseY`
+* Reply to the comment with the above line/block of code, and a sentence describing what the code is doing
+* **Make sure you reply to at least on post by 10:10** 
+
+## Experience levels in this class vary!
+
+Some students in this class have ten years of coding experience. Others have none! 
+
+Try not to judge yourself by what other students can do. It's not a fair race if some started earlier than others. 
+
+# Wealth, shown to scale
+
+## Comments
+
+Code comments are text in your code that your computer can't see.
+They are great for muting code or explaining it. 
+
+``` {.javascript code-line-numbers="false"}
+
+let cx = width/2; // sets center to half canvas width
+// let cx = width/4; // sets center to 1/4 canvas size
+```
+
+## Console 
+
+The code console allows you to debug your code. You can see errors or log anything you wish with `console.log()`
+
+## Variables
+
+Imagine variables as search and replace. Every time a variable appears, you could simply replace it with its value and the code would be the same.
+
+The power here is that the value can VARY.
+
+[Yoda example](https://editor.p5js.org/howshekilledit/sketches/C7k76Dj1R)
+
+## Built-in variables
+
+``` {.javascript code-line-numbers="false"}
+function draw() {
+  background(255, 0, 0);
+  // sets fill based on location in loop
+  fill(frameCount%255);
+  // draws circle at mouse position
+  // with radius based on frames elapsed
+  circle(mouseX, mouseY, frameCount%width);
+}
+```
+
+[See this example in web editor](https://editor.p5js.org/howshekilledit/sketches/3SLN_uK7Ab)
+
+# Declare your own variables
+
+## 
+
+::: {style = "text-align:center;font-size:2em;"}
+`let <name> = <value>;`
+:::
+
+## Datatypes
+
+``` {.javascript code-line-numbers="false"}
+
+// "strings" are text values, and should go in quotes
+
+let lastName = "Green";
+
+// ints are numerical values, and should NOT go in quotes
+
+year = 2025;
+
+```
