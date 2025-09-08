@@ -25,7 +25,7 @@
     "href": "getting-started/index.html#entrance-ticket",
     "title": "Syllabus, Shapes, and Colors",
     "section": "Entrance Ticket",
-    "text": "Entrance Ticket\nLook through your classmates’ links in Forum Response 1 | Shapes and Colors in UR Courses. If you notice anything that stands out to you, reply with a comment! Make sure you reply to at least on post.\n OPTIONAL: See if you can figure out which code created the effect you noticed, and include that code in your post."
+    "text": "Entrance Ticket\n\nLook through your classmates’ links in Forum Response 1 | Shapes and Colors in UR Courses.\nThere are a lot of the posts, so let’s split them up. If you are at the front of the room, look at posts at top; middle, middle; back, bottom.\nIf you notice anything that stands out to you, reply with a comment!\nMake sure you reply to at least on post by 10:10"
   },
   {
     "objectID": "getting-started/index.html#you-can-have-a-one-week-extension-on-one-of-your-first-two-projects.-otherwise-late-work-is-not-accepted.",
@@ -60,7 +60,7 @@
     "href": "getting-started/index.html#how-to-complete-quiz",
     "title": "Syllabus, Shapes, and Colors",
     "section": "How to Complete Quiz",
-    "text": "How to Complete Quiz\n\n\n\n\nOnly use the left column\nWrite your first and last name\nFill in the correct bubble completely!\n\nYou can reference the syllabus on UR Courses, or I have a few paper copies. This is the last quiz where you can reference outside materials."
+    "text": "How to Complete Quiz\n\n\n\n\nWrite your first and last name\nWrite today’s date, Sept. 4\nUse black/blue pen or pencil\nOnly use the left column\nFill in the correct bubble completely\nYou have twenty minutes\n\nYou can reference the syllabus on UR Courses, or I have a few paper copies.\nThis is the last quiz where you can reference outside materials."
   },
   {
     "objectID": "getting-started/index.html#p5.js-setup-draw",
@@ -102,14 +102,14 @@
     "href": "index.html",
     "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
     "section": "",
-    "text": "Sept 5: Syllabus, p5.js, shapes, colors"
+    "text": "Sept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
   },
   {
     "objectID": "index.html#lecture-slides",
     "href": "index.html#lecture-slides",
     "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
     "section": "",
-    "text": "Sept 5: Syllabus, p5.js, shapes, colors"
+    "text": "Sept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
   },
   {
     "objectID": "getting-started/index.html#you-can-have-a-one-week-extension-on-one-of-your-first-two-projects.",
@@ -243,5 +243,82 @@
     "title": "Syllabus, Shapes, and Colors",
     "section": "Code along with me!",
     "text": "Code along with me!\n\nor take notes if you prefer"
+  },
+  {
+    "objectID": "getting-started/index.html#experience-levels-in-this-class-vary",
+    "href": "getting-started/index.html#experience-levels-in-this-class-vary",
+    "title": "Syllabus, Shapes, and Colors",
+    "section": "Experience levels in this class vary!",
+    "text": "Experience levels in this class vary!\nSome students in this class have ten years of coding experiencce. Others have none!\nTry not to judge yourself by what other students can do. It’s not a fair race if some started earlier than others."
+  },
+  {
+    "objectID": "variables-conventions/index.html#entrance-ticket",
+    "href": "variables-conventions/index.html#entrance-ticket",
+    "title": "Variables & Conventions",
+    "section": "Entrance Ticket",
+    "text": "Entrance Ticket\n\nLook through your classmates’ links in Forum Response 2 | Variables & Conventions in UR Courses.\nThere are a lot of the posts, so let’s split them up. If you are at the front of the room, look at posts at top; middle, middle; back, bottom.\nLook for a place in a classmate’s sketch defined a variable with let OR used mouseX/mouseY\nReply to the comment with the above line/block of code, and a sentence describing what the code is doing\nMake sure you reply to at least on post by 10:10"
+  },
+  {
+    "objectID": "variables-conventions/index.html#experience-levels-in-this-class-vary",
+    "href": "variables-conventions/index.html#experience-levels-in-this-class-vary",
+    "title": "Variables & Conventions",
+    "section": "Experience levels in this class vary!",
+    "text": "Experience levels in this class vary!\nSome students in this class have ten years of coding experience. Others have none!\nTry not to judge yourself by what other students can do. It’s not a fair race if some started earlier than others."
+  },
+  {
+    "objectID": "variables-conventions/index.html#comments",
+    "href": "variables-conventions/index.html#comments",
+    "title": "Variables & Conventions",
+    "section": "Comments",
+    "text": "Comments\nCode comments are text in your code that your computer can’t see. They are great for muting code or explaining it.\n\nlet cx = width/2; // sets center to half canvas width\n// let cx = width/4; // sets center to 1/4 canvas size"
+  },
+  {
+    "objectID": "variables-conventions/index.html#console",
+    "href": "variables-conventions/index.html#console",
+    "title": "Variables & Conventions",
+    "section": "Console",
+    "text": "Console\nThe code console allows you to debug your code. You can see errors or log anything you wish with console.log()"
+  },
+  {
+    "objectID": "variables-conventions/index.html#variables",
+    "href": "variables-conventions/index.html#variables",
+    "title": "Variables & Conventions",
+    "section": "Variables",
+    "text": "Variables\nImagine variables as search and replace. Every time a variable appears, you could simply replace it with its value and the code would be the same.\nThe power here is that the value can VARY.\nYoda example"
+  },
+  {
+    "objectID": "variables-conventions/index.html#built-in-variables",
+    "href": "variables-conventions/index.html#built-in-variables",
+    "title": "Variables & Conventions",
+    "section": "Built-in variables",
+    "text": "Built-in variables\nfunction draw() {\n  background(255, 0, 0);\n  // sets fill based on location in loop\n  fill(frameCount%255);\n  // draws circle at mouse position\n  // with radius based on frames elapsed\n  circle(mouseX, mouseY, frameCount%width);\n}\nSee this example in web editor"
+  },
+  {
+    "objectID": "variables-conventions/index.html#declare-your-own-variables",
+    "href": "variables-conventions/index.html#declare-your-own-variables",
+    "title": "Variables & Conventions",
+    "section": "Declare your own variables",
+    "text": "Declare your own variables\n\nlet &lt;name&gt; = &lt;value&gt;"
+  },
+  {
+    "objectID": "variables-conventions/index.html#declare-your-own-variables-style-text-aligncenter",
+    "href": "variables-conventions/index.html#declare-your-own-variables-style-text-aligncenter",
+    "title": "Variables & Conventions",
+    "section": "Declare your own variables {style = “text-align:center”}",
+    "text": "Declare your own variables {style = “text-align:center”}\n\nlet &lt;name&gt; = &lt;value&gt;"
+  },
+  {
+    "objectID": "variables-conventions/index.html#section",
+    "href": "variables-conventions/index.html#section",
+    "title": "Variables & Conventions",
+    "section": "",
+    "text": "let &lt;name&gt; = &lt;value&gt;;"
+  },
+  {
+    "objectID": "variables-conventions/index.html#datatypes",
+    "href": "variables-conventions/index.html#datatypes",
+    "title": "Variables & Conventions",
+    "section": "Datatypes",
+    "text": "Datatypes\n\n// \"strings\" are text values, and should go in quotes\n\nlet lastName = \"Green\";\n\n// ints are numerical values, and should NOT go in quotes\n\nyear = 2025;"
   }
 ]
