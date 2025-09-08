@@ -90,3 +90,6 @@ let lastName = "Green";
 year = 2025;
 
 ```
+
+# Quiz #2 is on Thursday!
+There is a study guide in URCourses
