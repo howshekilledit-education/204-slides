@@ -137,35 +137,35 @@
     "href": "getting-started/index.html#core-structure-setup",
     "title": "Syllabus, Shapes, and Colors",
     "section": "Core Structure: setup()",
-    "text": "Core Structure: setup()\nfunction setup() {\n  // Runs once when program starts\n  createCanvas(400, 400);\n  background(220);\n}\n\nsetup() runs once at the beginning\nUse it to initialize your canvas and set initial conditions\nPerfect place for createCanvas() and one-time configurations"
+    "text": "Core Structure: setup()\nfunction setup() {\n  // Runs once when program starts\n  createCanvas(400, 400);\n  background(220);\n}\n\n\nsetup() runs once at the beginning\nUse it to initialize your canvas and set initial conditions\nPerfect place for createCanvas() and one-time configurations"
   },
   {
     "objectID": "getting-started/index.html#core-structure-draw",
     "href": "getting-started/index.html#core-structure-draw",
     "title": "Syllabus, Shapes, and Colors",
     "section": "Core Structure: draw()",
-    "text": "Core Structure: draw()\nfunction draw() {\n  // Runs continuously, ~60 times per second\n  background(220);\n  ellipse(mouseX, mouseY, 50, 50);\n}\n\ndraw() runs continuously (like animation frames)\nDefault frame rate: 60 FPS\nUse for animations and interactive elements\nOften starts with background() to clear previous frame"
+    "text": "Core Structure: draw()\nfunction draw() {\n  // Runs continuously, ~60 times per second\n  background(220);\n  ellipse(mouseX, mouseY, 50, 50);\n}\n\n\ndraw() runs continuously (like animation frames)\nDefault frame rate: 60 FPS\nUse for animations and interactive elements\nOften starts with background() to clear previous frame"
   },
   {
     "objectID": "getting-started/index.html#createcanvas",
     "href": "getting-started/index.html#createcanvas",
     "title": "Syllabus, Shapes, and Colors",
     "section": "createCanvas()",
-    "text": "createCanvas()\nfunction setup() {\n  createCanvas(800, 600);    // width, height in pixels\n  createCanvas(400, 400);    // square canvas\n}\n\nCreates the drawing canvas\nFirst parameter: width in pixels\nSecond parameter: height in pixels\nUsually called once in setup()\nDefault size: 100x100 if not specified"
+    "text": "createCanvas()\nfunction setup() {\n  createCanvas(800, 600);    // width, height in pixels\n  createCanvas(400, 400);    // square canvas\n}\n\n\nCreates the drawing canvas\nFirst parameter: width in pixels\nSecond parameter: height in pixels\nUsually called once in setup()\nDefault size: 100x100 if not specified"
   },
   {
     "objectID": "getting-started/index.html#drawing-basic-shapes-rect",
     "href": "getting-started/index.html#drawing-basic-shapes-rect",
     "title": "Syllabus, Shapes, and Colors",
     "section": "Drawing Basic Shapes: rect()",
-    "text": "Drawing Basic Shapes: rect()\nfunction setup() {\n  createCanvas(400, 400);\n  rect(50, 50, 100, 75);     // x, y, width, height\n  rect(200, 200, 80, 80);    // square rectangle\n}\n\nrect(x, y, width, height)\nx, y: top-left corner position\nwidth: horizontal size\nheight: vertical size\nCoordinate system: (0,0) is top-left corner"
+    "text": "Drawing Basic Shapes: rect()\nfunction setup() {\n  createCanvas(400, 400);\n  rect(50, 50, 100, 75);     // x, y, width, height\n  rect(200, 200, 80, 80);    // square rectangle\n}\n\n\nrect(x, y, width, height)\nx, y: top-left corner position\nwidth: horizontal size\nheight: vertical size\nCoordinate system: (0,0) is top-left corner"
   },
   {
     "objectID": "getting-started/index.html#drawing-lines-line",
     "href": "getting-started/index.html#drawing-lines-line",
     "title": "Syllabus, Shapes, and Colors",
     "section": "Drawing Lines: line()",
-    "text": "Drawing Lines: line()\nfunction setup() {\n  createCanvas(400, 400);\n  line(0, 0, 100, 100);      // x1, y1, x2, y2\n  line(50, 200, 350, 50);    // diagonal line\n}\n\nline(x1, y1, x2, y2)\nDraws a straight line between two points\nx1, y1: starting point\nx2, y2: ending point\nLine thickness controlled by strokeWeight()"
+    "text": "Drawing Lines: line()\nfunction setup() {\n  createCanvas(400, 400);\n  line(0, 0, 100, 100);      // x1, y1, x2, y2\n  line(50, 200, 350, 50);    // diagonal line\n}\n\n\nline(x1, y1, x2, y2)\nDraws a straight line between two points\nx1, y1: starting point\nx2, y2: ending point\nLine thickness controlled by strokeWeight()"
   },
   {
     "objectID": "getting-started/index.html#rectangle-drawing-modes-rectmode",
@@ -179,7 +179,7 @@
     "href": "getting-started/index.html#fill-colors-fill",
     "title": "Syllabus, Shapes, and Colors",
     "section": "Fill Colors: fill()",
-    "text": "Fill Colors: fill()\nfunction setup() {\n  createCanvas(400, 400);\n  \n  fill(255, 0, 0);           // red\n  rect(50, 50, 100, 100);\n  \n  fill(0, 255, 0);           // green  \n  rect(200, 50, 100, 100);\n  \n  fill(0, 0, 255);           // blue\n  rect(50, 200, 100, 100);\n}\n\nfill() sets the interior color of shapes\nAffects all shapes drawn after it\nVarious formats: RGB, grayscale, hex codes"
+    "text": "Fill Colors: fill()\nfunction setup() {\n  createCanvas(400, 400);\n  \n  fill(255, 0, 0);           // red\n  rect(50, 50, 100, 100);\n  \n  fill(0, 255, 0);           // green  \n  rect(200, 50, 100, 100);\n  \n  fill(0, 0, 255);           // blue\n  rect(50, 200, 100, 100);\n}\n\n\nfill() sets the interior color of shapes\nAffects all shapes drawn after it\nVarious formats: RGB, grayscale, hex codes"
   },
   {
     "objectID": "getting-started/index.html#outline-colors-stroke",
@@ -193,14 +193,14 @@
     "href": "getting-started/index.html#understanding-rgb-colors",
     "title": "Syllabus, Shapes, and Colors",
     "section": "Understanding RGB Colors",
-    "text": "Understanding RGB Colors\nfill(255, 0, 0);     // Pure Red\nfill(0, 255, 0);     // Pure Green  \nfill(0, 0, 255);     // Pure Blue\nfill(255, 255, 0);   // Yellow (Red + Green)\nfill(255, 0, 255);   // Magenta (Red + Blue)\nfill(0, 255, 255);   // Cyan (Green + Blue)\nfill(255, 255, 255); // White\nfill(0, 0, 0);       // Black\nfill(128, 128, 128); // Gray\n\nRed, Green, Blue values\nEach value: 0-255 (0 = none, 255 = maximum)\nMix values to create any color"
+    "text": "Understanding RGB Colors\nfill(255, 0, 0);     // Pure Red\nfill(0, 255, 0);     // Pure Green  \nfill(0, 0, 255);     // Pure Blue\nfill(255, 255, 0);   // Yellow (Red + Green)\nfill(255, 0, 255);   // Magenta (Red + Blue)\nfill(0, 255, 255);   // Cyan (Green + Blue)\nfill(255, 255, 255); // White\nfill(0, 0, 0);       // Black\nfill(128, 128, 128); // Gray\n\n\nRed, Green, Blue values\nEach value: 0-255 (0 = none, 255 = maximum)\nMix values to create any color"
   },
   {
     "objectID": "getting-started/index.html#rgb-color-system-explained",
     "href": "getting-started/index.html#rgb-color-system-explained",
     "title": "Syllabus, Shapes, and Colors",
     "section": "RGB Color System Explained",
-    "text": "RGB Color System Explained\n\nAdditive color model (light-based)\nEach pixel has red, green, and blue light components\n0: No light (dark/off)\n255: Maximum light (brightest)\nCombining all three at 255 = white light\nAll three at 0 = no light (black)"
+    "text": "RGB Color System Explained\n\n\nAdditive color model (light-based)\nEach pixel has red, green, and blue light components\n0: No light (dark/off)\n255: Maximum light (brightest)\nCombining all three at 255 = white light\nAll three at 0 = no light (black)"
   },
   {
     "objectID": "getting-started/index.html#complete-example",
@@ -214,7 +214,7 @@
     "href": "getting-started/index.html#key-takeaways",
     "title": "Syllabus, Shapes, and Colors",
     "section": "Key Takeaways",
-    "text": "Key Takeaways\n\nsetup(): runs once, initialize your program\ndraw(): runs continuously, create animations\ncreateCanvas(): set your drawing area size\nrect() and line(): basic drawing commands\nfill() and stroke(): control colors\nrectMode(): change how rectangles are positioned\nRGB: mix red, green, blue values (0-255) for any color"
+    "text": "Key Takeaways\n\n\nsetup(): runs once, initialize your program\ndraw(): runs continuously, create animations\ncreateCanvas(): set your drawing area size\nrect() and line(): basic drawing commands\nfill() and stroke(): control colors\nrectMode(): change how rectangles are positioned\nRGB: mix red, green, blue values (0-255) for any color"
   },
   {
     "objectID": "getting-started/index.html#practice-ideas",
@@ -320,5 +320,187 @@
     "title": "Variables & Conventions",
     "section": "Datatypes",
     "text": "Datatypes\n\n// \"strings\" are text values, and should go in quotes\n\nlet lastName = \"Green\";\n\n// ints are numerical values, and should NOT go in quotes\n\nlet year = 2025;"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#what-well-learn-today",
+    "href": "variables-conventions/pool.html#what-well-learn-today",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "What We’ll Learn Today",
+    "text": "What We’ll Learn Today\n\nBuilt-in mouse variables: mouseX, mouseY, mousePressed\nCreating and using custom variables\nThe three steps of working with variables\nMaking interactive animations\nGlobal vs local variables"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#built-in-mouse-variables",
+    "href": "variables-conventions/pool.html#built-in-mouse-variables",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Built-in Mouse Variables",
+    "text": "Built-in Mouse Variables\nP5.js provides several built-in variables for mouse interaction:\n\nmouseX - Current horizontal position of mouse\nmouseY - Current vertical position of mouse\n\nmousePressed - Boolean: true when mouse button is pressed\n\nThese update automatically every frame!"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#basic-mouse-tracking",
+    "href": "variables-conventions/pool.html#basic-mouse-tracking",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Basic Mouse Tracking",
+    "text": "Basic Mouse Tracking\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(220);\n  \n  // Circle follows mouse\n  fill(255, 100, 100);\n  circle(mouseX, mouseY, 50);\n  \n  // Display coordinates\n  fill(0);\n  text(`x: ${mouseX}, y: ${mouseY}`, 10, 20);\n}"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#the-three-steps-of-variables",
+    "href": "variables-conventions/pool.html#the-three-steps-of-variables",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "The Three Steps of Variables",
+    "text": "The Three Steps of Variables\n1. Declare - Tell the program the variable exists\n2. Initialize - Give it an initial value\n3. Use - Put it to work in your code"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#step-1-declare",
+    "href": "variables-conventions/pool.html#step-1-declare",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Step 1: Declare",
+    "text": "Step 1: Declare\n// Declare variables (usually at the top)\nlet x;\nlet y;\nlet diameter;\nlet speed;\nThis creates the variables but they have no value yet (undefined)."
+  },
+  {
+    "objectID": "variables-conventions/pool.html#step-2-initialize",
+    "href": "variables-conventions/pool.html#step-2-initialize",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Step 2: Initialize",
+    "text": "Step 2: Initialize\nlet x;\nlet y;\nlet diameter;\n\nfunction setup() {\n  createCanvas(400, 400);\n  \n  // Initialize variables\n  x = 200;\n  y = 200;\n  diameter = 50;\n}\nNow our variables have starting values!"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#step-3-use",
+    "href": "variables-conventions/pool.html#step-3-use",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Step 3: Use",
+    "text": "Step 3: Use\nfunction draw() {\n  background(220);\n  \n  // Use the variables\n  fill(255, 100, 150);\n  circle(x, y, diameter);\n}\nThe variables control the circle’s position and size."
+  },
+  {
+    "objectID": "variables-conventions/pool.html#combining-declaration-initialization",
+    "href": "variables-conventions/pool.html#combining-declaration-initialization",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Combining Declaration & Initialization",
+    "text": "Combining Declaration & Initialization\nYou can do both steps at once:\n// Combined approach\nlet x = 200;\nlet y = 200;\nlet diameter = 50;\n\nfunction setup() {\n  createCanvas(400, 400);\n}\nThis is more concise and often preferred."
+  },
+  {
+    "objectID": "variables-conventions/pool.html#global-variables",
+    "href": "variables-conventions/pool.html#global-variables",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Global Variables",
+    "text": "Global Variables\nVariables declared outside functions are global:\nlet x = 200;  // Global - accessible everywhere\nlet y = 200;  // Global - accessible everywhere\n\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  circle(x, y, 50);  // Can use x and y here\n}"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#making-things-move",
+    "href": "variables-conventions/pool.html#making-things-move",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Making Things Move",
+    "text": "Making Things Move\nTo animate, we need to change variable values over time:\nlet x = 0;\n\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(220);\n  \n  circle(x, 200, 50);\n  x = x + 1;  // Move right each frame\n}"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#interactive-movement",
+    "href": "variables-conventions/pool.html#interactive-movement",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Interactive Movement",
+    "text": "Interactive Movement\nCombine mouse variables with custom variables:\nlet x = 200;\nlet y = 200;\n\nfunction draw() {\n  background(220);\n  \n  // Move towards mouse position\n  x = x + (mouseX - x) * 0.05;\n  y = y + (mouseY - y) * 0.05;\n  \n  circle(x, y, 50);\n}"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#growing-circle-example",
+    "href": "variables-conventions/pool.html#growing-circle-example",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Growing Circle Example",
+    "text": "Growing Circle Example\nlet diameter = 50;\n\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(220);\n  \n  // Grow when mouse pressed\n  if (mousePressed) {\n    diameter = diameter + 2;\n  }\n  \n  circle(mouseX, mouseY, diameter);\n}"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#color-change-on-click",
+    "href": "variables-conventions/pool.html#color-change-on-click",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Color Change on Click",
+    "text": "Color Change on Click\nlet r = 255;\nlet g = 100;\nlet b = 100;\n\nfunction draw() {\n  background(220);\n  \n  // Change color when pressed\n  if (mousePressed) {\n    r = random(255);\n    g = random(255);\n    b = random(255);\n  }\n  \n  fill(r, g, b);\n  circle(mouseX, mouseY, 80);\n}"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#multiple-moving-objects",
+    "href": "variables-conventions/pool.html#multiple-moving-objects",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Multiple Moving Objects",
+    "text": "Multiple Moving Objects\nlet x1 = 100, y1 = 200;\nlet x2 = 300, y2 = 200;\nlet speed1 = 2, speed2 = -1.5;\n\nfunction draw() {\n  background(220);\n  \n  // First circle\n  circle(x1, y1, 50);\n  x1 += speed1;\n  \n  // Second circle  \n  circle(x2, y2, 40);\n  x2 += speed2;\n  \n  // Bounce off edges\n  if (x1 &gt; width || x1 &lt; 0) speed1 *= -1;\n  if (x2 &gt; width || x2 &lt; 0) speed2 *= -1;\n}"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#mouse-events",
+    "href": "variables-conventions/pool.html#mouse-events",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Mouse Events",
+    "text": "Mouse Events\nBeyond mousePressed, p5.js offers mouse event functions:\nfunction mousePressed() {\n  // Called once when mouse is pressed\n  diameter = random(20, 100);\n}\n\nfunction mouseReleased() {\n  // Called once when mouse is released\n  diameter = 50;\n}\n\nfunction mouseMoved() {\n  // Called when mouse moves\n  backgroundColor = random(255);\n}"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#practice-exercise",
+    "href": "variables-conventions/pool.html#practice-exercise",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Practice Exercise",
+    "text": "Practice Exercise\nCreate a sketch that:\n\nHas a circle that follows the mouse\nChanges size when mouse is pressed\nChanges color when mouse is released\nLeaves a trail as it moves\n\nTry combining mouseX, mouseY, mousePressed with your own variables!"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#key-takeaways",
+    "href": "variables-conventions/pool.html#key-takeaways",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\n\nmouseX, mouseY automatically track mouse position\nmousePressed detects when mouse button is held down\nCustom variables need: declare, initialize, use\nGlobal variables are accessible throughout your program\nAnimation = changing variable values over time\nCombine built-in and custom variables for rich interactions"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#next-steps",
+    "href": "variables-conventions/pool.html#next-steps",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Next Steps",
+    "text": "Next Steps\n\nExperiment with different variable types\nTry incrementation operators (++, +=)\nExplore other built-in variables (width, height, frameCount)\nCreate more complex interactive animations\n\nHappy coding! 🎨✨"
+  },
+  {
+    "objectID": "variables-conventions/index.html#built-in-p5-variables",
+    "href": "variables-conventions/index.html#built-in-p5-variables",
+    "title": "Variables & Conventions",
+    "section": "Built-in p5 Variables",
+    "text": "Built-in p5 Variables\nP5.js provides several built-in variables for mouse interaction and animation:\n\nmouseX - Current horizontal position of mouse\nmouseY - Current vertical position of mouse\n\nframeCount - The number of frames that have been displayed since the program started\n\nThese update automatically every frame!"
+  },
+  {
+    "objectID": "variables-conventions/index.html#built-in-variables-example",
+    "href": "variables-conventions/index.html#built-in-variables-example",
+    "title": "Variables & Conventions",
+    "section": "Built-in variables example",
+    "text": "Built-in variables example\nfunction draw() {\n  background(255, 0, 0);\n  // sets fill based on location in loop\n  fill(frameCount%255);\n  // draws circle at mouse position\n  // with radius based on frames elapsed\n  circle(mouseX, mouseY, frameCount%width);\n}\nSee this example in web editor"
+  },
+  {
+    "objectID": "variables-conventions/index.html#step-1-declare",
+    "href": "variables-conventions/index.html#step-1-declare",
+    "title": "Variables & Conventions",
+    "section": "Step 1: Declare",
+    "text": "Step 1: Declare\n// Declare variables (usually at the top)\nlet x;\nlet y;\nlet diameter;\nlet speed;\nThis creates the variables but they have no value yet (undefined)."
+  },
+  {
+    "objectID": "variables-conventions/index.html#step-2-initialize",
+    "href": "variables-conventions/index.html#step-2-initialize",
+    "title": "Variables & Conventions",
+    "section": "Step 2: Initialize",
+    "text": "Step 2: Initialize\nlet x;\nlet y;\nlet diameter;\n\nfunction setup() {\n  createCanvas(400, 400);\n  \n  // Initialize variables\n  x = 200;\n  y = 200;\n  diameter = 50;\n}\nNow our variables have starting values!"
+  },
+  {
+    "objectID": "variables-conventions/index.html#step-3-use",
+    "href": "variables-conventions/index.html#step-3-use",
+    "title": "Variables & Conventions",
+    "section": "Step 3: Use",
+    "text": "Step 3: Use\nfunction draw() {\n  background(220);\n  \n  // Use the variables\n  fill(255, 100, 150);\n  circle(x, y, diameter);\n}\nThe variables control the circle’s position and size."
+  },
+  {
+    "objectID": "variables-conventions/index.html#combining-declaration-initialization",
+    "href": "variables-conventions/index.html#combining-declaration-initialization",
+    "title": "Variables & Conventions",
+    "section": "Combining Declaration & Initialization",
+    "text": "Combining Declaration & Initialization\nYou can do both steps at once:\n// Combined approach\nlet x = 200;\nlet y = 200;\nlet diameter = 50;\n\nfunction setup() {\n  createCanvas(400, 400);\n}\nThis is more concise and often preferred."
+  },
+  {
+    "objectID": "variables-conventions/index.html#mouse-events",
+    "href": "variables-conventions/index.html#mouse-events",
+    "title": "Variables & Conventions",
+    "section": "Mouse Events",
+    "text": "Mouse Events\nP5.js has several built-in mouse events that you can use to trigger code when the mouse is pressed, released, or moved.\n\nfunction mousePressed() {\n  // Called once when mouse is pressed\n  diameter = random(20, 100);\n}\n\nfunction mouseReleased() {\n  // Called once when mouse is released\n  diameter = 50;\n}\n\nfunction mouseMoved() {\n  // Called when mouse moves\n  backgroundColor += 2;\n}\nSee full sketch in p5 web editor"
+  },
+  {
+    "objectID": "variables-conventions/index.html#exit-ticket",
+    "href": "variables-conventions/index.html#exit-ticket",
+    "title": "Variables & Conventions",
+    "section": "Exit Ticket",
+    "text": "Exit Ticket\nComplete Variables | Demo Remix assignment in URCourses. Be sure to submit your link before class is over!"
   }
 ]

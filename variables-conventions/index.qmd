@@ -10,7 +10,7 @@ format:
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-
+code-line-numbers: false
 sansfont: "Josefin Sans"
 ---
 
@@ -54,7 +54,17 @@ The power here is that the value can VARY.
 
 [Yoda example](https://editor.p5js.org/howshekilledit/sketches/C7k76Dj1R)
 
-## Built-in variables
+## Built-in p5 Variables
+
+P5.js provides several built-in variables for mouse interaction and animation:
+
+- **`mouseX`** - Current horizontal position of mouse
+- **`mouseY`** - Current vertical position of mouse  
+- **`frameCount`** - The number of frames that have been displayed since the program started
+
+These update automatically every frame!
+
+## Built-in variables example
 
 ``` {.javascript code-line-numbers="false"}
 function draw() {
@@ -69,6 +79,8 @@ function draw() {
 
 [See this example in web editor](https://editor.p5js.org/howshekilledit/sketches/3SLN_uK7Ab)
 
+
+
 # Declare your own variables
 
 ## 
@@ -76,6 +88,78 @@ function draw() {
 ::: {style = "text-align:center;font-size:2em;"}
 `let <name> = <value>;`
 :::
+
+
+
+## Step 1: Declare
+
+```javascript
+// Declare variables (usually at the top)
+let x;
+let y;
+let diameter;
+let speed;
+```
+
+This creates the variables but they have no value yet (`undefined`).
+
+---
+
+## Step 2: Initialize
+
+```javascript
+let x;
+let y;
+let diameter;
+
+function setup() {
+  createCanvas(400, 400);
+  
+  // Initialize variables
+  x = 200;
+  y = 200;
+  diameter = 50;
+}
+```
+
+Now our variables have starting values!
+
+---
+
+## Step 3: Use
+
+```javascript
+function draw() {
+  background(220);
+  
+  // Use the variables
+  fill(255, 100, 150);
+  circle(x, y, diameter);
+}
+```
+
+The variables control the circle's position and size.
+
+---
+
+## Combining Declaration & Initialization
+
+You can do both steps at once:
+
+```javascript
+// Combined approach
+let x = 200;
+let y = 200;
+let diameter = 50;
+
+function setup() {
+  createCanvas(400, 400);
+}
+```
+
+This is more concise and often preferred.
+
+---
 
 ## Datatypes
 
@@ -91,5 +175,34 @@ let year = 2025;
 
 ```
 
+## Mouse Events {.smaller}
+
+P5.js has several built-in mouse events that you can use to trigger code when the mouse is pressed, released, or moved.
+
+``` {.javascript code-line-numbers="false"}
+
+function mousePressed() {
+  // Called once when mouse is pressed
+  diameter = random(20, 100);
+}
+
+function mouseReleased() {
+  // Called once when mouse is released
+  diameter = 50;
+}
+
+function mouseMoved() {
+  // Called when mouse moves
+  backgroundColor += 2;
+}
+```
+
+[See full sketch in p5 web editor](https://editor.p5js.org/howshekilledit/sketches/wDXfPJlQV)
+
+
 # Quiz #2 is on Thursday!
-There is a study guide in URCourses
+There is a study guide in URCourses. Be sure to bring a pen or pencil!
+
+## Exit Ticket
+Complete *Variables | Demo Remix* assignment in URCourses. 
+Be sure to submit your link before class is over! 
