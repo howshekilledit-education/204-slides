@@ -204,5 +204,7 @@ function mouseMoved() {
 There is a study guide in URCourses. Be sure to bring a pen or pencil!
 
 ## Exit Ticket
-Complete *Variables | Demo Remix* assignment in URCourses. 
+
+Complete **Variables | Demo Remix** assignment in URCourses. 
+
 Be sure to submit your link before class is over! 
