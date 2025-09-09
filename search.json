@@ -35,11 +35,18 @@
     "text": "Variables\nImagine variables as search and replace. Every time a variable appears, you could simply replace it with its value and the code would be the same.\nThe power here is that the value can VARY.\nYoda example"
   },
   {
-    "objectID": "variables-conventions/index.html#built-in-variables",
-    "href": "variables-conventions/index.html#built-in-variables",
+    "objectID": "variables-conventions/index.html#built-in-p5-variables",
+    "href": "variables-conventions/index.html#built-in-p5-variables",
     "title": "Variables & Conventions",
-    "section": "Built-in variables",
-    "text": "Built-in variables\nfunction draw() {\n  background(255, 0, 0);\n  // sets fill based on location in loop\n  fill(frameCount%255);\n  // draws circle at mouse position\n  // with radius based on frames elapsed\n  circle(mouseX, mouseY, frameCount%width);\n}\nSee this example in web editor"
+    "section": "Built-in p5 Variables",
+    "text": "Built-in p5 Variables\nP5.js provides several built-in variables for mouse interaction and animation:\n\nmouseX - Current horizontal position of mouse\nmouseY - Current vertical position of mouse\n\nframeCount - The number of frames that have been displayed since the program started\n\nThese update automatically every frame!"
+  },
+  {
+    "objectID": "variables-conventions/index.html#built-in-variables-example",
+    "href": "variables-conventions/index.html#built-in-variables-example",
+    "title": "Variables & Conventions",
+    "section": "Built-in variables example",
+    "text": "Built-in variables example\nfunction draw() {\n  background(255, 0, 0);\n  // sets fill based on location in loop\n  fill(frameCount%255);\n  // draws circle at mouse position\n  // with radius based on frames elapsed\n  circle(mouseX, mouseY, frameCount%width);\n}\nSee this example in web editor"
   },
   {
     "objectID": "variables-conventions/index.html#section",
@@ -49,6 +56,34 @@
     "text": "let &lt;name&gt; = &lt;value&gt;;"
   },
   {
+    "objectID": "variables-conventions/index.html#step-1-declare",
+    "href": "variables-conventions/index.html#step-1-declare",
+    "title": "Variables & Conventions",
+    "section": "Step 1: Declare",
+    "text": "Step 1: Declare\n// Declare variables (usually at the top)\nlet x;\nlet y;\nlet diameter;\nlet speed;\nThis creates the variables but they have no value yet (undefined)."
+  },
+  {
+    "objectID": "variables-conventions/index.html#step-2-initialize",
+    "href": "variables-conventions/index.html#step-2-initialize",
+    "title": "Variables & Conventions",
+    "section": "Step 2: Initialize",
+    "text": "Step 2: Initialize\nlet x;\nlet y;\nlet diameter;\n\nfunction setup() {\n  createCanvas(400, 400);\n  \n  // Initialize variables\n  x = 200;\n  y = 200;\n  diameter = 50;\n}\nNow our variables have starting values!"
+  },
+  {
+    "objectID": "variables-conventions/index.html#step-3-use",
+    "href": "variables-conventions/index.html#step-3-use",
+    "title": "Variables & Conventions",
+    "section": "Step 3: Use",
+    "text": "Step 3: Use\nfunction draw() {\n  background(220);\n  \n  // Use the variables\n  fill(255, 100, 150);\n  circle(x, y, diameter);\n}\nThe variables control the circle’s position and size."
+  },
+  {
+    "objectID": "variables-conventions/index.html#combining-declaration-initialization",
+    "href": "variables-conventions/index.html#combining-declaration-initialization",
+    "title": "Variables & Conventions",
+    "section": "Combining Declaration & Initialization",
+    "text": "Combining Declaration & Initialization\nYou can do both steps at once:\n// Combined approach\nlet x = 200;\nlet y = 200;\nlet diameter = 50;\n\nfunction setup() {\n  createCanvas(400, 400);\n}\nThis is more concise and often preferred."
+  },
+  {
     "objectID": "variables-conventions/index.html#datatypes",
     "href": "variables-conventions/index.html#datatypes",
     "title": "Variables & Conventions",
@@ -56,32 +91,32 @@
     "text": "Datatypes\n\n// \"strings\" are text values, and should go in quotes\n\nlet lastName = \"Green\";\n\n// ints are numerical values, and should NOT go in quotes\n\nlet year = 2025;"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "CTCH 204 | Intro to Creative Coding",
+    "objectID": "variables-conventions/index.html#mouse-events",
+    "href": "variables-conventions/index.html#mouse-events",
+    "title": "Variables & Conventions",
+    "section": "Mouse Events",
+    "text": "Mouse Events\nP5.js has several built-in mouse events that you can use to trigger code when the mouse is pressed, released, or moved.\n\nfunction mousePressed() {\n  // Called once when mouse is pressed\n  diameter = random(20, 100);\n}\n\nfunction mouseReleased() {\n  // Called once when mouse is released\n  diameter = 50;\n}\n\nfunction mouseMoved() {\n  // Called when mouse moves\n  backgroundColor += 2;\n}\nSee full sketch in p5 web editor"
+  },
+  {
+    "objectID": "variables-conventions/index.html#exit-ticket",
+    "href": "variables-conventions/index.html#exit-ticket",
+    "title": "Variables & Conventions",
+    "section": "Exit Ticket",
+    "text": "Exit Ticket\nComplete Variables | Demo Remix assignment in URCourses. Be sure to submit your link before class is over!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
     "section": "",
-    "text": "\u001a:q— title: “About” —\nAbout this site"
+    "text": "Sept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
   },
   {
-    "objectID": "welcome/index.html#introductions",
-    "href": "welcome/index.html#introductions",
-    "title": "Welcome to 204",
-    "section": "Introductions",
-    "text": "Introductions\nLet’s go around and introduce ourselves.\n\nYour name\nYour pronouns (if you want)\nTalk a little bit about why you chose your piece of media\nYour name again"
-  },
-  {
-    "objectID": "welcome/index.html#cartesian-coordinates",
-    "href": "welcome/index.html#cartesian-coordinates",
-    "title": "Welcome to 204",
-    "section": "Cartesian Coordinates",
-    "text": "Cartesian Coordinates\n\n\n\n\nMost graphical software uses a Cartesian coordinate system to define where things are on the screen."
-  },
-  {
-    "objectID": "welcome/index.html#next-class",
-    "href": "welcome/index.html#next-class",
-    "title": "Welcome to 204",
-    "section": "Next class",
-    "text": "Next class\n\nNext class, we will have a syllabus quiz (you may reference the syllabus). This will be the last quiz where you can look at outside resources. After that, all quizzes will be closed book.\n\nMake sure you bring a pen or pencil! (Note that you should bring a notebook and pen/pencil to every class.)"
+    "objectID": "index.html#lecture-slides",
+    "href": "index.html#lecture-slides",
+    "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
+    "section": "",
+    "text": "Sept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
   },
   {
     "objectID": "getting-started/index.html#entrance-ticket",
@@ -259,17 +294,157 @@
     "text": "Coordinate Systems\n\nAdrian Piper, Charted Work Proposal for January – December 1969, 1968. Typescript and graph paper with space/time coordinate diagrams under sheet protectors in ring binder"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
-    "section": "",
-    "text": "Sept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
+    "objectID": "welcome/index.html#introductions",
+    "href": "welcome/index.html#introductions",
+    "title": "Welcome to 204",
+    "section": "Introductions",
+    "text": "Introductions\nLet’s go around and introduce ourselves.\n\nYour name\nYour pronouns (if you want)\nTalk a little bit about why you chose your piece of media\nYour name again"
   },
   {
-    "objectID": "index.html#lecture-slides",
-    "href": "index.html#lecture-slides",
-    "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
+    "objectID": "welcome/index.html#cartesian-coordinates",
+    "href": "welcome/index.html#cartesian-coordinates",
+    "title": "Welcome to 204",
+    "section": "Cartesian Coordinates",
+    "text": "Cartesian Coordinates\n\n\n\n\nMost graphical software uses a Cartesian coordinate system to define where things are on the screen."
+  },
+  {
+    "objectID": "welcome/index.html#next-class",
+    "href": "welcome/index.html#next-class",
+    "title": "Welcome to 204",
+    "section": "Next class",
+    "text": "Next class\n\nNext class, we will have a syllabus quiz (you may reference the syllabus). This will be the last quiz where you can look at outside resources. After that, all quizzes will be closed book.\n\nMake sure you bring a pen or pencil! (Note that you should bring a notebook and pen/pencil to every class.)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "CTCH 204 | Intro to Creative Coding",
     "section": "",
-    "text": "Sept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
+    "text": "\u001a:q— title: “About” —\nAbout this site"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#what-well-learn-today",
+    "href": "variables-conventions/pool.html#what-well-learn-today",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "What We’ll Learn Today",
+    "text": "What We’ll Learn Today\n\nBuilt-in mouse variables: mouseX, mouseY, mousePressed\nCreating and using custom variables\nThe three steps of working with variables\nMaking interactive animations\nGlobal vs local variables"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#built-in-mouse-variables",
+    "href": "variables-conventions/pool.html#built-in-mouse-variables",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Built-in Mouse Variables",
+    "text": "Built-in Mouse Variables\nP5.js provides several built-in variables for mouse interaction:\n\nmouseX - Current horizontal position of mouse\nmouseY - Current vertical position of mouse\n\nmousePressed - Boolean: true when mouse button is pressed\n\nThese update automatically every frame!"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#basic-mouse-tracking",
+    "href": "variables-conventions/pool.html#basic-mouse-tracking",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Basic Mouse Tracking",
+    "text": "Basic Mouse Tracking\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(220);\n  \n  // Circle follows mouse\n  fill(255, 100, 100);\n  circle(mouseX, mouseY, 50);\n  \n  // Display coordinates\n  fill(0);\n  text(`x: ${mouseX}, y: ${mouseY}`, 10, 20);\n}"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#the-three-steps-of-variables",
+    "href": "variables-conventions/pool.html#the-three-steps-of-variables",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "The Three Steps of Variables",
+    "text": "The Three Steps of Variables\n1. Declare - Tell the program the variable exists\n2. Initialize - Give it an initial value\n3. Use - Put it to work in your code"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#step-1-declare",
+    "href": "variables-conventions/pool.html#step-1-declare",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Step 1: Declare",
+    "text": "Step 1: Declare\n// Declare variables (usually at the top)\nlet x;\nlet y;\nlet diameter;\nlet speed;\nThis creates the variables but they have no value yet (undefined)."
+  },
+  {
+    "objectID": "variables-conventions/pool.html#step-2-initialize",
+    "href": "variables-conventions/pool.html#step-2-initialize",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Step 2: Initialize",
+    "text": "Step 2: Initialize\nlet x;\nlet y;\nlet diameter;\n\nfunction setup() {\n  createCanvas(400, 400);\n  \n  // Initialize variables\n  x = 200;\n  y = 200;\n  diameter = 50;\n}\nNow our variables have starting values!"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#step-3-use",
+    "href": "variables-conventions/pool.html#step-3-use",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Step 3: Use",
+    "text": "Step 3: Use\nfunction draw() {\n  background(220);\n  \n  // Use the variables\n  fill(255, 100, 150);\n  circle(x, y, diameter);\n}\nThe variables control the circle’s position and size."
+  },
+  {
+    "objectID": "variables-conventions/pool.html#combining-declaration-initialization",
+    "href": "variables-conventions/pool.html#combining-declaration-initialization",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Combining Declaration & Initialization",
+    "text": "Combining Declaration & Initialization\nYou can do both steps at once:\n// Combined approach\nlet x = 200;\nlet y = 200;\nlet diameter = 50;\n\nfunction setup() {\n  createCanvas(400, 400);\n}\nThis is more concise and often preferred."
+  },
+  {
+    "objectID": "variables-conventions/pool.html#global-variables",
+    "href": "variables-conventions/pool.html#global-variables",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Global Variables",
+    "text": "Global Variables\nVariables declared outside functions are global:\nlet x = 200;  // Global - accessible everywhere\nlet y = 200;  // Global - accessible everywhere\n\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  circle(x, y, 50);  // Can use x and y here\n}"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#making-things-move",
+    "href": "variables-conventions/pool.html#making-things-move",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Making Things Move",
+    "text": "Making Things Move\nTo animate, we need to change variable values over time:\nlet x = 0;\n\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(220);\n  \n  circle(x, 200, 50);\n  x = x + 1;  // Move right each frame\n}"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#interactive-movement",
+    "href": "variables-conventions/pool.html#interactive-movement",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Interactive Movement",
+    "text": "Interactive Movement\nCombine mouse variables with custom variables:\nlet x = 200;\nlet y = 200;\n\nfunction draw() {\n  background(220);\n  \n  // Move towards mouse position\n  x = x + (mouseX - x) * 0.05;\n  y = y + (mouseY - y) * 0.05;\n  \n  circle(x, y, 50);\n}"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#growing-circle-example",
+    "href": "variables-conventions/pool.html#growing-circle-example",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Growing Circle Example",
+    "text": "Growing Circle Example\nlet diameter = 50;\n\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(220);\n  \n  // Grow when mouse pressed\n  if (mousePressed) {\n    diameter = diameter + 2;\n  }\n  \n  circle(mouseX, mouseY, diameter);\n}"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#color-change-on-click",
+    "href": "variables-conventions/pool.html#color-change-on-click",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Color Change on Click",
+    "text": "Color Change on Click\nlet r = 255;\nlet g = 100;\nlet b = 100;\n\nfunction draw() {\n  background(220);\n  \n  // Change color when pressed\n  if (mousePressed) {\n    r = random(255);\n    g = random(255);\n    b = random(255);\n  }\n  \n  fill(r, g, b);\n  circle(mouseX, mouseY, 80);\n}"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#multiple-moving-objects",
+    "href": "variables-conventions/pool.html#multiple-moving-objects",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Multiple Moving Objects",
+    "text": "Multiple Moving Objects\nlet x1 = 100, y1 = 200;\nlet x2 = 300, y2 = 200;\nlet speed1 = 2, speed2 = -1.5;\n\nfunction draw() {\n  background(220);\n  \n  // First circle\n  circle(x1, y1, 50);\n  x1 += speed1;\n  \n  // Second circle  \n  circle(x2, y2, 40);\n  x2 += speed2;\n  \n  // Bounce off edges\n  if (x1 &gt; width || x1 &lt; 0) speed1 *= -1;\n  if (x2 &gt; width || x2 &lt; 0) speed2 *= -1;\n}"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#mouse-events",
+    "href": "variables-conventions/pool.html#mouse-events",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Mouse Events",
+    "text": "Mouse Events\nBeyond mousePressed, p5.js offers mouse event functions:\nfunction mousePressed() {\n  // Called once when mouse is pressed\n  diameter = random(20, 100);\n}\n\nfunction mouseReleased() {\n  // Called once when mouse is released\n  diameter = 50;\n}\n\nfunction mouseMoved() {\n  // Called when mouse moves\n  backgroundColor = random(255);\n}"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#practice-exercise",
+    "href": "variables-conventions/pool.html#practice-exercise",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Practice Exercise",
+    "text": "Practice Exercise\nCreate a sketch that:\n\nHas a circle that follows the mouse\nChanges size when mouse is pressed\nChanges color when mouse is released\nLeaves a trail as it moves\n\nTry combining mouseX, mouseY, mousePressed with your own variables!"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#key-takeaways",
+    "href": "variables-conventions/pool.html#key-takeaways",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\n\nmouseX, mouseY automatically track mouse position\nmousePressed detects when mouse button is held down\nCustom variables need: declare, initialize, use\nGlobal variables are accessible throughout your program\nAnimation = changing variable values over time\nCombine built-in and custom variables for rich interactions"
+  },
+  {
+    "objectID": "variables-conventions/pool.html#next-steps",
+    "href": "variables-conventions/pool.html#next-steps",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Next Steps",
+    "text": "Next Steps\n\nExperiment with different variable types\nTry incrementation operators (++, +=)\nExplore other built-in variables (width, height, frameCount)\nCreate more complex interactive animations\n\nHappy coding! 🎨✨"
   }
 ]

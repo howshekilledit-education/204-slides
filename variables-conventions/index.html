@@ -239,8 +239,19 @@
 <p>The power here is that the value can VARY.</p>
 <p><a href="https://editor.p5js.org/howshekilledit/sketches/C7k76Dj1R">Yoda example</a></p>
 </section>
-<section id="built-in-variables" class="slide level2">
-<h2>Built-in variables</h2>
+<section id="built-in-p5-variables" class="slide level2">
+<h2>Built-in p5 Variables</h2>
+<p>P5.js provides several built-in variables for mouse interaction and animation:</p>
+<ul>
+<li><strong><code>mouseX</code></strong> - Current horizontal position of mouse</li>
+<li><strong><code>mouseY</code></strong> - Current vertical position of mouse<br>
+</li>
+<li><strong><code>frameCount</code></strong> - The number of frames that have been displayed since the program started</li>
+</ul>
+<p>These update automatically every frame!</p>
+</section>
+<section id="built-in-variables-example" class="slide level2">
+<h2>Built-in variables example</h2>
 <div class="sourceCode" id="cb2"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb2-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">draw</span>() {</span>
 <span id="cb2-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">background</span>(<span class="dv">255</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span>)<span class="op">;</span></span>
 <span id="cb2-3"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// sets fill based on location in loop</span></span>
@@ -262,23 +273,97 @@
 <p><code>let &lt;name&gt; = &lt;value&gt;;</code></p>
 </div>
 </section>
+<section id="step-1-declare" class="slide level2">
+<h2>Step 1: Declare</h2>
+<div class="sourceCode" id="cb3"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb3-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">// Declare variables (usually at the top)</span></span>
+<span id="cb3-2"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> x<span class="op">;</span></span>
+<span id="cb3-3"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> y<span class="op">;</span></span>
+<span id="cb3-4"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> diameter<span class="op">;</span></span>
+<span id="cb3-5"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> speed<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This creates the variables but they have no value yet (<code>undefined</code>).</p>
+</section>
+<section id="step-2-initialize" class="slide level2">
+<h2>Step 2: Initialize</h2>
+<div class="sourceCode" id="cb4"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb4-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> x<span class="op">;</span></span>
+<span id="cb4-2"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> y<span class="op">;</span></span>
+<span id="cb4-3"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> diameter<span class="op">;</span></span>
+<span id="cb4-4"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">setup</span>() {</span>
+<span id="cb4-6"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">createCanvas</span>(<span class="dv">400</span><span class="op">,</span> <span class="dv">400</span>)<span class="op">;</span></span>
+<span id="cb4-7"><a aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-8"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// Initialize variables</span></span>
+<span id="cb4-9"><a aria-hidden="true" tabindex="-1"></a>  x <span class="op">=</span> <span class="dv">200</span><span class="op">;</span></span>
+<span id="cb4-10"><a aria-hidden="true" tabindex="-1"></a>  y <span class="op">=</span> <span class="dv">200</span><span class="op">;</span></span>
+<span id="cb4-11"><a aria-hidden="true" tabindex="-1"></a>  diameter <span class="op">=</span> <span class="dv">50</span><span class="op">;</span></span>
+<span id="cb4-12"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Now our variables have starting values!</p>
+</section>
+<section id="step-3-use" class="slide level2">
+<h2>Step 3: Use</h2>
+<div class="sourceCode" id="cb5"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb5-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">draw</span>() {</span>
+<span id="cb5-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">background</span>(<span class="dv">220</span>)<span class="op">;</span></span>
+<span id="cb5-3"><a aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb5-4"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// Use the variables</span></span>
+<span id="cb5-5"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">fill</span>(<span class="dv">255</span><span class="op">,</span> <span class="dv">100</span><span class="op">,</span> <span class="dv">150</span>)<span class="op">;</span></span>
+<span id="cb5-6"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">circle</span>(x<span class="op">,</span> y<span class="op">,</span> diameter)<span class="op">;</span></span>
+<span id="cb5-7"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>The variables control the circle’s position and size.</p>
+</section>
+<section id="combining-declaration-initialization" class="slide level2">
+<h2>Combining Declaration &amp; Initialization</h2>
+<p>You can do both steps at once:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb6-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">// Combined approach</span></span>
+<span id="cb6-2"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> x <span class="op">=</span> <span class="dv">200</span><span class="op">;</span></span>
+<span id="cb6-3"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> y <span class="op">=</span> <span class="dv">200</span><span class="op">;</span></span>
+<span id="cb6-4"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> diameter <span class="op">=</span> <span class="dv">50</span><span class="op">;</span></span>
+<span id="cb6-5"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-6"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">setup</span>() {</span>
+<span id="cb6-7"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">createCanvas</span>(<span class="dv">400</span><span class="op">,</span> <span class="dv">400</span>)<span class="op">;</span></span>
+<span id="cb6-8"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This is more concise and often preferred.</p>
+</section>
 <section id="datatypes" class="slide level2">
 <h2>Datatypes</h2>
-<div class="sourceCode" id="cb3"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb3-1"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-2"><a aria-hidden="true" tabindex="-1"></a><span class="co">// "strings" are text values, and should go in quotes</span></span>
-<span id="cb3-3"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-4"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> lastName <span class="op">=</span> <span class="st">"Green"</span><span class="op">;</span></span>
-<span id="cb3-5"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-6"><a aria-hidden="true" tabindex="-1"></a><span class="co">// ints are numerical values, and should NOT go in quotes</span></span>
-<span id="cb3-7"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-8"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> year <span class="op">=</span> <span class="dv">2025</span><span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb7-1"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-2"><a aria-hidden="true" tabindex="-1"></a><span class="co">// "strings" are text values, and should go in quotes</span></span>
+<span id="cb7-3"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> lastName <span class="op">=</span> <span class="st">"Green"</span><span class="op">;</span></span>
+<span id="cb7-5"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-6"><a aria-hidden="true" tabindex="-1"></a><span class="co">// ints are numerical values, and should NOT go in quotes</span></span>
+<span id="cb7-7"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-8"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> year <span class="op">=</span> <span class="dv">2025</span><span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="mouse-events" class="slide level2 smaller">
+<h2>Mouse Events</h2>
+<p>P5.js has several built-in mouse events that you can use to trigger code when the mouse is pressed, released, or moved.</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb8-1"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-2"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">mousePressed</span>() {</span>
+<span id="cb8-3"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// Called once when mouse is pressed</span></span>
+<span id="cb8-4"><a aria-hidden="true" tabindex="-1"></a>  diameter <span class="op">=</span> <span class="fu">random</span>(<span class="dv">20</span><span class="op">,</span> <span class="dv">100</span>)<span class="op">;</span></span>
+<span id="cb8-5"><a aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb8-6"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">mouseReleased</span>() {</span>
+<span id="cb8-8"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// Called once when mouse is released</span></span>
+<span id="cb8-9"><a aria-hidden="true" tabindex="-1"></a>  diameter <span class="op">=</span> <span class="dv">50</span><span class="op">;</span></span>
+<span id="cb8-10"><a aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb8-11"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-12"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">mouseMoved</span>() {</span>
+<span id="cb8-13"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// Called when mouse moves</span></span>
+<span id="cb8-14"><a aria-hidden="true" tabindex="-1"></a>  backgroundColor <span class="op">+=</span> <span class="dv">2</span><span class="op">;</span></span>
+<span id="cb8-15"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><a href="https://editor.p5js.org/howshekilledit/sketches/wDXfPJlQV">See full sketch in p5 web editor</a></p>
 </section></section>
+<section>
 <section id="quiz-2-is-on-thursday" class="title-slide slide level1 center">
 <h1>Quiz #2 is on Thursday!</h1>
-<p>There is a study guide in URCourses</p>
-
-
+<p>There is a study guide in URCourses. Be sure to bring a pen or pencil!</p>
 </section>
+<section id="exit-ticket" class="slide level2">
+<h2>Exit Ticket</h2>
+<p>Complete <em>Variables | Demo Remix</em> assignment in URCourses. Be sure to submit your link before class is over!</p>
+
+
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
