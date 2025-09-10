@@ -44,9 +44,8 @@ sansfont: "Josefin Sans"
 
 ---
 
-![](https://art287.rarelyasked.com/wp-content/uploads/2022/02/coke.png)
+![Josef Albers, *The Interaction of Color*, 1963](https://art287.rarelyasked.com/wp-content/uploads/2022/02/coke.png)
 
-[Josef Albers, *The Interaction of Color*, 1963]{.caption}
 
 ---
 
@@ -59,22 +58,19 @@ Different words and symbols can have different meanings for different people. Th
 
 ---
 
-
->These are very optical paintings, some more than others. You look at them and see them very much as image and illusion. There are a lot of things happening with color in the moiré patterns that are kind of illusionistic.
-
-[Anoka Faruqee](https://faruqeedriscollstudio.com/), *Bomb Magazine*
-
-___
-
 ![Anoka Faruqee, 2012P-04, 2012](https://d2mdqraew06hxz.cloudfront.net/_eightHundred/b2012p-04_body.jpg){width="1200"}
 
+---
+
+<br>
+
+>These are very optical paintings, some more than others. You look at them and see them very much as image and illusion.
+
+[Anoka Faruqee](https://faruqeedriscollstudio.com/), *Bomb Magazine*
 
 ---
 
 ![Archibald J. Motley Jr., *Self-Portrait (Myself at Work)*, 1933](https://archives.nasher.duke.edu/motley/wp-content/uploads/sites/4/2007/10/newtifoifartist.jpg)
 
-
-
----
 
 # [Albers in p5.js](https://editor.p5js.org/howshekilledit/sketches/nBh-X9o_4)
