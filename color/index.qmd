@@ -13,6 +13,27 @@ code-line-numbers: false
 sansfont: "Josefin Sans"
 ---
 
+# The quiz will start at 10:05! You may study until then. 
+
+
+## How to Complete Quiz {.smaller}
+
+::: {.column width="30%"}
+
+![](https://brownbagteacher.com/wp-content/uploads/2020/02/BubbledScantron-1024x770.png)
+
+:::
+
+::: {.column width="70%"}
+
+* Write your first and last name
+* Write today's date, Sept. 11
+* Use black/blue pen or pencil
+* Only use the left column
+* Fill in the correct bubble completely
+* You have twenty minutes:w
+
+:::
 
 ## Welcome Questions
 
