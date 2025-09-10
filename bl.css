@@ -6,8 +6,9 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Josefin Sans', Gadget, sans-serif !importa
 .tryit {color:black; background-color: #f1f1f1; padding: 10px;}
 iframe{width:100% !important;}
 code{color:black; background:var(--quarto-hl-fu-color);}
-.stlth_hd{display:none;} /* Hide the header, but show in contents */
+.stlth_hd h2{display:none;} /* Hide the header, but show in contents */
 caption{font-size: 0.8em; color: white; caption-side: bottom; width:50%}
 p.caption{text-align: center; font-size: 12px;}
+.caption{text-align:center; font-size:1em;}
 p{margin: 0 0 3em 0;}
 section{display:flex; align-items: center; justify-content: left; flex-direction: column; text-align: left; padding: 2em 0;}

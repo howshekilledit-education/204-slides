@@ -9,7 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.40">
 
-  <title>CTCH 204 | Intro to Creative Coding – Variables &amp; Conventions</title>
+  <title>CTCH 204 | Intro to Creative Coding – Color</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -27,71 +27,6 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-423d414d36ce366a9d05f36d06304417.css">
   <link rel="stylesheet" href="../bl.css">
@@ -195,175 +130,74 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Variables &amp; Conventions</h1>
+  <h1 class="title">Color</h1>
 
 <div class="quarto-title-authors">
 </div>
 
 </section>
-<section id="entrance-ticket" class="slide level2 smaller">
-<h2>Entrance Ticket</h2>
+<section id="welcome-questions" class="slide level2">
+<h2>Welcome Questions</h2>
 <ul>
-<li>Look through your classmates’ links in <em>Forum Response 2 | Variables &amp; Conventions</em> in UR Courses.</li>
-<li>There are a lot of the posts, so let’s split them up. If you are at the front of the room, look at posts at top; middle, middle; back, bottom.</li>
-<li>Look for a place in a classmate’s sketch defined a variable with <code>let</code> OR used <code>mouseX</code>/<code>mouseY</code></li>
-<li>Reply to the comment with the above line/block of code, and a sentence describing what the code is doing</li>
-<li><strong>Make sure you reply to at least on post by 10:10</strong></li>
+<li>Say your name</li>
+<li>What is your favorite color?</li>
+<li>What is an example of something colored your favorite version of your favorite color?</li>
+<li>Say your name again!</li>
 </ul>
 </section>
-<section id="experience-levels-in-this-class-vary" class="slide level2">
-<h2>Experience levels in this class vary!</h2>
-<p>Some students in this class have ten years of coding experience. Others have none!</p>
-<p>Try not to judge yourself by what other students can do. It’s not a fair race if some started earlier than others.</p>
-</section>
-<section>
-<section id="wealth-shown-to-scale" class="title-slide slide level1 center">
-<h1>Wealth, shown to scale</h1>
-
-</section>
-<section id="comments" class="slide level2">
-<h2>Comments</h2>
-<p>Code comments are text in your code that your computer can’t see. They are great for muting code or explaining it.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-2"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> cx <span class="op">=</span> width<span class="op">/</span><span class="dv">2</span><span class="op">;</span> <span class="co">// sets center to half canvas width</span></span>
-<span id="cb1-3"><a aria-hidden="true" tabindex="-1"></a><span class="co">// let cx = width/4; // sets center to 1/4 canvas size</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="console" class="slide level2">
-<h2>Console</h2>
-<p>The code console allows you to debug your code. You can see errors or log anything you wish with <code>console.log()</code></p>
-</section>
-<section id="variables" class="slide level2">
-<h2>Variables</h2>
-<p>Imagine variables as search and replace. Every time a variable appears, you could simply replace it with its value and the code would be the same.</p>
-<p>The power here is that the value can VARY.</p>
-<p><a href="https://editor.p5js.org/howshekilledit/sketches/C7k76Dj1R">Yoda example</a></p>
-</section>
-<section id="built-in-p5-variables" class="slide level2">
-<h2>Built-in p5 Variables</h2>
-<p>P5.js provides several built-in variables for mouse interaction and animation:</p>
-<ul>
-<li><strong><code>mouseX</code></strong> - Current horizontal position of mouse</li>
-<li><strong><code>mouseY</code></strong> - Current vertical position of mouse<br>
-</li>
-<li><strong><code>frameCount</code></strong> - The number of frames that have been displayed since the program started</li>
-</ul>
-<p>These update automatically every frame!</p>
-</section>
-<section id="built-in-variables-example" class="slide level2">
-<h2>Built-in variables example</h2>
-<div class="sourceCode" id="cb2"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb2-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">draw</span>() {</span>
-<span id="cb2-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">background</span>(<span class="dv">255</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span>)<span class="op">;</span></span>
-<span id="cb2-3"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// sets fill based on location in loop</span></span>
-<span id="cb2-4"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">fill</span>(frameCount<span class="op">%</span><span class="dv">255</span>)<span class="op">;</span></span>
-<span id="cb2-5"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// draws circle at mouse position</span></span>
-<span id="cb2-6"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// with radius based on frames elapsed</span></span>
-<span id="cb2-7"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">circle</span>(mouseX<span class="op">,</span> mouseY<span class="op">,</span> frameCount<span class="op">%</span>width)<span class="op">;</span></span>
-<span id="cb2-8"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><a href="https://editor.p5js.org/howshekilledit/sketches/3SLN_uK7Ab">See this example in web editor</a></p>
-</section></section>
-<section>
-<section id="declare-your-own-variables" class="title-slide slide level1 center">
-<h1>Declare your own variables</h1>
-
-</section>
-<section id="section" class="slide level2">
-<h2></h2>
-<div style="text-align:center;font-size:2em;">
-<p><code>let &lt;name&gt; = &lt;value&gt;;</code></p>
-</div>
-</section>
-<section id="step-1-declare" class="slide level2">
-<h2>Step 1: Declare</h2>
-<div class="sourceCode" id="cb3"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb3-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">// Declare variables (usually at the top)</span></span>
-<span id="cb3-2"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> x<span class="op">;</span></span>
-<span id="cb3-3"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> y<span class="op">;</span></span>
-<span id="cb3-4"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> diameter<span class="op">;</span></span>
-<span id="cb3-5"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> speed<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>This creates the variables but they have no value yet (<code>undefined</code>).</p>
-</section>
-<section id="step-2-initialize" class="slide level2">
-<h2>Step 2: Initialize</h2>
-<div class="sourceCode" id="cb4"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb4-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> x<span class="op">;</span></span>
-<span id="cb4-2"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> y<span class="op">;</span></span>
-<span id="cb4-3"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> diameter<span class="op">;</span></span>
-<span id="cb4-4"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-5"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">setup</span>() {</span>
-<span id="cb4-6"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">createCanvas</span>(<span class="dv">400</span><span class="op">,</span> <span class="dv">400</span>)<span class="op">;</span></span>
-<span id="cb4-7"><a aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb4-8"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// Initialize variables</span></span>
-<span id="cb4-9"><a aria-hidden="true" tabindex="-1"></a>  x <span class="op">=</span> <span class="dv">200</span><span class="op">;</span></span>
-<span id="cb4-10"><a aria-hidden="true" tabindex="-1"></a>  y <span class="op">=</span> <span class="dv">200</span><span class="op">;</span></span>
-<span id="cb4-11"><a aria-hidden="true" tabindex="-1"></a>  diameter <span class="op">=</span> <span class="dv">50</span><span class="op">;</span></span>
-<span id="cb4-12"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Now our variables have starting values!</p>
-</section>
-<section id="step-3-use" class="slide level2">
-<h2>Step 3: Use</h2>
-<div class="sourceCode" id="cb5"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb5-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">draw</span>() {</span>
-<span id="cb5-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">background</span>(<span class="dv">220</span>)<span class="op">;</span></span>
-<span id="cb5-3"><a aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb5-4"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// Use the variables</span></span>
-<span id="cb5-5"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">fill</span>(<span class="dv">255</span><span class="op">,</span> <span class="dv">100</span><span class="op">,</span> <span class="dv">150</span>)<span class="op">;</span></span>
-<span id="cb5-6"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">circle</span>(x<span class="op">,</span> y<span class="op">,</span> diameter)<span class="op">;</span></span>
-<span id="cb5-7"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>The variables control the circle’s position and size.</p>
-</section>
-<section id="combining-declaration-initialization" class="slide level2">
-<h2>Combining Declaration &amp; Initialization</h2>
-<p>You can do both steps at once:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb6-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">// Combined approach</span></span>
-<span id="cb6-2"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> x <span class="op">=</span> <span class="dv">200</span><span class="op">;</span></span>
-<span id="cb6-3"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> y <span class="op">=</span> <span class="dv">200</span><span class="op">;</span></span>
-<span id="cb6-4"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> diameter <span class="op">=</span> <span class="dv">50</span><span class="op">;</span></span>
-<span id="cb6-5"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-6"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">setup</span>() {</span>
-<span id="cb6-7"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">createCanvas</span>(<span class="dv">400</span><span class="op">,</span> <span class="dv">400</span>)<span class="op">;</span></span>
-<span id="cb6-8"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>This is more concise and often preferred.</p>
-</section>
-<section id="datatypes" class="slide level2">
-<h2>Datatypes</h2>
-<div class="sourceCode" id="cb7"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb7-1"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-2"><a aria-hidden="true" tabindex="-1"></a><span class="co">// "strings" are text values, and should go in quotes</span></span>
-<span id="cb7-3"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-4"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> lastName <span class="op">=</span> <span class="st">"Green"</span><span class="op">;</span></span>
-<span id="cb7-5"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-6"><a aria-hidden="true" tabindex="-1"></a><span class="co">// ints are numerical values, and should NOT go in quotes</span></span>
-<span id="cb7-7"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-8"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> year <span class="op">=</span> <span class="dv">2025</span><span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="mouse-events" class="slide level2 smaller">
-<h2>Mouse Events</h2>
-<p>P5.js has several built-in mouse events that you can use to trigger code when the mouse is pressed, released, or moved.</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb8-1"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-2"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">mousePressed</span>() {</span>
-<span id="cb8-3"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// Called once when mouse is pressed</span></span>
-<span id="cb8-4"><a aria-hidden="true" tabindex="-1"></a>  diameter <span class="op">=</span> <span class="fu">random</span>(<span class="dv">20</span><span class="op">,</span> <span class="dv">100</span>)<span class="op">;</span></span>
-<span id="cb8-5"><a aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb8-6"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-7"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">mouseReleased</span>() {</span>
-<span id="cb8-8"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// Called once when mouse is released</span></span>
-<span id="cb8-9"><a aria-hidden="true" tabindex="-1"></a>  diameter <span class="op">=</span> <span class="dv">50</span><span class="op">;</span></span>
-<span id="cb8-10"><a aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb8-11"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-12"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">mouseMoved</span>() {</span>
-<span id="cb8-13"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// Called when mouse moves</span></span>
-<span id="cb8-14"><a aria-hidden="true" tabindex="-1"></a>  backgroundColor <span class="op">+=</span> <span class="dv">2</span><span class="op">;</span></span>
-<span id="cb8-15"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><a href="https://editor.p5js.org/howshekilledit/sketches/wDXfPJlQV">See full sketch in p5 web editor</a></p>
-</section></section>
-<section>
-<section id="quiz-2-is-on-thursday" class="title-slide slide level1 center">
-<h1>Quiz #2 is on Thursday!</h1>
-<p>There is a study guide in URCourses. Be sure to bring a pen or pencil!</p>
-</section>
-<section id="exit-ticket" class="slide level2">
-<h2>Exit Ticket</h2>
-<p>Complete <strong>Variables | Demo Remix</strong> assignment in URCourses.</p>
-<p>Be sure to submit your link before class is over!</p>
+<section class="slide level2">
 
 
-</section></section>
+<img data-src="albers.jpg" class="r-stretch quarto-figure-center"><p class="caption">Josef Albers, <em>Interaction of Color</em>, <a href="https://vimeo.com/420347790">see it in action</a></p></section>
+<section class="slide level2">
+
+<p><br></p>
+<blockquote>
+<p>What counts is not the what but the how</p>
+</blockquote>
+<p>—Josef Albers, <em>The Interaction of Color</em>, 1963</p>
+</section>
+<section class="slide level2">
+
+<p><br></p>
+<blockquote>
+<p>Color is the most relative medium in art.</p>
+</blockquote>
+<p>—Josef Albers, <em>The Interaction of Color</em>, 1963</p>
+</section>
+<section class="slide level2">
+
+
+<img data-src="https://art287.rarelyasked.com/wp-content/uploads/2022/02/coke.png" class="r-stretch"><p><span class="caption">Josef Albers, <em>The Interaction of Color</em>, 1963</span></p>
+</section>
+<section id="variables-language" class="slide level2">
+<h2>Variables &amp; Language</h2>
+<p>A variable is a symbol/placeholder for a value that may change. Computer variables and natural language might not be as different as you’d think.</p>
+<p>Different words and symbols can have different meanings for different people. They may even change over time for an individual. In the same way, the value inside a variable can change.</p>
+</section>
+<section class="slide level2">
+
+<blockquote>
+<p>These are very optical paintings, some more than others. You look at them and see them very much as image and illusion. There are a lot of things happening with color in the moiré patterns that are kind of illusionistic.</p>
+</blockquote>
+<p><a href="https://faruqeedriscollstudio.com/">Anoka Faruqee</a>, <em>Bomb Magazine</em></p>
+</section>
+<section class="slide level2">
+
+
+<img data-src="https://d2mdqraew06hxz.cloudfront.net/_eightHundred/b2012p-04_body.jpg" width="1200" class="r-stretch quarto-figure-center"><p class="caption">Anoka Faruqee, 2012P-04, 2012</p></section>
+<section class="slide level2">
+
+
+<img data-src="https://archives.nasher.duke.edu/motley/wp-content/uploads/sites/4/2007/10/newtifoifartist.jpg" class="r-stretch quarto-figure-center"><p class="caption">Archibald J. Motley Jr., <em>Self-Portrait (Myself at Work)</em>, 1933</p></section>
+<section class="slide level2">
+
+</section>
+<section id="albers-in-p5.js" class="title-slide slide level1 center">
+<h1><a href="https://editor.p5js.org/howshekilledit/sketches/nBh-X9o_4">Albers in p5.js</a></h1>
+
+
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
