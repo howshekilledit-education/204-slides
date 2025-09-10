@@ -2,6 +2,7 @@
 
 ## Lecture Slides
 
+* [Sept 11: Color Theory and Coding](/color)
 * [Sept 9: Variables and Conventions](/variables-conventions)
 * [Sept 5: Syllabus, p5.js, shapes, colors](/getting-started)
 
