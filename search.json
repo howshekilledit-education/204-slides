@@ -308,6 +308,20 @@
     "text": "Coordinate Systems\n\nAdrian Piper, Charted Work Proposal for January – December 1969, 1968. Typescript and graph paper with space/time coordinate diagrams under sheet protectors in ring binder"
   },
   {
+    "objectID": "color/index.html#welcome-questions",
+    "href": "color/index.html#welcome-questions",
+    "title": "Color",
+    "section": "Welcome Questions",
+    "text": "Welcome Questions\n\nSay your name\nWhat is your favorite color?\nWhat is an example of something colored your favorite version of your favorite color?\nSay your name again!"
+  },
+  {
+    "objectID": "color/index.html#variables-language",
+    "href": "color/index.html#variables-language",
+    "title": "Color",
+    "section": "Variables & Language",
+    "text": "Variables & Language\nA variable is a symbol/placeholder for a value that may change. Computer variables and natural language might not be as different as you’d think.\nDifferent words and symbols can have different meanings for different people. They may even change over time for an individual. In the same way, the value inside a variable can change."
+  },
+  {
     "objectID": "welcome/index.html#introductions",
     "href": "welcome/index.html#introductions",
     "title": "Welcome to 204",
