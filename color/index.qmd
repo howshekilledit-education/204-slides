@@ -26,12 +26,13 @@ sansfont: "Josefin Sans"
 
 ::: {.column width="70%"}
 
+* If your computer is on, put it to sleep by clicking the apple in the top left, then "Sleep"
 * Write your first and last name
 * Write today's date, Sept. 11
 * Use black/blue pen or pencil
 * Only use the left column
 * Fill in the correct bubble completely
-* You have twenty minutes:w
+* You have twenty minutes.
 
 :::
 
@@ -95,3 +96,9 @@ Different words and symbols can have different meanings for different people. Th
 
 
 # [Albers in p5.js](https://editor.p5js.org/howshekilledit/sketches/nBh-X9o_4)
+
+---
+
+# Munsell Color System
+
+
