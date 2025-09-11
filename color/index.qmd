@@ -94,11 +94,38 @@ Different words and symbols can have different meanings for different people. Th
 
 ![Archibald J. Motley Jr., *Self-Portrait (Myself at Work)*, 1933](https://archives.nasher.duke.edu/motley/wp-content/uploads/sites/4/2007/10/newtifoifartist.jpg)
 
+---
+
+![Munsell Color System, Source: Encyclopedia Brittanica](https://cdn.britannica.com/34/2834-050-8758A9D8/tree-Munsell-system-colours-representation-scales-chroma.jpg)
+
+---
+
+## Munsell Color System
+
+Another way of conceptualizing/encoding color in terms of:
+
+* **Color/hue**
+* **Value** lightness or darkness
+* **Chroma** saturation intensity
+
+Find an interactive Munsell palette [here](https://pteromys.melonisland.net/munsell/)
+
+---
+
+## Hexadecimal Color Encoding
+
+Hexadecimal is another way of encoding RGB colors, and p5 can understand it.
+
+* You can learn more about hexadecimal at [W3 Schools](https://www.w3schools.com/html/html_colors_hex.asp)
+* [Adobe Color](https://color.adobe.com/create/color-wheel) allows you to explore color palettes and encode them in different formats. 
+
+---
+
 
 # [Albers in p5.js](https://editor.p5js.org/howshekilledit/sketches/nBh-X9o_4)
 
 ---
 
-# Munsell Color System
+
 
 
