@@ -329,6 +329,20 @@
     "text": "Variables & Language\nA variable is a symbol/placeholder for a value that may change. Computer variables and natural language might not be as different as you’d think.\nDifferent words and symbols can have different meanings for different people. They may even change over time for an individual. In the same way, the value inside a variable can change."
   },
   {
+    "objectID": "color/index.html#munsell-color-system",
+    "href": "color/index.html#munsell-color-system",
+    "title": "Color",
+    "section": "Munsell Color System",
+    "text": "Munsell Color System\nAnother way of conceptualizing/encoding color in terms of:\n\nColor/hue\nValue lightness or darkness\nChroma saturation intensity\n\nFind an interactive Munsell palette here"
+  },
+  {
+    "objectID": "color/index.html#hexadecimal-color-encoding",
+    "href": "color/index.html#hexadecimal-color-encoding",
+    "title": "Color",
+    "section": "Hexadecimal Color Encoding",
+    "text": "Hexadecimal Color Encoding\nHexadecimal is another way of encoding RGB colors, and p5 can understand it.\n\nYou can learn more about hexadecimal at W3 Schools\nAdobe Color allows you to explore color palettes and encode them in different formats."
+  },
+  {
     "objectID": "welcome/index.html#introductions",
     "href": "welcome/index.html#introductions",
     "title": "Welcome to 204",
