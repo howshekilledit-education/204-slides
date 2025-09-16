@@ -9,7 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.40">
 
-  <title>CTCH 204 | Intro to Creative Coding – Color</title>
+  <title>CTCH 204 | Intro to Creative Coding – Number Operations</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -27,6 +27,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-423d414d36ce366a9d05f36d06304417.css">
   <link rel="stylesheet" href="../bl.css">
@@ -130,73 +195,146 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Color</h1>
+  <h1 class="title">Number Operations</h1>
 
 <div class="quarto-title-authors">
 </div>
 
 </section>
-<section id="welcome-questions" class="slide level2">
-<h2>Welcome Questions</h2>
+<section id="entrance-ticket" class="slide level2 smaller">
+<h2>Entrance Ticket</h2>
 <ul>
-<li>Say your name</li>
-<li>What is your favorite color?</li>
-<li>What is an example of something colored your favorite version of your favorite color?</li>
-<li>Say your name again!</li>
+<li>Look through your classmates’ links in today’s code forum response <!--TODO--> in UR Courses.</li>
+<li>There are a lot of the posts, so let’s split them up. If you are at the front of the room, look at posts at top; middle, middle; back, bottom.</li>
+<li>Look for a place in a classmate’s sketch that uses incrementation or randomness. Copy that section of code.<br>
+</li>
+<li>Reply to the post with the line/block of code copied above, and a sentence describing what the code is doing</li>
+<li><strong>Make sure you reply to at least on post by 10:10</strong></li>
 </ul>
 </section>
-<section class="slide level2">
-
-
-<img data-src="albers.jpg" class="r-stretch quarto-figure-center"><p class="caption">Josef Albers, <em>Interaction of Color</em>, <a href="https://vimeo.com/420347790">see it in action</a></p></section>
-<section class="slide level2">
-
+<section id="experience-levels-in-this-class-vary" class="slide level2">
+<h2>Experience levels in this class vary!</h2>
+<p>Some students in this class have ten years of coding experience. Others have none!</p>
+<p>Try not to judge yourself by what other students can do. It’s not a fair race if some started earlier than others.</p>
+</section>
+<section id="incrementation-operators" class="slide level2">
+<h2>Incrementation Operators</h2>
+<p>Incrementation operators provide shorthand for changing variable values. They’re great for animation becuase they can change values over time.</p>
+<p>The most common pattern in programming is increasing a variable by 1:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> x <span class="op">+</span> <span class="dv">1</span><span class="op">;</span> <span class="co">// Traditional way</span></span>
+<span id="cb1-2"><a aria-hidden="true" tabindex="-1"></a>x<span class="op">++;</span>       <span class="co">// Shorthand - increment by 1</span></span>
+<span id="cb1-3"><a aria-hidden="true" tabindex="-1"></a>x <span class="op">+=</span> <span class="dv">1</span><span class="op">;</span>    <span class="co">// Also shorthand - increment by 1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="common-incrementation-operators" class="slide level2">
+<h2>Common Incrementation Operators</h2>
+<div class="sourceCode" id="cb2"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb2-1"><a aria-hidden="true" tabindex="-1"></a>x<span class="op">++;</span>     <span class="co">// Increment by 1 (x = x + 1)</span></span>
+<span id="cb2-2"><a aria-hidden="true" tabindex="-1"></a>x<span class="op">--;</span>     <span class="co">// Decrement by 1 (x = x - 1)</span></span>
+<span id="cb2-3"><a aria-hidden="true" tabindex="-1"></a>x <span class="op">+=</span> <span class="dv">5</span><span class="op">;</span>  <span class="co">// Add 5 to x (x = x + 5)</span></span>
+<span id="cb2-4"><a aria-hidden="true" tabindex="-1"></a>x <span class="op">-=</span> <span class="dv">3</span><span class="op">;</span>  <span class="co">// Subtract 3 from x (x = x - 3)</span></span>
+<span id="cb2-5"><a aria-hidden="true" tabindex="-1"></a>x <span class="op">*=</span> <span class="dv">2</span><span class="op">;</span>  <span class="co">// Multiply x by 2 (x = x * 2)</span></span>
+<span id="cb2-6"><a aria-hidden="true" tabindex="-1"></a>x <span class="op">/=</span> <span class="dv">4</span><span class="op">;</span>  <span class="co">// Divide x by 4 (x = x / 4)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>These operators make code cleaner and faster to write!</p>
+</section>
+<section id="animation-with-incrementation" class="slide level2 smaller">
+<h2>Animation with Incrementation</h2>
+<div class="sourceCode" id="cb3"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb3-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> x <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb3-2"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">setup</span>() {</span>
+<span id="cb3-4"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">createCanvas</span>(<span class="dv">400</span><span class="op">,</span> <span class="dv">400</span>)<span class="op">;</span></span>
+<span id="cb3-5"><a aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-6"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">draw</span>() {</span>
+<span id="cb3-8"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">background</span>(<span class="dv">220</span>)<span class="op">;</span></span>
+<span id="cb3-9"><a aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb3-10"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// Move circle across screen</span></span>
+<span id="cb3-11"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">circle</span>(x<span class="op">,</span> <span class="dv">200</span><span class="op">,</span> <span class="dv">50</span>)<span class="op">;</span></span>
+<span id="cb3-12"><a aria-hidden="true" tabindex="-1"></a>  x<span class="op">++;</span> <span class="co">// Increment x by 1 each frame</span></span>
+<span id="cb3-13"><a aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb3-14"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// Reset when off screen </span></span>
+<span id="cb3-15"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// we will learn about this soon! </span></span>
+<span id="cb3-16"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// (it's not on the next quiz)</span></span>
+<span id="cb3-17"><a aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (x <span class="op">&gt;</span> width) {</span>
+<span id="cb3-18"><a aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb3-19"><a aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb3-20"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><a href="https://editor.p5js.org/howshekilledit/sketches/66HdjrHEMy">See it live!</a></p>
+</section>
+<section id="multiple-incrementation-example" class="slide level2 smaller">
+<h2>Multiple Incrementation Example</h2>
+<div class="sourceCode" id="cb4"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb4-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> x <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb4-2"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> rad <span class="op">=</span> <span class="dv">50</span><span class="op">;</span></span>
+<span id="cb4-3"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> red_val <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb4-4"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">setup</span>(){</span>
+<span id="cb4-6"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">createCanvas</span>(<span class="dv">400</span><span class="op">,</span> <span class="dv">400</span>)<span class="op">;</span></span>
+<span id="cb4-7"><a aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-8"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">draw</span>() {</span>
+<span id="cb4-10"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">background</span>(<span class="dv">220</span>)<span class="op">;</span></span>
+<span id="cb4-11"><a aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-12"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">fill</span>(red_val<span class="op">,</span> <span class="dv">100</span><span class="op">,</span> <span class="dv">255</span>)<span class="op">;</span></span>
+<span id="cb4-13"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">circle</span>(x<span class="op">,</span> <span class="dv">200</span><span class="op">,</span> rad)<span class="op">;</span></span>
+<span id="cb4-14"><a aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-15"><a aria-hidden="true" tabindex="-1"></a>  x <span class="op">+=</span> <span class="dv">2</span><span class="op">;</span>        <span class="co">// Move right by 2 pixels</span></span>
+<span id="cb4-16"><a aria-hidden="true" tabindex="-1"></a>  rad <span class="op">+=</span> <span class="fl">0.5</span><span class="op">;</span>   <span class="co">// Grow by 0.5 pixels</span></span>
+<span id="cb4-17"><a aria-hidden="true" tabindex="-1"></a>  red_val <span class="op">++;</span>         <span class="co">// Increase red_val value by 1</span></span>
+<span id="cb4-18"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><a href="https://editor.p5js.org/howshekilledit/sketches/IJFMhFA44p">See it live!</a></p>
+</section>
+<section id="the-random-function" class="slide level2">
+<h2>The random() Function</h2>
+<p>The <code>random()</code> function generates random numbers, which can create variety and unpredictability in your sketches.</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb5-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">random</span>()<span class="op">;</span>           <span class="co">// Random decimal between 0 and 1</span></span>
+<span id="cb5-2"><a aria-hidden="true" tabindex="-1"></a><span class="fu">random</span>(<span class="dv">10</span>)<span class="op">;</span>         <span class="co">// Random decimal between 0 and 10</span></span>
+<span id="cb5-3"><a aria-hidden="true" tabindex="-1"></a><span class="fu">random</span>(<span class="dv">5</span><span class="op">,</span> <span class="dv">15</span>)<span class="op">;</span>      <span class="co">// Random decimal between 5 and 15</span></span>
+<span id="cb5-4"><a aria-hidden="true" tabindex="-1"></a><span class="fu">random</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">2</span><span class="op">,</span><span class="dv">3</span><span class="op">,</span><span class="dv">4</span>])<span class="op">;</span>  <span class="co">// Random item from array</span></span>
+<span id="cb5-5"><a aria-hidden="true" tabindex="-1"></a><span class="co">// (arrays are also not on the next quiz)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="basic-random-examples" class="slide level2">
+<h2>Basic Random Examples</h2>
+<div class="sourceCode" id="cb6"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb6-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">draw</span>() {</span>
+<span id="cb6-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">background</span>(<span class="dv">220</span>)<span class="op">;</span></span>
+<span id="cb6-3"><a aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb6-4"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// Random position</span></span>
+<span id="cb6-5"><a aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> x <span class="op">=</span> <span class="fu">random</span>(width)<span class="op">;</span></span>
+<span id="cb6-6"><a aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> y <span class="op">=</span> <span class="fu">random</span>(height)<span class="op">;</span></span>
+<span id="cb6-7"><a aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb6-8"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// Random size</span></span>
+<span id="cb6-9"><a aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> diameter <span class="op">=</span> <span class="fu">random</span>(<span class="dv">20</span><span class="op">,</span> <span class="dv">80</span>)<span class="op">;</span></span>
+<span id="cb6-10"><a aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb6-11"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// Random color</span></span>
+<span id="cb6-12"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">fill</span>(<span class="fu">random</span>(<span class="dv">255</span>)<span class="op">,</span> <span class="fu">random</span>(<span class="dv">255</span>)<span class="op">,</span> <span class="fu">random</span>(<span class="dv">255</span>))<span class="op">;</span></span>
+<span id="cb6-13"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">circle</span>(x<span class="op">,</span> y<span class="op">,</span> diameter)<span class="op">;</span></span>
+<span id="cb6-14"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This creates a new random circle every frame! <a href="https://editor.p5js.org/howshekilledit/sketches/WUhB0MWA0">See it live.</a></p>
+</section>
+<section>
+<section id="study-for-quiz-3-on-thursday" class="title-slide slide level1 center">
+<h1>Study for Quiz #3 on Thursday!</h1>
+<p>There is a study guide in URCourses. Be sure to bring a pen or pencil!</p>
+</section>
+<section id="whats-on-the-quiz-vs.-live-demos" class="slide level2">
+<h2>What’s on the Quiz vs.&nbsp;Live Demos</h2>
+<p>Slides and Coding Train tutorials will include the material you need to know for the next quiz (unless otherwise noted).</p>
 <p><br></p>
-<blockquote>
-<p>What counts is not the what but the how</p>
-</blockquote>
-<p>—Josef Albers, <em>The Interaction of Color</em>, 1963</p>
-</section>
-<section class="slide level2">
-
-<p><br></p>
-<blockquote>
-<p>Color is the most relative medium in art.</p>
-</blockquote>
-<p>—Josef Albers, <em>The Interaction of Color</em>, 1963</p>
-</section>
-<section class="slide level2">
-
-
-<img data-src="https://art287.rarelyasked.com/wp-content/uploads/2022/02/coke.png" class="r-stretch quarto-figure-center"><p class="caption">Josef Albers, <em>The Interaction of Color</em>, 1963</p></section>
-<section id="variables-language" class="slide level2">
-<h2>Variables &amp; Language</h2>
-<p>A variable is a symbol/placeholder for a value that may change. Computer variables and natural language might not be as different as you’d think.</p>
-<p>Different words and symbols can have different meanings for different people. They may even change over time for an individual. In the same way, the value inside a variable can change.</p>
-</section>
-<section class="slide level2">
-
-<blockquote>
-<p>These are very optical paintings, some more than others. You look at them and see them very much as image and illusion. There are a lot of things happening with color in the moiré patterns that are kind of illusionistic.</p>
-</blockquote>
-<p><a href="https://faruqeedriscollstudio.com/">Anoka Faruqee</a>, <em>Bomb Magazine</em></p>
-</section>
-<section class="slide level2">
-
-
-<img data-src="https://d2mdqraew06hxz.cloudfront.net/_eightHundred/b2012p-04_body.jpg" width="1200" class="r-stretch quarto-figure-center"><p class="caption">Anoka Faruqee, 2012P-04, 2012</p></section>
-<section class="slide level2">
-
-
-<img data-src="https://archives.nasher.duke.edu/motley/wp-content/uploads/sites/4/2007/10/newtifoifartist.jpg" class="r-stretch quarto-figure-center"><p class="caption">Archibald J. Motley Jr., <em>Self-Portrait (Myself at Work)</em>, 1933</p></section>
-<section class="slide level2">
+<p>Demos will cover quiz material and may preview more advanced material.</p>
+</section></section>
+<section>
+<section id="in-confusion-lies-the-seeds-to-understanding" class="title-slide slide level1 center">
+<h1>In confusion lies the seeds to understanding!</h1>
 
 </section>
-<section id="albers-in-p5.js" class="title-slide slide level1 center">
-<h1><a href="https://editor.p5js.org/howshekilledit/sketches/nBh-X9o_4">Albers in p5.js</a></h1>
+<section id="code-along-with-me" class="slide level2 center">
+<h2>Code along with me!</h2>
+
+<img data-src="https://img.tpt.cloud/nextavenue/uploads/2021/09/bobrossestate-01.inside.1280x720.jpg" class="r-stretch quarto-figure-center"><p class="caption">or take notes if you prefer</p></section>
+<section id="exit-ticket" class="slide level2">
+<h2>Exit Ticket</h2>
+<p>Complete today’s demo remix <!--TODO--> assignment in URCourses.</p>
+<p>Be sure to submit your link before class is over!</p>
 
 
-</section>
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
