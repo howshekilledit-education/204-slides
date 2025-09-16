@@ -30,6 +30,9 @@ Some students in this class have ten years of coding experience. Others have non
 
 Try not to judge yourself by what other students can do. It's not a fair race if some started earlier than others.
 
+# [Ubos Sa Dagat: The Under Sea](https://urcourses.uregina.ca/mod/forum/discuss.php?d=1218360)
+by Khokhoi (mary alinney villacastin)
+
 ## Incrementation Operators
 
 Incrementation operators provide shorthand for changing variable values. They're great for animation becuase they can change values over time. 
