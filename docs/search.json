@@ -102,14 +102,14 @@
     "href": "index.html",
     "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
     "section": "",
-    "text": "Sept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
+    "text": "Sept 16: Numerical Operatons\nSept 11: Color Theory and Coding\nSept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
   },
   {
     "objectID": "index.html#lecture-slides",
     "href": "index.html#lecture-slides",
     "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
     "section": "",
-    "text": "Sept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
+    "text": "Sept 16: Numerical Operatons\nSept 11: Color Theory and Coding\nSept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
   },
   {
     "objectID": "getting-started/index.html#you-can-have-a-one-week-extension-on-one-of-your-first-two-projects.",
@@ -677,5 +677,117 @@
     "title": "Number Operations",
     "section": "Exit Ticket",
     "text": "Exit Ticket\nComplete today’s demo remix  assignment in URCourses.\nBe sure to submit your link before class is over!"
+  },
+  {
+    "objectID": "intentionally-random/index.html#pseudorandomness-vs-true-randomness",
+    "href": "intentionally-random/index.html#pseudorandomness-vs-true-randomness",
+    "title": "Intentionally Random",
+    "section": "Pseudorandomness vs True Randomness",
+    "text": "Pseudorandomness vs True Randomness\n\n\n\nPseudorandomness vs True Randomness"
+  },
+  {
+    "objectID": "intentionally-random/index.html#tea-divination-in-europe",
+    "href": "intentionally-random/index.html#tea-divination-in-europe",
+    "title": "Intentionally Random",
+    "section": "Tea Divination in Europe",
+    "text": "Tea Divination in Europe\n\nTea Divination illustration, 1842, London"
+  },
+  {
+    "objectID": "intentionally-random/index.html#contemporary-tasseography-instructions",
+    "href": "intentionally-random/index.html#contemporary-tasseography-instructions",
+    "title": "Intentionally Random",
+    "section": "Contemporary Tasseography Instructions",
+    "text": "Contemporary Tasseography Instructions\n\nTasseography Instructions"
+  },
+  {
+    "objectID": "intentionally-random/index.html#ifa-divination-in-west-africa",
+    "href": "intentionally-random/index.html#ifa-divination-in-west-africa",
+    "title": "Intentionally Random",
+    "section": "Ifa Divination in West Africa",
+    "text": "Ifa Divination in West Africa\n\nIfa Divination Board, West Africa, pseudorandom number generating technique"
+  },
+  {
+    "objectID": "intentionally-random/index.html#ifa-instructions",
+    "href": "intentionally-random/index.html#ifa-instructions",
+    "title": "Intentionally Random",
+    "section": "Ifa Instructions",
+    "text": "Ifa Instructions\n\nIfa Divination Instructions"
+  },
+  {
+    "objectID": "intentionally-random/index.html#predictive-modeling",
+    "href": "intentionally-random/index.html#predictive-modeling",
+    "title": "Intentionally Random",
+    "section": "Predictive Modeling",
+    "text": "Predictive Modeling\n\nMany contemporary predictive models include a pseudorandom element"
+  },
+  {
+    "objectID": "intentionally-random/index.html#how-does-human-intention-guide-each-of-these-examples",
+    "href": "intentionally-random/index.html#how-does-human-intention-guide-each-of-these-examples",
+    "title": "Intentionally Random",
+    "section": "How does human intention guide each of these examples?",
+    "text": "How does human intention guide each of these examples?"
+  },
+  {
+    "objectID": "intentionally-random/index.html#jean-arp",
+    "href": "intentionally-random/index.html#jean-arp",
+    "title": "Intentionally Random",
+    "section": "Jean Arp",
+    "text": "Jean Arp\n\n\n\n\n\nJean (Hans) Arp, Untitled (Collage with Squares Arranged according to the Law of Chance), 1916–17\n\n\n\n\nWhile chance was undoubtedly the point of departure for this and other works in the series According to the Laws of Chance, the relatively ordered appearance of Arp’s collages suggest he did not fully relinquish control.\n\nsource: moma.org"
+  },
+  {
+    "objectID": "intentionally-random/index.html#inspiration-for-next-demo",
+    "href": "intentionally-random/index.html#inspiration-for-next-demo",
+    "title": "Intentionally Random",
+    "section": "Inspiration for next demo",
+    "text": "Inspiration for next demo\n\nJean (Hans) Arp, Untitled (Collage with Squares Arranged according to the Law of Chance), 1917"
+  },
+  {
+    "objectID": "intentionally-random/index.html#conceptual-design-goals",
+    "href": "intentionally-random/index.html#conceptual-design-goals",
+    "title": "Intentionally Random",
+    "section": "Conceptual + Design Goals",
+    "text": "Conceptual + Design Goals\n\nHow does randomness reflect our world?\nHow can randomness enhance a design?\nHow can you control randomness for design that is both intentional and suprising?"
+  },
+  {
+    "objectID": "intentionally-random/index.html#questions-to-consider",
+    "href": "intentionally-random/index.html#questions-to-consider",
+    "title": "Intentionally Random",
+    "section": "Questions to Consider",
+    "text": "Questions to Consider\n\nHow does randomness reflect our world?\nHow can randomness enhance a design?\nHow can you control randomness for design that is both intentional and suprising?"
+  },
+  {
+    "objectID": "intentionally-random/index.html#have-people-try-to-be-a-pseudo-random-number-generator",
+    "href": "intentionally-random/index.html#have-people-try-to-be-a-pseudo-random-number-generator",
+    "title": "Intentionally Random",
+    "section": "Have people try to be a pseudo-random number generator",
+    "text": "Have people try to be a pseudo-random number generator"
+  },
+  {
+    "objectID": "intentionally-random/index.html#slowly-limit-randomness",
+    "href": "intentionally-random/index.html#slowly-limit-randomness",
+    "title": "Intentionally Random",
+    "section": "Slowly limit randomness",
+    "text": "Slowly limit randomness\n\ncolor\nsize\nposition (overlap)\nposition (edges)"
+  },
+  {
+    "objectID": "intentionally-random/index.html#how-to-complete-quiz",
+    "href": "intentionally-random/index.html#how-to-complete-quiz",
+    "title": "Intentionally Random",
+    "section": "How to Complete Quiz",
+    "text": "How to Complete Quiz\n\n\n\n\nIf your computer is on, put it to sleep by clicking the apple in the top left, then “Sleep”\nWrite your first and last name\nWrite today’s date, Sept. 11\nUse black/blue pen or pencil\nOnly use the left column\nFill in the correct bubble completely\nYou have twenty minutes."
+  },
+  {
+    "objectID": "intentionally-random/index.html#play-with-randomness",
+    "href": "intentionally-random/index.html#play-with-randomness",
+    "title": "Intentionally Random",
+    "section": "Play with randomness!",
+    "text": "Play with randomness!\nGo to In-Class Assignments&gt;Random Shapes, and respond to BOTH forum prompts with screenshots:\n\nPart 1: Try to create a random composition\nPart 2: Let the computer create a random composition"
+  },
+  {
+    "objectID": "intentionally-random/index.html#exit-ticket",
+    "href": "intentionally-random/index.html#exit-ticket",
+    "title": "Intentionally Random",
+    "section": "Exit Ticket",
+    "text": "Exit Ticket\nRespond to Forum prompt In-Class Assignmetns &gt; Jean Arp\n\nRemix the Arp demo and reply with your link."
   }
 ]
