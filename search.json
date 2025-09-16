@@ -308,6 +308,27 @@
     "text": "Coordinate Systems\n\nAdrian Piper, Charted Work Proposal for January – December 1969, 1968. Typescript and graph paper with space/time coordinate diagrams under sheet protectors in ring binder"
   },
   {
+    "objectID": "welcome/index.html#introductions",
+    "href": "welcome/index.html#introductions",
+    "title": "Welcome to 204",
+    "section": "Introductions",
+    "text": "Introductions\nLet’s go around and introduce ourselves.\n\nYour name\nYour pronouns (if you want)\nTalk a little bit about why you chose your piece of media\nYour name again"
+  },
+  {
+    "objectID": "welcome/index.html#cartesian-coordinates",
+    "href": "welcome/index.html#cartesian-coordinates",
+    "title": "Welcome to 204",
+    "section": "Cartesian Coordinates",
+    "text": "Cartesian Coordinates\n\n\n\n\nMost graphical software uses a Cartesian coordinate system to define where things are on the screen."
+  },
+  {
+    "objectID": "welcome/index.html#next-class",
+    "href": "welcome/index.html#next-class",
+    "title": "Welcome to 204",
+    "section": "Next class",
+    "text": "Next class\n\nNext class, we will have a syllabus quiz (you may reference the syllabus). This will be the last quiz where you can look at outside resources. After that, all quizzes will be closed book.\n\nMake sure you bring a pen or pencil! (Note that you should bring a notebook and pen/pencil to every class.)"
+  },
+  {
     "objectID": "color/index.html#how-to-complete-quiz",
     "href": "color/index.html#how-to-complete-quiz",
     "title": "Color",
@@ -343,25 +364,81 @@
     "text": "Hexadecimal Color Encoding\nHexadecimal is another way of encoding RGB colors, and p5 can understand it.\n\nYou can learn more about hexadecimal at W3 Schools\nAdobe Color allows you to explore color palettes and encode them in different formats."
   },
   {
-    "objectID": "welcome/index.html#introductions",
-    "href": "welcome/index.html#introductions",
-    "title": "Welcome to 204",
-    "section": "Introductions",
-    "text": "Introductions\nLet’s go around and introduce ourselves.\n\nYour name\nYour pronouns (if you want)\nTalk a little bit about why you chose your piece of media\nYour name again"
+    "objectID": "numbers/index.html#entrance-ticket",
+    "href": "numbers/index.html#entrance-ticket",
+    "title": "Number Operations",
+    "section": "Entrance Ticket",
+    "text": "Entrance Ticket\n\nLook through your classmates’ links in today’s code forum response  in UR Courses.\nThere are a lot of the posts, so let’s split them up. If you are at the front of the room, look at posts at top; middle, middle; back, bottom.\nLook for a place in a classmate’s sketch that uses incrementation or randomness. Copy that section of code.\n\nReply to the post with the line/block of code copied above, and a sentence describing what the code is doing\nMake sure you reply to at least on post by 10:10"
   },
   {
-    "objectID": "welcome/index.html#cartesian-coordinates",
-    "href": "welcome/index.html#cartesian-coordinates",
-    "title": "Welcome to 204",
-    "section": "Cartesian Coordinates",
-    "text": "Cartesian Coordinates\n\n\n\n\nMost graphical software uses a Cartesian coordinate system to define where things are on the screen."
+    "objectID": "numbers/index.html#experience-levels-in-this-class-vary",
+    "href": "numbers/index.html#experience-levels-in-this-class-vary",
+    "title": "Number Operations",
+    "section": "Experience levels in this class vary!",
+    "text": "Experience levels in this class vary!\nSome students in this class have ten years of coding experience. Others have none!\nTry not to judge yourself by what other students can do. It’s not a fair race if some started earlier than others."
   },
   {
-    "objectID": "welcome/index.html#next-class",
-    "href": "welcome/index.html#next-class",
-    "title": "Welcome to 204",
-    "section": "Next class",
-    "text": "Next class\n\nNext class, we will have a syllabus quiz (you may reference the syllabus). This will be the last quiz where you can look at outside resources. After that, all quizzes will be closed book.\n\nMake sure you bring a pen or pencil! (Note that you should bring a notebook and pen/pencil to every class.)"
+    "objectID": "numbers/index.html#incrementation-operators",
+    "href": "numbers/index.html#incrementation-operators",
+    "title": "Number Operations",
+    "section": "Incrementation Operators",
+    "text": "Incrementation Operators\nIncrementation operators provide shorthand for changing variable values. They’re great for animation becuase they can change values over time.\nThe most common pattern in programming is increasing a variable by 1:\nx = x + 1; // Traditional way\nx++;       // Shorthand - increment by 1\nx += 1;    // Also shorthand - increment by 1"
+  },
+  {
+    "objectID": "numbers/index.html#common-incrementation-operators",
+    "href": "numbers/index.html#common-incrementation-operators",
+    "title": "Number Operations",
+    "section": "Common Incrementation Operators",
+    "text": "Common Incrementation Operators\nx++;     // Increment by 1 (x = x + 1)\nx--;     // Decrement by 1 (x = x - 1)\nx += 5;  // Add 5 to x (x = x + 5)\nx -= 3;  // Subtract 3 from x (x = x - 3)\nx *= 2;  // Multiply x by 2 (x = x * 2)\nx /= 4;  // Divide x by 4 (x = x / 4)\nThese operators make code cleaner and faster to write!"
+  },
+  {
+    "objectID": "numbers/index.html#animation-with-incrementation",
+    "href": "numbers/index.html#animation-with-incrementation",
+    "title": "Number Operations",
+    "section": "Animation with Incrementation",
+    "text": "Animation with Incrementation\nlet x = 0;\n\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(220);\n  \n  // Move circle across screen\n  circle(x, 200, 50);\n  x++; // Increment x by 1 each frame\n  \n  // Reset when off screen \n  // we will learn about this soon! \n  // (it's not on the next quiz)\n  if (x &gt; width) {\n    x = 0;\n  }\n}\nSee it live!"
+  },
+  {
+    "objectID": "numbers/index.html#multiple-incrementation-example",
+    "href": "numbers/index.html#multiple-incrementation-example",
+    "title": "Number Operations",
+    "section": "Multiple Incrementation Example",
+    "text": "Multiple Incrementation Example\nlet x = 0;\nlet rad = 50;\nlet red_val = 0;\n\nfunction setup(){\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(220);\n  \n  fill(red_val, 100, 255);\n  circle(x, 200, rad);\n  \n  x += 2;        // Move right by 2 pixels\n  rad += 0.5;   // Grow by 0.5 pixels\n  red_val ++;         // Increase red_val value by 1\n}\nSee it live!"
+  },
+  {
+    "objectID": "numbers/index.html#the-random-function",
+    "href": "numbers/index.html#the-random-function",
+    "title": "Number Operations",
+    "section": "The random() Function",
+    "text": "The random() Function\nThe random() function generates random numbers, which can create variety and unpredictability in your sketches.\nrandom();           // Random decimal between 0 and 1\nrandom(10);         // Random decimal between 0 and 10\nrandom(5, 15);      // Random decimal between 5 and 15\nrandom([1,2,3,4]);  // Random item from array\n// (arrays are also not on the next quiz)"
+  },
+  {
+    "objectID": "numbers/index.html#basic-random-examples",
+    "href": "numbers/index.html#basic-random-examples",
+    "title": "Number Operations",
+    "section": "Basic Random Examples",
+    "text": "Basic Random Examples\nfunction draw() {\n  background(220);\n  \n  // Random position\n  let x = random(width);\n  let y = random(height);\n  \n  // Random size\n  let diameter = random(20, 80);\n  \n  // Random color\n  fill(random(255), random(255), random(255));\n  circle(x, y, diameter);\n}\nThis creates a new random circle every frame! See it live."
+  },
+  {
+    "objectID": "numbers/index.html#whats-on-the-quiz-vs.-live-demos",
+    "href": "numbers/index.html#whats-on-the-quiz-vs.-live-demos",
+    "title": "Number Operations",
+    "section": "What’s on the Quiz vs. Live Demos",
+    "text": "What’s on the Quiz vs. Live Demos\nSlides and Coding Train tutorials will include the material you need to know for the next quiz (unless otherwise noted).\n\nDemos will cover quiz material and may preview more advanced material."
+  },
+  {
+    "objectID": "numbers/index.html#code-along-with-me",
+    "href": "numbers/index.html#code-along-with-me",
+    "title": "Number Operations",
+    "section": "Code along with me!",
+    "text": "Code along with me!\n\nor take notes if you prefer"
+  },
+  {
+    "objectID": "numbers/index.html#exit-ticket",
+    "href": "numbers/index.html#exit-ticket",
+    "title": "Number Operations",
+    "section": "Exit Ticket",
+    "text": "Exit Ticket\nComplete today’s demo remix  assignment in URCourses.\nBe sure to submit your link before class is over!"
   },
   {
     "objectID": "about.html",

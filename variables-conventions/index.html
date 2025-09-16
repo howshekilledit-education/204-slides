@@ -6,8 +6,8 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.34">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.24">
 
   <title>CTCH 204 | Intro to Creative Coding – Variables &amp; Conventions</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -94,7 +94,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-2c1b5f745a11cfad616ebade4a4a7d24.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-0fde88a82f0356838740f155f1088782.css">
   <link rel="stylesheet" href="../bl.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -225,9 +225,9 @@
 <section id="comments" class="slide level2">
 <h2>Comments</h2>
 <p>Code comments are text in your code that your computer can’t see. They are great for muting code or explaining it.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a aria-hidden="true" tabindex="-1"></a></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-2"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> cx <span class="op">=</span> width<span class="op">/</span><span class="dv">2</span><span class="op">;</span> <span class="co">// sets center to half canvas width</span></span>
-<span id="cb1-3"><a aria-hidden="true" tabindex="-1"></a><span class="co">// let cx = width/4; // sets center to 1/4 canvas size</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-3"><a aria-hidden="true" tabindex="-1"></a><span class="co">// let cx = width/4; // sets center to 1/4 canvas size</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="console" class="slide level2">
 <h2>Console</h2>
@@ -252,14 +252,14 @@
 </section>
 <section id="built-in-variables-example" class="slide level2">
 <h2>Built-in variables example</h2>
-<div class="sourceCode" id="cb2"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb2-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">draw</span>() {</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb2-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">draw</span>() {</span>
 <span id="cb2-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">background</span>(<span class="dv">255</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span>)<span class="op">;</span></span>
 <span id="cb2-3"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// sets fill based on location in loop</span></span>
 <span id="cb2-4"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">fill</span>(frameCount<span class="op">%</span><span class="dv">255</span>)<span class="op">;</span></span>
 <span id="cb2-5"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// draws circle at mouse position</span></span>
 <span id="cb2-6"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// with radius based on frames elapsed</span></span>
 <span id="cb2-7"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">circle</span>(mouseX<span class="op">,</span> mouseY<span class="op">,</span> frameCount<span class="op">%</span>width)<span class="op">;</span></span>
-<span id="cb2-8"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-8"><a aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p><a href="https://editor.p5js.org/howshekilledit/sketches/3SLN_uK7Ab">See this example in web editor</a></p>
 </section></section>
 <section>
@@ -275,16 +275,16 @@
 </section>
 <section id="step-1-declare" class="slide level2">
 <h2>Step 1: Declare</h2>
-<div class="sourceCode" id="cb3"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb3-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">// Declare variables (usually at the top)</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb3-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">// Declare variables (usually at the top)</span></span>
 <span id="cb3-2"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> x<span class="op">;</span></span>
 <span id="cb3-3"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> y<span class="op">;</span></span>
 <span id="cb3-4"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> diameter<span class="op">;</span></span>
-<span id="cb3-5"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> speed<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-5"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> speed<span class="op">;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>This creates the variables but they have no value yet (<code>undefined</code>).</p>
 </section>
 <section id="step-2-initialize" class="slide level2">
 <h2>Step 2: Initialize</h2>
-<div class="sourceCode" id="cb4"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb4-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> x<span class="op">;</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb4-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> x<span class="op">;</span></span>
 <span id="cb4-2"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> y<span class="op">;</span></span>
 <span id="cb4-3"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> diameter<span class="op">;</span></span>
 <span id="cb4-4"><a aria-hidden="true" tabindex="-1"></a></span>
@@ -295,48 +295,48 @@
 <span id="cb4-9"><a aria-hidden="true" tabindex="-1"></a>  x <span class="op">=</span> <span class="dv">200</span><span class="op">;</span></span>
 <span id="cb4-10"><a aria-hidden="true" tabindex="-1"></a>  y <span class="op">=</span> <span class="dv">200</span><span class="op">;</span></span>
 <span id="cb4-11"><a aria-hidden="true" tabindex="-1"></a>  diameter <span class="op">=</span> <span class="dv">50</span><span class="op">;</span></span>
-<span id="cb4-12"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-12"><a aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Now our variables have starting values!</p>
 </section>
 <section id="step-3-use" class="slide level2">
 <h2>Step 3: Use</h2>
-<div class="sourceCode" id="cb5"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb5-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">draw</span>() {</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb5-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">draw</span>() {</span>
 <span id="cb5-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">background</span>(<span class="dv">220</span>)<span class="op">;</span></span>
 <span id="cb5-3"><a aria-hidden="true" tabindex="-1"></a>  </span>
 <span id="cb5-4"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// Use the variables</span></span>
 <span id="cb5-5"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">fill</span>(<span class="dv">255</span><span class="op">,</span> <span class="dv">100</span><span class="op">,</span> <span class="dv">150</span>)<span class="op">;</span></span>
 <span id="cb5-6"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">circle</span>(x<span class="op">,</span> y<span class="op">,</span> diameter)<span class="op">;</span></span>
-<span id="cb5-7"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-7"><a aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>The variables control the circle’s position and size.</p>
 </section>
 <section id="combining-declaration-initialization" class="slide level2">
 <h2>Combining Declaration &amp; Initialization</h2>
 <p>You can do both steps at once:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb6-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">// Combined approach</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb6-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">// Combined approach</span></span>
 <span id="cb6-2"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> x <span class="op">=</span> <span class="dv">200</span><span class="op">;</span></span>
 <span id="cb6-3"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> y <span class="op">=</span> <span class="dv">200</span><span class="op">;</span></span>
 <span id="cb6-4"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> diameter <span class="op">=</span> <span class="dv">50</span><span class="op">;</span></span>
 <span id="cb6-5"><a aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-6"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">setup</span>() {</span>
 <span id="cb6-7"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">createCanvas</span>(<span class="dv">400</span><span class="op">,</span> <span class="dv">400</span>)<span class="op">;</span></span>
-<span id="cb6-8"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-8"><a aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>This is more concise and often preferred.</p>
 </section>
 <section id="datatypes" class="slide level2">
 <h2>Datatypes</h2>
-<div class="sourceCode" id="cb7"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb7-1"><a aria-hidden="true" tabindex="-1"></a></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb7-1"><a aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-2"><a aria-hidden="true" tabindex="-1"></a><span class="co">// "strings" are text values, and should go in quotes</span></span>
 <span id="cb7-3"><a aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-4"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> lastName <span class="op">=</span> <span class="st">"Green"</span><span class="op">;</span></span>
 <span id="cb7-5"><a aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-6"><a aria-hidden="true" tabindex="-1"></a><span class="co">// ints are numerical values, and should NOT go in quotes</span></span>
 <span id="cb7-7"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-8"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> year <span class="op">=</span> <span class="dv">2025</span><span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb7-8"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> year <span class="op">=</span> <span class="dv">2025</span><span class="op">;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="mouse-events" class="slide level2 smaller">
 <h2>Mouse Events</h2>
 <p>P5.js has several built-in mouse events that you can use to trigger code when the mouse is pressed, released, or moved.</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb8-1"><a aria-hidden="true" tabindex="-1"></a></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb8-1"><a aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-2"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">mousePressed</span>() {</span>
 <span id="cb8-3"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// Called once when mouse is pressed</span></span>
 <span id="cb8-4"><a aria-hidden="true" tabindex="-1"></a>  diameter <span class="op">=</span> <span class="fu">random</span>(<span class="dv">20</span><span class="op">,</span> <span class="dv">100</span>)<span class="op">;</span></span>
@@ -350,7 +350,7 @@
 <span id="cb8-12"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">mouseMoved</span>() {</span>
 <span id="cb8-13"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// Called when mouse moves</span></span>
 <span id="cb8-14"><a aria-hidden="true" tabindex="-1"></a>  backgroundColor <span class="op">+=</span> <span class="dv">2</span><span class="op">;</span></span>
-<span id="cb8-15"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb8-15"><a aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p><a href="https://editor.p5js.org/howshekilledit/sketches/wDXfPJlQV">See full sketch in p5 web editor</a></p>
 </section></section>
 <section>
@@ -568,7 +568,7 @@
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -642,13 +642,14 @@
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy
