@@ -28,7 +28,7 @@ mainfont: 'Josefin Sans'
 
 * If your computer is on, put it to sleep by clicking the apple in the top left, then "Sleep"
 * Write your first and last name
-* Write today's date, Sept. 11
+* Write today's date, Sept. 18
 * Use black/blue pen or pencil
 * Only use the left column
 * Fill in the correct bubble completely
