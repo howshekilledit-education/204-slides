@@ -677,5 +677,110 @@
     "title": "Number Operations",
     "section": "Exit Ticket",
     "text": "Exit Ticket\nComplete today’s demo remix  assignment in URCourses.\nBe sure to submit your link before class is over!"
+  },
+  {
+    "objectID": "conditionals/index.html#entrance-ticket",
+    "href": "conditionals/index.html#entrance-ticket",
+    "title": "CTCH 204 | Intro to Creative Coding",
+    "section": "Entrance Ticket",
+    "text": "Entrance Ticket\n\nLook through your classmates’ links in today’s code forum response  in UR Courses.\nThere are a lot of the posts, so let’s split them up. If you are at the front of the room, look at posts at top; middle, middle; back, bottom.\nLook for a place in a classmate’s sketch defined a variable with let OR used mouseX/mouseY. Copy this section of code.\nReply to the post with the line/block of code copied above, and a sentence describing what the code is doing\nMake sure you reply to at least on post by 10:10"
+  },
+  {
+    "objectID": "conditionals/index.html#experience-levels-in-this-class-vary",
+    "href": "conditionals/index.html#experience-levels-in-this-class-vary",
+    "title": "CTCH 204 | Intro to Creative Coding",
+    "section": "Experience levels in this class vary!",
+    "text": "Experience levels in this class vary!\nSome students in this class have ten years of coding experience. Others have none!\nTry not to judge yourself by what other students can do. It’s not a fair race if some started earlier than others."
+  },
+  {
+    "objectID": "conditionals/index.html#what-are-conditionals",
+    "href": "conditionals/index.html#what-are-conditionals",
+    "title": "Conditionals",
+    "section": "What are Conditionals?",
+    "text": "What are Conditionals?\nConditional statements allow your program to make decisions based on certain conditions. They use boolean expressions that evaluate to either true or false.\nThink of it like: “IF this condition is true, THEN do this action.”"
+  },
+  {
+    "objectID": "conditionals/index.html#boolean-expressions",
+    "href": "conditionals/index.html#boolean-expressions",
+    "title": "Conditionals",
+    "section": "Boolean Expressions",
+    "text": "Boolean Expressions\nBoolean expressions compare values and return either true or false:\nlet x = 50;\n\nx &gt; 25     // true\nx &lt; 10     // false\nx == 50    // true (equal to)\nx != 30    // true (not equal to)"
+  },
+  {
+    "objectID": "conditionals/index.html#the-if-statement",
+    "href": "conditionals/index.html#the-if-statement",
+    "title": "Conditionals",
+    "section": "The IF Statement",
+    "text": "The IF Statement\nThe basic structure of a conditional statement:\nif (condition) {\n  // code to run if condition is true\n}"
+  },
+  {
+    "objectID": "conditionals/index.html#if-statement-example",
+    "href": "conditionals/index.html#if-statement-example",
+    "title": "Conditionals",
+    "section": "IF Statement Example",
+    "text": "IF Statement Example\nfunction draw() {\n  fill(0);  // default black fill\n  background(220);\n\n  // if cursor is on right half of canvas \n  if (mouseX &gt; width/2) {\n    fill(255, 0, 0);  // red fill\n  }\n  \n  circle(mouseX, mouseY, 50);\n}\nThe circle turns red when the mouse is on the right half of the canvas. See it live!"
+  },
+  {
+    "objectID": "conditionals/index.html#comparison-operators",
+    "href": "conditionals/index.html#comparison-operators",
+    "title": "Conditionals",
+    "section": "Comparison Operators",
+    "text": "Comparison Operators\n\n&gt; greater than\n&lt; less than\n\n&gt;= greater than or equal to\n&lt;= less than or equal to\n== equal to\n!= not equal to"
+  },
+  {
+    "objectID": "conditionals/index.html#the-else-statement",
+    "href": "conditionals/index.html#the-else-statement",
+    "title": "Conditionals",
+    "section": "The ELSE Statement",
+    "text": "The ELSE Statement\nUse else when you want to do something when the condition is false:\nif (mouseX &gt; width/2) {\n  fill(255, 0, 0);    // red on right side\n} else {\n  fill(0, 0, 255);    // blue on left side\n}\nSee it live!"
+  },
+  {
+    "objectID": "conditionals/index.html#multiple-conditions-with-else-if",
+    "href": "conditionals/index.html#multiple-conditions-with-else-if",
+    "title": "Conditionals",
+    "section": "Multiple Conditions with ELSE IF",
+    "text": "Multiple Conditions with ELSE IF\nUse else if to check multiple conditions in sequence:\nif (mouseX &lt; width/3) {\n  fill(255, 0, 0);        // red - left third\n} else if (mouseX &lt; 2*width/3) {\n  fill(0, 255, 0);        // green - middle third  \n} else {\n  fill(0, 0, 255);        // blue - right third\n}\nSee it live!"
+  },
+  {
+    "objectID": "conditionals/index.html#complex-example",
+    "href": "conditionals/index.html#complex-example",
+    "title": "Conditionals",
+    "section": "Complex Example",
+    "text": "Complex Example\n\nif (mouseX &gt; width/2 && mouseY &gt; height/2) {\n   fill(255, 0, 0);      // red - bottom right\n} else if (mouseX &gt; width/2) {\n   fill(0, 255, 0);      // green - top right\n} else if (mouseY &gt; height/2) {\n   fill(0, 0, 255);      // blue - bottom left\n} else {\n   fill(255, 255, 0);    // yellow - top left\n}\nThe && operator means “AND” - both conditions must be true."
+  },
+  {
+    "objectID": "conditionals/index.html#logical-operators",
+    "href": "conditionals/index.html#logical-operators",
+    "title": "Conditionals",
+    "section": "Logical Operators",
+    "text": "Logical Operators\n\n\n\nSymbol\nName\nDescription\n\n\n\n\n&&\nAND\nBoth conditions must be true\n\n\n||\nOR\nAt least one condition must be true\n\n\n!\nNOT\nReverses the boolean value"
+  },
+  {
+    "objectID": "conditionals/index.html#whats-on-the-quiz-vs.-live-demos",
+    "href": "conditionals/index.html#whats-on-the-quiz-vs.-live-demos",
+    "title": "CTCH 204 | Intro to Creative Coding",
+    "section": "What’s on the Quiz vs. Live Demos",
+    "text": "What’s on the Quiz vs. Live Demos\nSlides and Coding Train tutorials will include the material you need to know for the next quiz.\nDemos will cover quiz material and may preview more advanced material."
+  },
+  {
+    "objectID": "conditionals/index.html#code-along-with-me",
+    "href": "conditionals/index.html#code-along-with-me",
+    "title": "Conditionals",
+    "section": "Code along with me!",
+    "text": "Code along with me!\n\nor take notes if you prefer"
+  },
+  {
+    "objectID": "conditionals/index.html#exit-ticket",
+    "href": "conditionals/index.html#exit-ticket",
+    "title": "Conditionals",
+    "section": "Exit Ticket",
+    "text": "Exit Ticket\nComplete today’s demo remix  assignment in URCourses.\nBe sure to submit your link before class is over!"
+  },
+  {
+    "objectID": "conditionals/index.html#project-discussions",
+    "href": "conditionals/index.html#project-discussions",
+    "title": "Conditionals",
+    "section": "Project Discussions",
+    "text": "Project Discussions\nGet in a group with your table. Take turns reading your Math + Language project proposal out loud to each other. Give brief, respectful feedback on:\n\nHow the project incoporates math\nHow the project incorporates language\nWhat p5.js features you might use to achieve your goal"
   }
 ]

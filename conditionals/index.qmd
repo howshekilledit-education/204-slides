@@ -1,0 +1,189 @@
+
+---
+title: "Conditionals"
+format:
+  revealjs:
+    theme: 
+      - simple
+    css: ../bl.css
+    header-includes: |
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+code-line-numbers: false
+sansfont: "Josefin Sans"
+---
+
+
+
+## Project Discussions {.smaller}
+
+Get in a group with your table. Take turns reading your Math + Language project proposal out loud to each other.
+Give brief, respectful feedback on:
+
+* How the project incoporates math
+* How the project incorporates language
+* What p5.js features you might use to achieve your goal
+
+# Review of Last Week's Quiz
+
+# Conditional Statements
+
+Making decisions in code
+
+## What are Conditionals?
+
+Conditional statements allow your program to make decisions based on certain conditions. They use **boolean expressions** that evaluate to either `true` or `false`.
+
+Think of it like: "IF this condition is true, THEN do this action."
+
+## Boolean Expressions
+
+Boolean expressions compare values and return either `true` or `false`:
+
+``` {.javascript code-line-numbers="false"}
+let x = 50;
+
+x > 25     // true
+x < 10     // false
+x == 50    // true (equal to)
+x != 30    // true (not equal to)
+```
+
+## The IF Statement
+
+The basic structure of a conditional statement:
+
+``` {.javascript code-line-numbers="false"}
+if (condition) {
+  // code to run if condition is true
+}
+```
+
+## IF Statement Example
+
+``` {.javascript code-line-numbers="false"}
+function draw() {
+  fill(0);  // default black fill
+  background(220);
+
+  // if cursor is on right half of canvas 
+  if (mouseX > width/2) {
+    fill(255, 0, 0);  // red fill
+  }
+  
+  circle(mouseX, mouseY, 50);
+}
+```
+
+The circle turns red when the mouse is on the right half of the canvas. [See it live!](https://editor.p5js.org/codingtrain/sketches/BylXH2e9m)
+
+## Comparison Operators
+
+- `>` greater than
+- `<` less than  
+- `>=` greater than or equal to
+- `<=` less than or equal to
+- `==` equal to
+- `!=` not equal to
+
+---
+
+![Small eats big](https://cdn.hswstatic.com/gif/shutterstock-2077921246.jpg)
+
+
+# The Bouncing Ball
+
+Let's keep working on [Daniel Shiffman's code](https://editor.p5js.org/codingtrain/sketches/Xm4cmQvU)!
+
+# Else and Else If
+
+Handling multiple conditions
+
+## The ELSE Statement
+
+Use `else` when you want to do something when the condition is `false`:
+
+``` {.javascript code-line-numbers="false"}
+if (mouseX > width/2) {
+  fill(255, 0, 0);    // red on right side
+} else {
+  fill(0, 0, 255);    // blue on left side
+}
+```
+[See it live!](https://editor.p5js.org/howshekilledit/sketches/7UpypSUXC)
+
+## Multiple Conditions with ELSE IF
+
+Use `else if` to check multiple conditions in sequence:
+
+``` {.javascript code-line-numbers="false"}
+if (mouseX < width/3) {
+  fill(255, 0, 0);        // red - left third
+} else if (mouseX < 2*width/3) {
+  fill(0, 255, 0);        // green - middle third  
+} else {
+  fill(0, 0, 255);        // blue - right third
+}
+```
+[See it live!](https://editor.p5js.org/howshekilledit/sketches/8PUTPOVn8)
+
+## Complex Example
+
+``` {.javascript code-line-numbers="false"}
+
+if (mouseX > width/2 && mouseY > height/2) {
+   fill(255, 0, 0);      // red - bottom right
+} else if (mouseX > width/2) {
+   fill(0, 255, 0);      // green - top right
+} else if (mouseY > height/2) {
+   fill(0, 0, 255);      // blue - bottom left
+} else {
+   fill(255, 255, 0);    // yellow - top left
+}
+
+```
+
+The `&&` operator means "AND" - both conditions must be true.
+
+## Logical Operators
+
+| Symbol | Name | Description |
+|--------|------|-------------|
+| `&&`   | AND  | Both conditions must be true |
+| `||` | OR   | At least one condition must be true |
+| `!`    | NOT  | Reverses the boolean value |
+
+--- 
+
+``` {.javascript code-line-numbers="false"}
+if (mouseX > 100 && mouseX < 300) {
+  // mouse is between 100 and 300
+}
+
+if (key == 'a' || key == 'A') {
+  // either lowercase or uppercase 'a'
+}
+```
+
+
+# Study for Quiz #4 on Thursday!
+
+There is a study guide in URCourses. Be sure to bring a pen or pencil!
+
+
+
+
+## Code along with me! {.center}
+
+![or take notes if you prefer](https://img.tpt.cloud/nextavenue/uploads/2021/09/bobrossestate-01.inside.1280x720.jpg)
+
+
+
+## Exit Ticket
+
+Complete today's demo remix <!--TODO--> assignment in URCourses. 
+
+Be sure to submit your link before class is over! 
+
+
