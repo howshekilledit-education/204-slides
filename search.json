@@ -217,6 +217,27 @@
     "text": "Exit Ticket\nComplete today’s demo remix  assignment in URCourses.\nBe sure to submit your link before class is over!"
   },
   {
+    "objectID": "welcome/index.html#introductions",
+    "href": "welcome/index.html#introductions",
+    "title": "Welcome to 204",
+    "section": "Introductions",
+    "text": "Introductions\nLet’s go around and introduce ourselves.\n\nYour name\nYour pronouns (if you want)\nTalk a little bit about why you chose your piece of media\nYour name again"
+  },
+  {
+    "objectID": "welcome/index.html#cartesian-coordinates",
+    "href": "welcome/index.html#cartesian-coordinates",
+    "title": "Welcome to 204",
+    "section": "Cartesian Coordinates",
+    "text": "Cartesian Coordinates\n\n\n\n\nMost graphical software uses a Cartesian coordinate system to define where things are on the screen."
+  },
+  {
+    "objectID": "welcome/index.html#next-class",
+    "href": "welcome/index.html#next-class",
+    "title": "Welcome to 204",
+    "section": "Next class",
+    "text": "Next class\n\nNext class, we will have a syllabus quiz (you may reference the syllabus). This will be the last quiz where you can look at outside resources. After that, all quizzes will be closed book.\n\nMake sure you bring a pen or pencil! (Note that you should bring a notebook and pen/pencil to every class.)"
+  },
+  {
     "objectID": "color/index.html#how-to-complete-quiz",
     "href": "color/index.html#how-to-complete-quiz",
     "title": "Color",
@@ -252,25 +273,88 @@
     "text": "Hexadecimal Color Encoding\nHexadecimal is another way of encoding RGB colors, and p5 can understand it.\n\nYou can learn more about hexadecimal at W3 Schools\nAdobe Color allows you to explore color palettes and encode them in different formats."
   },
   {
-    "objectID": "welcome/index.html#introductions",
-    "href": "welcome/index.html#introductions",
-    "title": "Welcome to 204",
-    "section": "Introductions",
-    "text": "Introductions\nLet’s go around and introduce ourselves.\n\nYour name\nYour pronouns (if you want)\nTalk a little bit about why you chose your piece of media\nYour name again"
+    "objectID": "conditionals/index.html#project-discussions",
+    "href": "conditionals/index.html#project-discussions",
+    "title": "Conditionals",
+    "section": "Project Discussions",
+    "text": "Project Discussions\nGet in a group with your table. Take turns reading your Math + Language project proposal out loud to each other. Give brief, respectful feedback on:\n\nHow the project incoporates math\nHow the project incorporates language\nWhat p5.js features you might use to achieve your goal"
   },
   {
-    "objectID": "welcome/index.html#cartesian-coordinates",
-    "href": "welcome/index.html#cartesian-coordinates",
-    "title": "Welcome to 204",
-    "section": "Cartesian Coordinates",
-    "text": "Cartesian Coordinates\n\n\n\n\nMost graphical software uses a Cartesian coordinate system to define where things are on the screen."
+    "objectID": "conditionals/index.html#what-are-conditionals",
+    "href": "conditionals/index.html#what-are-conditionals",
+    "title": "Conditionals",
+    "section": "What are Conditionals?",
+    "text": "What are Conditionals?\nConditional statements allow your program to make decisions based on certain conditions. They use boolean expressions that evaluate to either true or false.\nThink of it like: “IF this condition is true, THEN do this action.”"
   },
   {
-    "objectID": "welcome/index.html#next-class",
-    "href": "welcome/index.html#next-class",
-    "title": "Welcome to 204",
-    "section": "Next class",
-    "text": "Next class\n\nNext class, we will have a syllabus quiz (you may reference the syllabus). This will be the last quiz where you can look at outside resources. After that, all quizzes will be closed book.\n\nMake sure you bring a pen or pencil! (Note that you should bring a notebook and pen/pencil to every class.)"
+    "objectID": "conditionals/index.html#boolean-expressions",
+    "href": "conditionals/index.html#boolean-expressions",
+    "title": "Conditionals",
+    "section": "Boolean Expressions",
+    "text": "Boolean Expressions\nBoolean expressions compare values and return either true or false:\nlet x = 50;\n\nx &gt; 25     // true\nx &lt; 10     // false\nx == 50    // true (equal to)\nx != 30    // true (not equal to)"
+  },
+  {
+    "objectID": "conditionals/index.html#the-if-statement",
+    "href": "conditionals/index.html#the-if-statement",
+    "title": "Conditionals",
+    "section": "The IF Statement",
+    "text": "The IF Statement\nThe basic structure of a conditional statement:\nif (condition) {\n  // code to run if condition is true\n}"
+  },
+  {
+    "objectID": "conditionals/index.html#if-statement-example",
+    "href": "conditionals/index.html#if-statement-example",
+    "title": "Conditionals",
+    "section": "IF Statement Example",
+    "text": "IF Statement Example\nfunction draw() {\n  fill(0);  // default black fill\n  background(220);\n\n  // if cursor is on right half of canvas \n  if (mouseX &gt; width/2) {\n    fill(255, 0, 0);  // red fill\n  }\n  \n  circle(mouseX, mouseY, 50);\n}\nThe circle turns red when the mouse is on the right half of the canvas. See it live!"
+  },
+  {
+    "objectID": "conditionals/index.html#comparison-operators",
+    "href": "conditionals/index.html#comparison-operators",
+    "title": "Conditionals",
+    "section": "Comparison Operators",
+    "text": "Comparison Operators\n\n&gt; greater than\n&lt; less than\n\n&gt;= greater than or equal to\n&lt;= less than or equal to\n== equal to\n!= not equal to"
+  },
+  {
+    "objectID": "conditionals/index.html#the-else-statement",
+    "href": "conditionals/index.html#the-else-statement",
+    "title": "Conditionals",
+    "section": "The ELSE Statement",
+    "text": "The ELSE Statement\nUse else when you want to do something when the condition is false:\nif (mouseX &gt; width/2) {\n  fill(255, 0, 0);    // red on right side\n} else {\n  fill(0, 0, 255);    // blue on left side\n}\nSee it live!"
+  },
+  {
+    "objectID": "conditionals/index.html#multiple-conditions-with-else-if",
+    "href": "conditionals/index.html#multiple-conditions-with-else-if",
+    "title": "Conditionals",
+    "section": "Multiple Conditions with ELSE IF",
+    "text": "Multiple Conditions with ELSE IF\nUse else if to check multiple conditions in sequence:\nif (mouseX &lt; width/3) {\n  fill(255, 0, 0);        // red - left third\n} else if (mouseX &lt; 2*width/3) {\n  fill(0, 255, 0);        // green - middle third  \n} else {\n  fill(0, 0, 255);        // blue - right third\n}\nSee it live!"
+  },
+  {
+    "objectID": "conditionals/index.html#complex-example",
+    "href": "conditionals/index.html#complex-example",
+    "title": "Conditionals",
+    "section": "Complex Example",
+    "text": "Complex Example\n\nif (mouseX &gt; width/2 && mouseY &gt; height/2) {\n   fill(255, 0, 0);      // red - bottom right\n} else if (mouseX &gt; width/2) {\n   fill(0, 255, 0);      // green - top right\n} else if (mouseY &gt; height/2) {\n   fill(0, 0, 255);      // blue - bottom left\n} else {\n   fill(255, 255, 0);    // yellow - top left\n}\nThe && operator means “AND” - both conditions must be true."
+  },
+  {
+    "objectID": "conditionals/index.html#logical-operators",
+    "href": "conditionals/index.html#logical-operators",
+    "title": "Conditionals",
+    "section": "Logical Operators",
+    "text": "Logical Operators\n\n\n\nSymbol\nName\nDescription\n\n\n\n\n&&\nAND\nBoth conditions must be true\n\n\n||\nOR\nAt least one condition must be true\n\n\n!\nNOT\nReverses the boolean value"
+  },
+  {
+    "objectID": "conditionals/index.html#code-along-with-me",
+    "href": "conditionals/index.html#code-along-with-me",
+    "title": "Conditionals",
+    "section": "Code along with me!",
+    "text": "Code along with me!\n\nor take notes if you prefer"
+  },
+  {
+    "objectID": "conditionals/index.html#exit-ticket",
+    "href": "conditionals/index.html#exit-ticket",
+    "title": "Conditionals",
+    "section": "Exit Ticket",
+    "text": "Exit Ticket\nComplete today’s demo remix  assignment in URCourses.\nBe sure to submit your link before class is over!"
   },
   {
     "objectID": "getting-started/index.html#entrance-ticket",
