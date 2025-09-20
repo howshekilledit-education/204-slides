@@ -1,0 +1,148 @@
+
+---
+title: "Intentionally Random"
+format:
+  revealjs:
+    theme: dark
+    css: ../bl.css
+    header-includes: |
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+
+mainfont: 'Josefin Sans'
+---
+
+# The quiz will start at 10:05! You may study until then.
+
+## How to Complete Quiz {.smaller}
+
+::: {.column width="30%"}
+
+![](https://brownbagteacher.com/wp-content/uploads/2020/02/BubbledScantron-1024x770.png)
+
+:::
+
+::: {.column width="70%"}
+
+* If your computer is on, put it to sleep by clicking the apple in the top left, then "Sleep"
+* Write your first and last name
+* Write today's date, Sept. 18
+* Use black/blue pen or pencil
+* Only use the left column
+* Fill in the correct bubble completely
+* You have twenty minutes.
+
+:::
+
+
+## Play with randomness!
+
+Go to **In-Class Assignments>Random Shapes**, and respond to BOTH forum prompts with screenshots:
+
+  * Part 1: Try to create a random composition
+  * Part 2: Let the computer create a random composition
+
+## Questions to Consider 
+
+  * How does randomness reflect our world? 
+  * How can randomness enhance a design?
+  * How can you control randomness for design that is both intentional and suprising?
+
+
+
+---
+
+
+{{<video images/pseudo-random.mov >}}
+
+::: {.caption}
+Pseudorandomness vs True Randomness
+:::
+
+
+# People all over the world use randomness to predict the future.
+
+# This has been true for many centuries.
+
+---
+
+![Tea Divination illustration, 1842, London](images/tea-fortune-telling.jpg)
+
+---
+
+![Tasseography Instructions](images/tea-symbols.jpg)
+
+---
+
+![Ifa Divination Board, West Africa, pseudorandom number generating technique](images/ogunnaike-4.jpg)
+
+---
+
+![Ifa Divination Instructions](images/ifa-board.webp)
+
+---
+
+![Many contemporary predictive models include a pseudorandom element](images/winter-weather-temperature-forecast-february-2025-anomaly-united-states-canada-end-month-prediction.png)
+
+## How does human intention guide each of these examples? {.vert} 
+
+# Dada 
+
+# [Duchamp]{.stlth_hd}
+![Marcel Duchamp, *Fountain*, 1917](images/fountain.jpg)
+
+
+---
+
+:::: {.columns}
+::: {.column width = "35%"}
+![](images/arp1.jpg)
+:::
+::: {.column width = "65%"}
+<blockquote>While chance was undoubtedly the point of departure for this and other works in the series According to the Laws of Chance, the relatively ordered appearance of Arp’s collages suggest he did not fully relinquish control.
+</blockquote>
+source: [moma.org](https://www.moma.org/collection/works/37013)
+
+:::
+::::
+[Jean (Hans) Arp, *Untitled (Collage with Squares Arranged according to the Law of Chance)*, 1916–17]{style="font-size:0.5em"}
+
+---
+
+![Jean (Hans) Arp, *Untitled (Collage with Squares Arranged according to the Law of Chance)*, 1917](images/arp2.jpg)
+
+
+# [Arp Demo](https://editor.p5js.org/howshekilledit/sketches/EvSj_k147)
+
+::: {.notes}
+
+Slowly limit randomness
+
+- color
+- size
+- position (overlap)
+- position (edges)
+Conclusion
+
+- injecting intention
+- if we let computer take control, limits the aesthetic possibilities
+:::
+
+## Math + Language Brainstorm {.smaller}
+
+In your first project, you will: 
+
+* use coding concepts from Week 1-4
+* use both math and language visually/conceptually. This prompt is open, as long as you can explain how you are using both.
+
+The professor will set a timer. In your notebook, write and draw about a potential math + language project. Keep your pen moving the whole time. (You may also use a tablet)
+
+## Exit Ticket
+
+Turn in an image of your brainstorm in URCourses: **In-Class Assignments > Math + Language Brainstorm**
+
+
+
+
