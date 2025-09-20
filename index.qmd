@@ -2,6 +2,7 @@
 
 ## Lecture Slides
 
+* [Sept 18: Intentionally Random](/intentionally-random)
 * [Sept 16: Numerical Operatons](/numbers)
 * [Sept 11: Color Theory and Coding](/color) 
 * [Sept 9: Variables and Conventions](/variables-conventions)

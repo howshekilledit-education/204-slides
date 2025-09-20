@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "intentionally-random/index.html#how-to-complete-quiz",
+    "href": "intentionally-random/index.html#how-to-complete-quiz",
+    "title": "Intentionally Random",
+    "section": "How to Complete Quiz",
+    "text": "How to Complete Quiz\n\n\n\n\nIf your computer is on, put it to sleep by clicking the apple in the top left, then “Sleep”\nWrite your first and last name\nWrite today’s date, Sept. 18\nUse black/blue pen or pencil\nOnly use the left column\nFill in the correct bubble completely\nYou have twenty minutes."
+  },
+  {
+    "objectID": "intentionally-random/index.html#play-with-randomness",
+    "href": "intentionally-random/index.html#play-with-randomness",
+    "title": "Intentionally Random",
+    "section": "Play with randomness!",
+    "text": "Play with randomness!\nGo to In-Class Assignments&gt;Random Shapes, and respond to BOTH forum prompts with screenshots:\n\nPart 1: Try to create a random composition\nPart 2: Let the computer create a random composition"
+  },
+  {
+    "objectID": "intentionally-random/index.html#questions-to-consider",
+    "href": "intentionally-random/index.html#questions-to-consider",
+    "title": "Intentionally Random",
+    "section": "Questions to Consider",
+    "text": "Questions to Consider\n\nHow does randomness reflect our world?\nHow can randomness enhance a design?\nHow can you control randomness for design that is both intentional and suprising?"
+  },
+  {
+    "objectID": "intentionally-random/index.html#how-does-human-intention-guide-each-of-these-examples",
+    "href": "intentionally-random/index.html#how-does-human-intention-guide-each-of-these-examples",
+    "title": "Intentionally Random",
+    "section": "How does human intention guide each of these examples?",
+    "text": "How does human intention guide each of these examples?"
+  },
+  {
+    "objectID": "intentionally-random/index.html#math-language-brainstorm",
+    "href": "intentionally-random/index.html#math-language-brainstorm",
+    "title": "Intentionally Random",
+    "section": "Math + Language Brainstorm",
+    "text": "Math + Language Brainstorm\nIn your first project, you will:\n\nuse coding concepts from Week 1-4\nuse both math and language visually/conceptually. This prompt is open, as long as you can explain how you are using both.\n\nThe professor will set a timer. In your notebook, write and draw about a potential math + language project. Keep your pen moving the whole time. (You may also use a tablet)"
+  },
+  {
+    "objectID": "intentionally-random/index.html#exit-ticket",
+    "href": "intentionally-random/index.html#exit-ticket",
+    "title": "Intentionally Random",
+    "section": "Exit Ticket",
+    "text": "Exit Ticket\nTurn in an image of your brainstorm in URCourses: In-Class Assignments &gt; Math + Language Brainstorm"
+  },
+  {
+    "objectID": "conditionals/index.html#project-discussions",
+    "href": "conditionals/index.html#project-discussions",
+    "title": "Conditionals",
+    "section": "Project Discussions",
+    "text": "Project Discussions\nGet in a group with your table. Take turns reading your Math + Language project proposal out loud to each other. Give brief, respectful feedback on:\n\nHow the project incoporates math\nHow the project incorporates language\nWhat p5.js features you might use to achieve your goal"
+  },
+  {
+    "objectID": "conditionals/index.html#what-are-conditionals",
+    "href": "conditionals/index.html#what-are-conditionals",
+    "title": "Conditionals",
+    "section": "What are Conditionals?",
+    "text": "What are Conditionals?\nConditional statements allow your program to make decisions based on certain conditions. They use boolean expressions that evaluate to either true or false.\nThink of it like: “IF this condition is true, THEN do this action.”"
+  },
+  {
+    "objectID": "conditionals/index.html#boolean-expressions",
+    "href": "conditionals/index.html#boolean-expressions",
+    "title": "Conditionals",
+    "section": "Boolean Expressions",
+    "text": "Boolean Expressions\nBoolean expressions compare values and return either true or false:\nlet x = 50;\n\nx &gt; 25     // true\nx &lt; 10     // false\nx == 50    // true (equal to)\nx != 30    // true (not equal to)"
+  },
+  {
+    "objectID": "conditionals/index.html#the-if-statement",
+    "href": "conditionals/index.html#the-if-statement",
+    "title": "Conditionals",
+    "section": "The IF Statement",
+    "text": "The IF Statement\nThe basic structure of a conditional statement:\nif (condition) {\n  // code to run if condition is true\n}"
+  },
+  {
+    "objectID": "conditionals/index.html#if-statement-example",
+    "href": "conditionals/index.html#if-statement-example",
+    "title": "Conditionals",
+    "section": "IF Statement Example",
+    "text": "IF Statement Example\nfunction draw() {\n  fill(0);  // default black fill\n  background(220);\n\n  // if cursor is on right half of canvas \n  if (mouseX &gt; width/2) {\n    fill(255, 0, 0);  // red fill\n  }\n  \n  circle(mouseX, mouseY, 50);\n}\nThe circle turns red when the mouse is on the right half of the canvas. See it live!"
+  },
+  {
+    "objectID": "conditionals/index.html#comparison-operators",
+    "href": "conditionals/index.html#comparison-operators",
+    "title": "Conditionals",
+    "section": "Comparison Operators",
+    "text": "Comparison Operators\n\n&gt; greater than\n&lt; less than\n\n&gt;= greater than or equal to\n&lt;= less than or equal to\n== equal to\n!= not equal to"
+  },
+  {
+    "objectID": "conditionals/index.html#the-else-statement",
+    "href": "conditionals/index.html#the-else-statement",
+    "title": "Conditionals",
+    "section": "The ELSE Statement",
+    "text": "The ELSE Statement\nUse else when you want to do something when the condition is false:\nif (mouseX &gt; width/2) {\n  fill(255, 0, 0);    // red on right side\n} else {\n  fill(0, 0, 255);    // blue on left side\n}\nSee it live!"
+  },
+  {
+    "objectID": "conditionals/index.html#multiple-conditions-with-else-if",
+    "href": "conditionals/index.html#multiple-conditions-with-else-if",
+    "title": "Conditionals",
+    "section": "Multiple Conditions with ELSE IF",
+    "text": "Multiple Conditions with ELSE IF\nUse else if to check multiple conditions in sequence:\nif (mouseX &lt; width/3) {\n  fill(255, 0, 0);        // red - left third\n} else if (mouseX &lt; 2*width/3) {\n  fill(0, 255, 0);        // green - middle third  \n} else {\n  fill(0, 0, 255);        // blue - right third\n}\nSee it live!"
+  },
+  {
+    "objectID": "conditionals/index.html#complex-example",
+    "href": "conditionals/index.html#complex-example",
+    "title": "Conditionals",
+    "section": "Complex Example",
+    "text": "Complex Example\n\nif (mouseX &gt; width/2 && mouseY &gt; height/2) {\n   fill(255, 0, 0);      // red - bottom right\n} else if (mouseX &gt; width/2) {\n   fill(0, 255, 0);      // green - top right\n} else if (mouseY &gt; height/2) {\n   fill(0, 0, 255);      // blue - bottom left\n} else {\n   fill(255, 255, 0);    // yellow - top left\n}\nThe && operator means “AND” - both conditions must be true."
+  },
+  {
+    "objectID": "conditionals/index.html#logical-operators",
+    "href": "conditionals/index.html#logical-operators",
+    "title": "Conditionals",
+    "section": "Logical Operators",
+    "text": "Logical Operators\n\n\n\nSymbol\nName\nDescription\n\n\n\n\n&&\nAND\nBoth conditions must be true\n\n\n||\nOR\nAt least one condition must be true\n\n\n!\nNOT\nReverses the boolean value"
+  },
+  {
+    "objectID": "conditionals/index.html#code-along-with-me",
+    "href": "conditionals/index.html#code-along-with-me",
+    "title": "Conditionals",
+    "section": "Code along with me!",
+    "text": "Code along with me!\n\nor take notes if you prefer"
+  },
+  {
+    "objectID": "conditionals/index.html#exit-ticket",
+    "href": "conditionals/index.html#exit-ticket",
+    "title": "Conditionals",
+    "section": "Exit Ticket",
+    "text": "Exit Ticket\nComplete today’s demo remix  assignment in URCourses.\nBe sure to submit your link before class is over!"
+  }
+]
