@@ -9,7 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.40">
 
-  <title>CTCH 204 | Intro to Creative Coding – Conditionals</title>
+  <title>CTCH 204 | Intro to Creative Coding – Boolean Variables</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -195,173 +195,102 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Conditionals</h1>
+  <h1 class="title">Boolean Variables</h1>
 
 <div class="quarto-title-authors">
 </div>
 
 </section>
-<section id="project-discussions" class="slide level2 smaller">
-<h2>Project Discussions</h2>
-<p>Get in a group with your table. Take turns reading your Math + Language project proposal out loud to each other. Give brief, respectful feedback on:</p>
+<section id="entrance-ticket" class="slide level2 smaller">
+<h2>Entrance Ticket</h2>
 <ul>
-<li>How the project incoporates math</li>
-<li>How the project incorporates language</li>
-<li>What p5.js features you might use to achieve your goal</li>
+<li>Look through your classmates’ links in today’s code forum response <!--TODO--> in UR Courses.</li>
+<li>There are a lot of the posts, so let’s split them up. If you are at the front of the room, look at posts at top; middle, middle; back, bottom.</li>
+<li>Look for a place in a classmate’s sketch defined a variable with <code>let</code> OR used <code>mouseX</code>/<code>mouseY</code>. Copy this section of code.</li>
+<li>Reply to the post with the line/block of code copied above, and a sentence describing what the code is doing</li>
+<li><strong>Make sure you reply to at least on post by 10:10</strong></li>
 </ul>
 </section>
-<section id="review-of-last-weeks-quiz" class="title-slide slide level1 center">
-<h1>Review of Last Week’s Quiz</h1>
+<section id="experience-levels-in-this-class-vary" class="slide level2">
+<h2>Experience levels in this class vary!</h2>
+<p>Some students in this class have ten years of coding experience. Others have none!</p>
+<p>Try not to judge yourself by what other students can do. It’s not a fair race if some started earlier than others.</p>
+</section>
+<section id="review-last-weeks-quiz" class="title-slide slide level1 center">
+<h1>Review Last Week’s Quiz</h1>
 
 </section>
 
 <section>
-<section id="conditional-statements" class="title-slide slide level1 center">
-<h1>Conditional Statements</h1>
-<p>Making decisions in code</p>
+<section id="boolean-variables" class="title-slide slide level1 center">
+<h1>Boolean Variables</h1>
+
 </section>
-<section id="what-are-conditionals" class="slide level2">
-<h2>What are Conditionals?</h2>
-<p>Conditional statements allow your program to make decisions based on certain conditions. They use <strong>boolean expressions</strong> that evaluate to either <code>true</code> or <code>false</code>.</p>
-<p>Think of it like: “IF this condition is true, THEN do this action.”</p>
-</section>
-<section id="boolean-expressions" class="slide level2">
-<h2>Boolean Expressions</h2>
-<p>Boolean expressions compare values and return either <code>true</code> or <code>false</code>:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> x <span class="op">=</span> <span class="dv">50</span><span class="op">;</span></span>
-<span id="cb1-2"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a aria-hidden="true" tabindex="-1"></a>x <span class="op">&gt;</span> <span class="dv">25</span>     <span class="co">// true</span></span>
-<span id="cb1-4"><a aria-hidden="true" tabindex="-1"></a>x <span class="op">&lt;</span> <span class="dv">10</span>     <span class="co">// false</span></span>
-<span id="cb1-5"><a aria-hidden="true" tabindex="-1"></a>x <span class="op">==</span> <span class="dv">50</span>    <span class="co">// true (equal to)</span></span>
-<span id="cb1-6"><a aria-hidden="true" tabindex="-1"></a>x <span class="op">!=</span> <span class="dv">30</span>    <span class="co">// true (not equal to)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="the-if-statement" class="slide level2">
-<h2>The IF Statement</h2>
-<p>The basic structure of a conditional statement:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb2-1"><a aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (condition) {</span>
-<span id="cb2-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// code to run if condition is true</span></span>
-<span id="cb2-3"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="if-statement-example" class="slide level2">
-<h2>IF Statement Example</h2>
-<div class="sourceCode" id="cb3"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb3-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">draw</span>() {</span>
-<span id="cb3-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">fill</span>(<span class="dv">0</span>)<span class="op">;</span>  <span class="co">// default black fill</span></span>
-<span id="cb3-3"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">background</span>(<span class="dv">220</span>)<span class="op">;</span></span>
-<span id="cb3-4"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-5"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// if cursor is on right half of canvas </span></span>
-<span id="cb3-6"><a aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (mouseX <span class="op">&gt;</span> width<span class="op">/</span><span class="dv">2</span>) {</span>
-<span id="cb3-7"><a aria-hidden="true" tabindex="-1"></a>    <span class="fu">fill</span>(<span class="dv">255</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span>)<span class="op">;</span>  <span class="co">// red fill</span></span>
-<span id="cb3-8"><a aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb3-9"><a aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb3-10"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">circle</span>(mouseX<span class="op">,</span> mouseY<span class="op">,</span> <span class="dv">50</span>)<span class="op">;</span></span>
-<span id="cb3-11"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>The circle turns red when the mouse is on the right half of the canvas. <a href="https://editor.p5js.org/codingtrain/sketches/BylXH2e9m">See it live!</a></p>
-</section>
-<section id="comparison-operators" class="slide level2">
-<h2>Comparison Operators</h2>
+<section id="what-are-boolean-variables" class="slide level2">
+<h2>What are Boolean Variables?</h2>
+<p>Boolean variables can only hold two values:</p>
 <ul>
-<li><code>&gt;</code> greater than</li>
-<li><code>&lt;</code> less than<br>
-</li>
-<li><code>&gt;=</code> greater than or equal to</li>
-<li><code>&lt;=</code> less than or equal to</li>
-<li><code>==</code> equal to</li>
-<li><code>!=</code> not equal to</li>
+<li><code>true</code></li>
+<li><code>false</code></li>
 </ul>
+<p>They’re perfect for tracking states like on/off, pressed/not pressed, or visible/hidden.</p>
 </section>
-<section class="slide level2">
-
-
-<img data-src="https://cdn.hswstatic.com/gif/shutterstock-2077921246.jpg" class="r-stretch quarto-figure-center"><p class="caption">Small eats big</p></section></section>
-<section id="the-bouncing-ball" class="title-slide slide level1 center">
-<h1>The Bouncing Ball</h1>
-<p>Let’s keep working on <a href="https://editor.p5js.org/codingtrain/sketches/Xm4cmQvU">Daniel Shiffman’s code</a>!</p>
+<section id="built-in-boolean-mouseispressed" class="slide level2">
+<h2>Built-in Boolean: mouseIsPressed</h2>
+<p>P5.js provides <code>mouseIsPressed</code> - a boolean that tracks if the mouse is currently being held down.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">draw</span>() {</span>
+<span id="cb1-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (mouseIsPressed) {</span>
+<span id="cb1-3"><a aria-hidden="true" tabindex="-1"></a>    <span class="fu">background</span>(<span class="dv">255</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span>)<span class="op">;</span> <span class="co">// red when pressed</span></span>
+<span id="cb1-4"><a aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
+<span id="cb1-5"><a aria-hidden="true" tabindex="-1"></a>    <span class="fu">background</span>(<span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">255</span>)<span class="op">;</span> <span class="co">// blue when not pressed</span></span>
+<span id="cb1-6"><a aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb1-7"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-
-<section>
-<section id="else-and-else-if" class="title-slide slide level1 center">
-<h1>Else and Else If</h1>
-<p>Handling multiple conditions</p>
+<section id="creating-your-own-boolean-variables" class="slide level2">
+<h2>Creating Your Own Boolean Variables</h2>
+<p>You can create your own boolean variables to track any state:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb2-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> buttonPressed <span class="op">=</span> <span class="kw">false</span><span class="op">;</span></span>
+<span id="cb2-2"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> lightOn <span class="op">=</span> <span class="kw">true</span><span class="op">;</span></span>
+<span id="cb2-3"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> gameOver <span class="op">=</span> <span class="kw">false</span><span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="the-else-statement" class="slide level2">
-<h2>The ELSE Statement</h2>
-<p>Use <code>else</code> when you want to do something when the condition is <code>false</code>:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb4-1"><a aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (mouseX <span class="op">&gt;</span> width<span class="op">/</span><span class="dv">2</span>) {</span>
-<span id="cb4-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">fill</span>(<span class="dv">255</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span>)<span class="op">;</span>    <span class="co">// red on right side</span></span>
-<span id="cb4-3"><a aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
-<span id="cb4-4"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">fill</span>(<span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">255</span>)<span class="op">;</span>    <span class="co">// blue on left side</span></span>
-<span id="cb4-5"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><a href="https://editor.p5js.org/howshekilledit/sketches/7UpypSUXC">See it live!</a></p>
+<section id="toggling-boolean-states" class="slide level2">
+<h2>Toggling Boolean States</h2>
+<p>Use <code>mousePressed()</code> to toggle your boolean variable:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb3-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">mousePressed</span>() {</span>
+<span id="cb3-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// Toggle the boolean value</span></span>
+<span id="cb3-3"><a aria-hidden="true" tabindex="-1"></a>  buttonPressed <span class="op">=</span> <span class="op">!</span>buttonPressed<span class="op">;</span></span>
+<span id="cb3-4"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>The <code>!</code> operator flips the boolean value: - <code>!true</code> becomes <code>false</code> - <code>!false</code> becomes <code>true</code></p>
 </section>
-<section id="multiple-conditions-with-else-if" class="slide level2">
-<h2>Multiple Conditions with ELSE IF</h2>
-<p>Use <code>else if</code> to check multiple conditions in sequence:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb5-1"><a aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (mouseX <span class="op">&lt;</span> width<span class="op">/</span><span class="dv">3</span>) {</span>
-<span id="cb5-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">fill</span>(<span class="dv">255</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span>)<span class="op">;</span>        <span class="co">// red - left third</span></span>
-<span id="cb5-3"><a aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> <span class="cf">if</span> (mouseX <span class="op">&lt;</span> <span class="dv">2</span><span class="op">*</span>width<span class="op">/</span><span class="dv">3</span>) {</span>
-<span id="cb5-4"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">fill</span>(<span class="dv">0</span><span class="op">,</span> <span class="dv">255</span><span class="op">,</span> <span class="dv">0</span>)<span class="op">;</span>        <span class="co">// green - middle third  </span></span>
-<span id="cb5-5"><a aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
-<span id="cb5-6"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">fill</span>(<span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">255</span>)<span class="op">;</span>        <span class="co">// blue - right third</span></span>
-<span id="cb5-7"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><a href="https://editor.p5js.org/howshekilledit/sketches/8PUTPOVn8">See it live!</a></p>
-</section>
-<section id="complex-example" class="slide level2">
-<h2>Complex Example</h2>
-<div class="sourceCode" id="cb6"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb6-1"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-2"><a aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (mouseX <span class="op">&gt;</span> width<span class="op">/</span><span class="dv">2</span> <span class="op">&amp;&amp;</span> mouseY <span class="op">&gt;</span> height<span class="op">/</span><span class="dv">2</span>) {</span>
-<span id="cb6-3"><a aria-hidden="true" tabindex="-1"></a>   <span class="fu">fill</span>(<span class="dv">255</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span>)<span class="op">;</span>      <span class="co">// red - bottom right</span></span>
-<span id="cb6-4"><a aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> <span class="cf">if</span> (mouseX <span class="op">&gt;</span> width<span class="op">/</span><span class="dv">2</span>) {</span>
-<span id="cb6-5"><a aria-hidden="true" tabindex="-1"></a>   <span class="fu">fill</span>(<span class="dv">0</span><span class="op">,</span> <span class="dv">255</span><span class="op">,</span> <span class="dv">0</span>)<span class="op">;</span>      <span class="co">// green - top right</span></span>
-<span id="cb6-6"><a aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> <span class="cf">if</span> (mouseY <span class="op">&gt;</span> height<span class="op">/</span><span class="dv">2</span>) {</span>
-<span id="cb6-7"><a aria-hidden="true" tabindex="-1"></a>   <span class="fu">fill</span>(<span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">255</span>)<span class="op">;</span>      <span class="co">// blue - bottom left</span></span>
-<span id="cb6-8"><a aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
-<span id="cb6-9"><a aria-hidden="true" tabindex="-1"></a>   <span class="fu">fill</span>(<span class="dv">255</span><span class="op">,</span> <span class="dv">255</span><span class="op">,</span> <span class="dv">0</span>)<span class="op">;</span>    <span class="co">// yellow - top left</span></span>
-<span id="cb6-10"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>The <code>&amp;&amp;</code> operator means “AND” - both conditions must be true.</p>
-</section>
-<section id="logical-operators" class="slide level2">
-<h2>Logical Operators</h2>
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th>Symbol</th>
-<th>Name</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><code>&amp;&amp;</code></td>
-<td>AND</td>
-<td>Both conditions must be true</td>
-</tr>
-<tr class="even">
-<td><code>||</code></td>
-<td>OR</td>
-<td>At least one condition must be true</td>
-</tr>
-<tr class="odd">
-<td><code>!</code></td>
-<td>NOT</td>
-<td>Reverses the boolean value</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section class="slide level2">
-
-<div class="sourceCode" id="cb7"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb7-1"><a aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (mouseX <span class="op">&gt;</span> <span class="dv">100</span> <span class="op">&amp;&amp;</span> mouseX <span class="op">&lt;</span> <span class="dv">300</span>) {</span>
-<span id="cb7-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// mouse is between 100 and 300</span></span>
-<span id="cb7-3"><a aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb7-4"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-5"><a aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (key <span class="op">==</span> <span class="st">'a'</span> <span class="op">||</span> key <span class="op">==</span> <span class="st">'A'</span>) {</span>
-<span id="cb7-6"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// either lowercase or uppercase 'a'</span></span>
-<span id="cb7-7"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="boolean-logic-in-conditionals" class="slide level2">
+<h2>Boolean Logic in Conditionals</h2>
+<p>Booleans work perfectly with <code>if</code> statements:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb4-1"><a aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (gameStarted) {</span>
+<span id="cb4-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// run game code</span></span>
+<span id="cb4-3"><a aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-4"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="op">!</span>gameOver) {  <span class="co">// if NOT game over</span></span>
+<span id="cb4-6"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// continue playing</span></span>
+<span id="cb4-7"><a aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-8"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (playerAlive <span class="op">&amp;&amp;</span> hasAmmo) {  <span class="co">// AND logic</span></span>
+<span id="cb4-10"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// player can shoot</span></span>
+<span id="cb4-11"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section></section>
 <section>
-<section id="study-for-quiz-4-on-thursday" class="title-slide slide level1 center">
-<h1>Study for Quiz #4 on Thursday!</h1>
+<section id="study-for-quiz-5-on-thursday" class="title-slide slide level1 center">
+<h1>Study for Quiz #5 on Thursday! <!--TODO--></h1>
 <p>There is a study guide in URCourses. Be sure to bring a pen or pencil!</p>
+</section>
+<section id="whats-on-the-quiz-vs.-live-demos" class="slide level2">
+<h2>What’s on the Quiz vs.&nbsp;Live Demos</h2>
+<p>Slides and Coding Train tutorials will include the material you need to know for the next quiz.</p>
+<p>Demos will cover quiz material and may preview more advanced material.</p>
+</section></section>
+<section>
+<section id="in-confusion-lies-the-seeds-to-understanding" class="title-slide slide level1 center">
+<h1>In confusion lies the seeds to understanding!</h1>
+
 </section>
 <section id="code-along-with-me" class="slide level2 center">
 <h2>Code along with me!</h2>
@@ -369,7 +298,7 @@
 <img data-src="https://img.tpt.cloud/nextavenue/uploads/2021/09/bobrossestate-01.inside.1280x720.jpg" class="r-stretch quarto-figure-center"><p class="caption">or take notes if you prefer</p></section>
 <section id="exit-ticket" class="slide level2">
 <h2>Exit Ticket</h2>
-<p>Complete <strong>In-Class Assignments -&gt; Conditionals | Demo Remix</strong> in URCourses.</p>
+<p>Complete <strong>In-class Assignments -&gt; Boolean Variables | Demo Remix</strong> in UR Courses.</p>
 <p>Be sure to submit your link before class is over!</p>
 
 

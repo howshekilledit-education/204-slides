@@ -123,6 +123,90 @@
     "href": "conditionals/index.html#exit-ticket",
     "title": "Conditionals",
     "section": "Exit Ticket",
-    "text": "Exit Ticket\nComplete today’s demo remix  assignment in URCourses.\nBe sure to submit your link before class is over!"
+    "text": "Exit Ticket\nComplete In-Class Assignments -&gt; Conditionals | Demo Remix in URCourses.\nBe sure to submit your link before class is over!"
+  },
+  {
+    "objectID": "boolean/index.html#entrance-ticket",
+    "href": "boolean/index.html#entrance-ticket",
+    "title": "Boolean Variables",
+    "section": "Entrance Ticket",
+    "text": "Entrance Ticket\n\nLook through your classmates’ links in today’s code forum response  in UR Courses.\nThere are a lot of the posts, so let’s split them up. If you are at the front of the room, look at posts at top; middle, middle; back, bottom.\nLook for a place in a classmate’s sketch defined a variable with let OR used mouseX/mouseY. Copy this section of code.\nReply to the post with the line/block of code copied above, and a sentence describing what the code is doing\nMake sure you reply to at least on post by 10:10"
+  },
+  {
+    "objectID": "boolean/index.html#experience-levels-in-this-class-vary",
+    "href": "boolean/index.html#experience-levels-in-this-class-vary",
+    "title": "Boolean Variables",
+    "section": "Experience levels in this class vary!",
+    "text": "Experience levels in this class vary!\nSome students in this class have ten years of coding experience. Others have none!\nTry not to judge yourself by what other students can do. It’s not a fair race if some started earlier than others."
+  },
+  {
+    "objectID": "boolean/index.html#what-are-boolean-variables",
+    "href": "boolean/index.html#what-are-boolean-variables",
+    "title": "Boolean Variables",
+    "section": "What are Boolean Variables?",
+    "text": "What are Boolean Variables?\nBoolean variables can only hold two values:\n\ntrue\nfalse\n\nThey’re perfect for tracking states like on/off, pressed/not pressed, or visible/hidden."
+  },
+  {
+    "objectID": "boolean/index.html#built-in-boolean-mouseispressed",
+    "href": "boolean/index.html#built-in-boolean-mouseispressed",
+    "title": "Boolean Variables",
+    "section": "Built-in Boolean: mouseIsPressed",
+    "text": "Built-in Boolean: mouseIsPressed\nP5.js provides mouseIsPressed - a boolean that tracks if the mouse is currently being held down.\nfunction draw() {\n  if (mouseIsPressed) {\n    background(255, 0, 0); // red when pressed\n  } else {\n    background(0, 0, 255); // blue when not pressed\n  }\n}"
+  },
+  {
+    "objectID": "boolean/index.html#creating-your-own-boolean-variables",
+    "href": "boolean/index.html#creating-your-own-boolean-variables",
+    "title": "Boolean Variables",
+    "section": "Creating Your Own Boolean Variables",
+    "text": "Creating Your Own Boolean Variables\nYou can create your own boolean variables to track any state:\nlet buttonPressed = false;\nlet lightOn = true;\nlet gameOver = false;"
+  },
+  {
+    "objectID": "boolean/index.html#toggling-boolean-states",
+    "href": "boolean/index.html#toggling-boolean-states",
+    "title": "Boolean Variables",
+    "section": "Toggling Boolean States",
+    "text": "Toggling Boolean States\nUse mousePressed() to toggle your boolean variable:\nfunction mousePressed() {\n  // Toggle the boolean value\n  buttonPressed = !buttonPressed;\n}\nThe ! operator flips the boolean value: - !true becomes false - !false becomes true"
+  },
+  {
+    "objectID": "boolean/index.html#boolean-logic-in-conditionals",
+    "href": "boolean/index.html#boolean-logic-in-conditionals",
+    "title": "Boolean Variables",
+    "section": "Boolean Logic in Conditionals",
+    "text": "Boolean Logic in Conditionals\nBooleans work perfectly with if statements:\nif (gameStarted) {\n  // run game code\n}\n\nif (!gameOver) {  // if NOT game over\n  // continue playing\n}\n\nif (playerAlive && hasAmmo) {  // AND logic\n  // player can shoot\n}"
+  },
+  {
+    "objectID": "boolean/index.html#whats-on-the-quiz-vs.-live-demos",
+    "href": "boolean/index.html#whats-on-the-quiz-vs.-live-demos",
+    "title": "Boolean Variables",
+    "section": "What’s on the Quiz vs. Live Demos",
+    "text": "What’s on the Quiz vs. Live Demos\nSlides and Coding Train tutorials will include the material you need to know for the next quiz.\nDemos will cover quiz material and may preview more advanced material."
+  },
+  {
+    "objectID": "boolean/index.html#code-along-with-me",
+    "href": "boolean/index.html#code-along-with-me",
+    "title": "Boolean Variables",
+    "section": "Code along with me!",
+    "text": "Code along with me!\n\nor take notes if you prefer"
+  },
+  {
+    "objectID": "boolean/index.html#exit-ticket",
+    "href": "boolean/index.html#exit-ticket",
+    "title": "Boolean Variables",
+    "section": "Exit Ticket",
+    "text": "Exit Ticket\nComplete In-class Assignments -&gt; Boolean Variables | Demo Remix in UR Courses.\nBe sure to submit your link before class is over!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
+    "section": "",
+    "text": "Sept 18: Intentionally Random\nSept 16: Numerical Operatons\nSept 11: Color Theory and Coding\nSept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
+  },
+  {
+    "objectID": "index.html#lecture-slides",
+    "href": "index.html#lecture-slides",
+    "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
+    "section": "",
+    "text": "Sept 18: Intentionally Random\nSept 16: Numerical Operatons\nSept 11: Color Theory and Coding\nSept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
   }
 ]
