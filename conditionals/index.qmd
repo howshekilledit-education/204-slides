@@ -172,6 +172,13 @@ if (key == 'a' || key == 'A') {
 There is a study guide in URCourses. Be sure to bring a pen or pencil!
 
 
+## What's on the Quiz vs. Live Demos
+
+* Slides and Coding Train tutorials will include the material you need to know for the next quiz (unless otherwise stated).
+* Demos will cover quiz material and may preview more advanced material.
+
+# In confusion lies the seeds to understanding!
+
 
 
 ## Code along with me! {.center}
