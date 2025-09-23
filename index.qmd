@@ -2,6 +2,7 @@
 
 ## Lecture Slides
 
+* [Sept 23: Conditionals](/conditionals)
 * [Sept 18: Intentionally Random](/intentionally-random)
 * [Sept 16: Numerical Operatons](/numbers)
 * [Sept 11: Color Theory and Coding](/color) 
