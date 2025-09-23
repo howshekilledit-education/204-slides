@@ -200,14 +200,14 @@
     "href": "index.html",
     "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
     "section": "",
-    "text": "Sept 18: Intentionally Random\nSept 16: Numerical Operatons\nSept 11: Color Theory and Coding\nSept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
+    "text": "Sept 23: Conditionals\nSept 18: Intentionally Random\nSept 16: Numerical Operatons\nSept 11: Color Theory and Coding\nSept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
   },
   {
     "objectID": "index.html#lecture-slides",
     "href": "index.html#lecture-slides",
     "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
     "section": "",
-    "text": "Sept 18: Intentionally Random\nSept 16: Numerical Operatons\nSept 11: Color Theory and Coding\nSept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
+    "text": "Sept 23: Conditionals\nSept 18: Intentionally Random\nSept 16: Numerical Operatons\nSept 11: Color Theory and Coding\nSept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
   },
   {
     "objectID": "conditionals/index.html#whats-on-the-quiz-vs.-live-demos",
@@ -215,5 +215,26 @@
     "title": "Conditionals",
     "section": "What’s on the Quiz vs. Live Demos",
     "text": "What’s on the Quiz vs. Live Demos\n\nSlides and Coding Train tutorials will include the material you need to know for the next quiz (unless otherwise stated).\nDemos will cover quiz material and may preview more advanced material."
+  },
+  {
+    "objectID": "words/index.html#how-to-complete-quiz",
+    "href": "words/index.html#how-to-complete-quiz",
+    "title": "Text Art",
+    "section": "How to Complete Quiz",
+    "text": "How to Complete Quiz\n\n\n\n\nIf your computer is on, put it to sleep by clicking the apple in the top left, then “Sleep”\nWrite your first and last name\nWrite today’s date, Sept. 25\nUse black/blue pen or pencil\nOnly use the left column\nFill in the correct bubble completely\nYou have twenty minutes."
+  },
+  {
+    "objectID": "words/index.html#project-1-aesthetics-craftsmanship-criteria",
+    "href": "words/index.html#project-1-aesthetics-craftsmanship-criteria",
+    "title": "Text Art",
+    "section": "Project 1 | Aesthetics & Craftsmanship Criteria",
+    "text": "Project 1 | Aesthetics & Craftsmanship Criteria\n\nBalanced/intentional Composition\nPleasing/intentional Use of Value/Color and attributes like alpha channel, stroke, fill\nEffective/intentional use of animation/interaction"
+  },
+  {
+    "objectID": "words/index.html#project-1-aesthetics-craftsmanship-criteria-1",
+    "href": "words/index.html#project-1-aesthetics-craftsmanship-criteria-1",
+    "title": "Text Art",
+    "section": "Project 1 | Aesthetics & Craftsmanship Criteria",
+    "text": "Project 1 | Aesthetics & Craftsmanship Criteria\n\nBalanced/intentional Composition\nPleasing/intentional Use of Value/Color and attributes like alpha channel, stroke, fill\nEffective/intentional use of animation/interaction"
   }
 ]

@@ -1,0 +1,91 @@
+---
+title: "Text Art"
+format:
+  revealjs:
+    theme: 
+      - simple
+    css: ../bl.css
+    header-includes: |
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+code-line-numbers: false
+sansfont: "Josefin Sans"
+---
+
+# The quiz will start at 10:05! You may study until then. 
+
+
+## How to Complete Quiz {.smaller}
+
+::: {.column width="30%"}
+
+![](https://brownbagteacher.com/wp-content/uploads/2020/02/BubbledScantron-1024x770.png)
+
+:::
+
+::: {.column width="70%"}
+
+* If your computer is on, put it to sleep by clicking the apple in the top left, then "Sleep"
+* Write your first and last name
+* Write today's date, Sept. 25
+* Use black/blue pen or pencil
+* Only use the left column
+* Fill in the correct bubble completely
+* You have twenty minutes.
+
+:::
+
+# No Class September 30
+
+## Project 1 | Aesthetics & Craftsmanship Criteria
+
+* Balanced/intentional Composition
+* Pleasing/intentional Use of Value/Color and attributes like alpha channel, stroke, fill
+* Effective/intentional use of animation/interaction 
+
+
+---
+
+{{< video src = "https://www.youtube.com/watch?v=h5wdIAtO4pU" width = "720" height = "480" >}}
+[Pope.L, [*Trinket*](https://docs.google.com/presentation/d/1gUm02KLhaXayJYEv6tAhHzWTI_WKLW9fpS0jzK6INFo/edit?slide=id.p#slide=id.p), 2015]{.caption}
+
+---
+
+![Josef Albers, *The Interaction of Color*, 1963](https://art287.rarelyasked.com/wp-content/uploads/2022/02/coke.png)
+
+---
+
+{{< video src = "https://www.youtube.com/watch?v=IJ3WIZeBRZg" width = "720" height = "480" >}}
+[[Picturing Barbara Kruger | Art + Film, 2020](https://docs.google.com/presentation/d/1gUm02KLhaXayJYEv6tAhHzWTI_WKLW9fpS0jzK6INFo/edit?slide=id.g3826c9b412d_5_0#slide=id.g3826c9b412d_5_0)]{.caption}
+
+---
+
+{{< video src = "https://www.youtube.com/watch?v=8xi9qQb2SHU&t" width = "720" height = "480" >}}
+[Barbara Kruger, [*In Her Own Words*](https://docs.google.com/presentation/d/1gUm02KLhaXayJYEv6tAhHzWTI_WKLW9fpS0jzK6INFo/edit?slide=id.g3826c9b412d_0_1#slide=id.g3826c9b412d_0_1), 2016]{.caption}
+
+---
+
+{{< video src = "https://www.youtube.com/watch?v=eho6boLMUg0" width = "720" height = "480" >}}	
+[[Kenneth Goldsmith: Reads the Traffic Reports to Obama](https://docs.google.com/presentation/d/1gUm02KLhaXayJYEv6tAhHzWTI_WKLW9fpS0jzK6INFo/edit?slide=id.g3826c9b412d_0_7#slide=id.g3826c9b412d_0_7)]{.caption}
+
+---
+
+{{< video src = "https://www.youtube.com/watch?v=lkJ30NvXO4E" width = "720" height = "480" >}}
+[Tony Cokes, [*Collison/Coalition*](https://docs.google.com/presentation/d/1gUm02KLhaXayJYEv6tAhHzWTI_WKLW9fpS0jzK6INFo/edit?slide=id.g3826c9b412d_0_13#slide=id.g3826c9b412d_0_13), 2019]{.caption}
+
+
+## Project 1 | Aesthetics & Craftsmanship Criteria
+
+* Balanced/intentional Composition
+* Pleasing/intentional Use of Value/Color and attributes like alpha channel, stroke, fill
+* Effective/intentional use of animation/interaction 
+
+---
+
+![Agnes Denes, *Study of Distortions; Isometric Systems in Isotropic Space-Map Projections: The Cube*, 1978](https://assets.capsuleauctions.com/uploads/public/614/7a9/631/thumb_63268_800_0_0_0_auto.jpeg)
+
+# [Hamlet Fragmented? Wittgenstein's Pain?](https://editor.p5js.org/howshekilledit/sketches/nskIIcY_V)
+
+
+# No Class September 30
