@@ -413,6 +413,13 @@
     "text": "Logical Operators\n\n\n\nSymbol\nName\nDescription\n\n\n\n\n&&\nAND\nBoth conditions must be true\n\n\n||\nOR\nAt least one condition must be true\n\n\n!\nNOT\nReverses the boolean value"
   },
   {
+    "objectID": "conditionals/index.html#whats-on-the-quiz-vs.-live-demos",
+    "href": "conditionals/index.html#whats-on-the-quiz-vs.-live-demos",
+    "title": "Conditionals",
+    "section": "What’s on the Quiz vs. Live Demos",
+    "text": "What’s on the Quiz vs. Live Demos\n\nSlides and Coding Train tutorials will include the material you need to know for the next quiz (unless otherwise stated).\nDemos will cover quiz material and may preview more advanced material."
+  },
+  {
     "objectID": "conditionals/index.html#code-along-with-me",
     "href": "conditionals/index.html#code-along-with-me",
     "title": "Conditionals",
