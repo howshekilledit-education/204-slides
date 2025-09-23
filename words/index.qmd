@@ -40,8 +40,8 @@ sansfont: "Josefin Sans"
 
 ## Project 1 | Aesthetics & Craftsmanship Criteria
 
-* Balanced/intentional Composition
-* Pleasing/intentional Use of Value/Color and attributes like alpha channel, stroke, fill
+* Balanced/intentional composition
+* Pleasing/intentional use of value/color and attributes like alpha channel, stroke, fill
 * Effective/intentional use of animation/interaction 
 
 
