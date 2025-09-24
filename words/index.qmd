@@ -38,6 +38,10 @@ sansfont: "Josefin Sans"
 
 # No Class September 30
 
+## Quiz #5 October 2
+
+We will still have a quiz next Thursday. Find the study guide in URCourses!
+
 ## Project 1 | Aesthetics & Craftsmanship Criteria
 
 * Balanced/intentional composition
