@@ -1,157 +1,38 @@
 [
   {
-    "objectID": "words/index.html#how-to-complete-quiz",
-    "href": "words/index.html#how-to-complete-quiz",
-    "title": "Text Art",
+    "objectID": "color/index.html#how-to-complete-quiz",
+    "href": "color/index.html#how-to-complete-quiz",
+    "title": "Color",
     "section": "How to Complete Quiz",
-    "text": "How to Complete Quiz\n\n\n\n\nIf your computer is on, put it to sleep by clicking the apple in the top left, then “Sleep”\nWrite your first and last name\nWrite today’s date, Sept. 25\nUse black/blue pen or pencil\nOnly use the left column\nFill in the correct bubble completely\nYou have twenty minutes."
+    "text": "How to Complete Quiz\n\n\n\n\nIf your computer is on, put it to sleep by clicking the apple in the top left, then “Sleep”\nWrite your first and last name\nWrite today’s date, Sept. 11\nUse black/blue pen or pencil\nOnly use the left column\nFill in the correct bubble completely\nYou have twenty minutes."
   },
   {
-    "objectID": "words/index.html#quiz-5-october-2",
-    "href": "words/index.html#quiz-5-october-2",
-    "title": "Text Art",
-    "section": "Quiz #5 October 2",
-    "text": "Quiz #5 October 2\nWe will still have a quiz next Thursday. Find the study guide in URCourses!"
+    "objectID": "color/index.html#welcome-questions",
+    "href": "color/index.html#welcome-questions",
+    "title": "Color",
+    "section": "Welcome Questions",
+    "text": "Welcome Questions\n\nSay your name\nWhat is your favorite color?\nWhat is an example of something colored your favorite version of your favorite color?\nSay your name again!"
   },
   {
-    "objectID": "words/index.html#project-1-aesthetics-craftsmanship-criteria",
-    "href": "words/index.html#project-1-aesthetics-craftsmanship-criteria",
-    "title": "Text Art",
-    "section": "Project 1 | Aesthetics & Craftsmanship Criteria",
-    "text": "Project 1 | Aesthetics & Craftsmanship Criteria\n\nBalanced/intentional composition\nPleasing/intentional use of value/color and attributes like alpha channel, stroke, fill\nEffective/intentional use of animation/interaction"
+    "objectID": "color/index.html#variables-language",
+    "href": "color/index.html#variables-language",
+    "title": "Color",
+    "section": "Variables & Language",
+    "text": "Variables & Language\nA variable is a symbol/placeholder for a value that may change. Computer variables and natural language might not be as different as you’d think.\nDifferent words and symbols can have different meanings for different people. They may even change over time for an individual. In the same way, the value inside a variable can change."
   },
   {
-    "objectID": "words/index.html#project-1-aesthetics-craftsmanship-criteria-1",
-    "href": "words/index.html#project-1-aesthetics-craftsmanship-criteria-1",
-    "title": "Text Art",
-    "section": "Project 1 | Aesthetics & Craftsmanship Criteria",
-    "text": "Project 1 | Aesthetics & Craftsmanship Criteria\n\nBalanced/intentional Composition\nPleasing/intentional Use of Value/Color and attributes like alpha channel, stroke, fill\nEffective/intentional use of animation/interaction"
+    "objectID": "color/index.html#munsell-color-system",
+    "href": "color/index.html#munsell-color-system",
+    "title": "Color",
+    "section": "Munsell Color System",
+    "text": "Munsell Color System\nAnother way of conceptualizing/encoding color in terms of:\n\nColor/hue\nValue lightness or darkness\nChroma saturation intensity\n\nFind an interactive Munsell palette here"
   },
   {
-    "objectID": "variables-conventions/pool.html#what-well-learn-today",
-    "href": "variables-conventions/pool.html#what-well-learn-today",
-    "title": "P5.js Variables and Mouse Interaction",
-    "section": "What We’ll Learn Today",
-    "text": "What We’ll Learn Today\n\nBuilt-in mouse variables: mouseX, mouseY, mousePressed\nCreating and using custom variables\nThe three steps of working with variables\nMaking interactive animations\nGlobal vs local variables"
-  },
-  {
-    "objectID": "variables-conventions/pool.html#built-in-mouse-variables",
-    "href": "variables-conventions/pool.html#built-in-mouse-variables",
-    "title": "P5.js Variables and Mouse Interaction",
-    "section": "Built-in Mouse Variables",
-    "text": "Built-in Mouse Variables\nP5.js provides several built-in variables for mouse interaction:\n\nmouseX - Current horizontal position of mouse\nmouseY - Current vertical position of mouse\n\nmousePressed - Boolean: true when mouse button is pressed\n\nThese update automatically every frame!"
-  },
-  {
-    "objectID": "variables-conventions/pool.html#basic-mouse-tracking",
-    "href": "variables-conventions/pool.html#basic-mouse-tracking",
-    "title": "P5.js Variables and Mouse Interaction",
-    "section": "Basic Mouse Tracking",
-    "text": "Basic Mouse Tracking\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(220);\n  \n  // Circle follows mouse\n  fill(255, 100, 100);\n  circle(mouseX, mouseY, 50);\n  \n  // Display coordinates\n  fill(0);\n  text(`x: ${mouseX}, y: ${mouseY}`, 10, 20);\n}"
-  },
-  {
-    "objectID": "variables-conventions/pool.html#the-three-steps-of-variables",
-    "href": "variables-conventions/pool.html#the-three-steps-of-variables",
-    "title": "P5.js Variables and Mouse Interaction",
-    "section": "The Three Steps of Variables",
-    "text": "The Three Steps of Variables\n1. Declare - Tell the program the variable exists\n2. Initialize - Give it an initial value\n3. Use - Put it to work in your code"
-  },
-  {
-    "objectID": "variables-conventions/pool.html#step-1-declare",
-    "href": "variables-conventions/pool.html#step-1-declare",
-    "title": "P5.js Variables and Mouse Interaction",
-    "section": "Step 1: Declare",
-    "text": "Step 1: Declare\n// Declare variables (usually at the top)\nlet x;\nlet y;\nlet diameter;\nlet speed;\nThis creates the variables but they have no value yet (undefined)."
-  },
-  {
-    "objectID": "variables-conventions/pool.html#step-2-initialize",
-    "href": "variables-conventions/pool.html#step-2-initialize",
-    "title": "P5.js Variables and Mouse Interaction",
-    "section": "Step 2: Initialize",
-    "text": "Step 2: Initialize\nlet x;\nlet y;\nlet diameter;\n\nfunction setup() {\n  createCanvas(400, 400);\n  \n  // Initialize variables\n  x = 200;\n  y = 200;\n  diameter = 50;\n}\nNow our variables have starting values!"
-  },
-  {
-    "objectID": "variables-conventions/pool.html#step-3-use",
-    "href": "variables-conventions/pool.html#step-3-use",
-    "title": "P5.js Variables and Mouse Interaction",
-    "section": "Step 3: Use",
-    "text": "Step 3: Use\nfunction draw() {\n  background(220);\n  \n  // Use the variables\n  fill(255, 100, 150);\n  circle(x, y, diameter);\n}\nThe variables control the circle’s position and size."
-  },
-  {
-    "objectID": "variables-conventions/pool.html#combining-declaration-initialization",
-    "href": "variables-conventions/pool.html#combining-declaration-initialization",
-    "title": "P5.js Variables and Mouse Interaction",
-    "section": "Combining Declaration & Initialization",
-    "text": "Combining Declaration & Initialization\nYou can do both steps at once:\n// Combined approach\nlet x = 200;\nlet y = 200;\nlet diameter = 50;\n\nfunction setup() {\n  createCanvas(400, 400);\n}\nThis is more concise and often preferred."
-  },
-  {
-    "objectID": "variables-conventions/pool.html#global-variables",
-    "href": "variables-conventions/pool.html#global-variables",
-    "title": "P5.js Variables and Mouse Interaction",
-    "section": "Global Variables",
-    "text": "Global Variables\nVariables declared outside functions are global:\nlet x = 200;  // Global - accessible everywhere\nlet y = 200;  // Global - accessible everywhere\n\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  circle(x, y, 50);  // Can use x and y here\n}"
-  },
-  {
-    "objectID": "variables-conventions/pool.html#making-things-move",
-    "href": "variables-conventions/pool.html#making-things-move",
-    "title": "P5.js Variables and Mouse Interaction",
-    "section": "Making Things Move",
-    "text": "Making Things Move\nTo animate, we need to change variable values over time:\nlet x = 0;\n\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(220);\n  \n  circle(x, 200, 50);\n  x = x + 1;  // Move right each frame\n}"
-  },
-  {
-    "objectID": "variables-conventions/pool.html#interactive-movement",
-    "href": "variables-conventions/pool.html#interactive-movement",
-    "title": "P5.js Variables and Mouse Interaction",
-    "section": "Interactive Movement",
-    "text": "Interactive Movement\nCombine mouse variables with custom variables:\nlet x = 200;\nlet y = 200;\n\nfunction draw() {\n  background(220);\n  \n  // Move towards mouse position\n  x = x + (mouseX - x) * 0.05;\n  y = y + (mouseY - y) * 0.05;\n  \n  circle(x, y, 50);\n}"
-  },
-  {
-    "objectID": "variables-conventions/pool.html#growing-circle-example",
-    "href": "variables-conventions/pool.html#growing-circle-example",
-    "title": "P5.js Variables and Mouse Interaction",
-    "section": "Growing Circle Example",
-    "text": "Growing Circle Example\nlet diameter = 50;\n\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(220);\n  \n  // Grow when mouse pressed\n  if (mousePressed) {\n    diameter = diameter + 2;\n  }\n  \n  circle(mouseX, mouseY, diameter);\n}"
-  },
-  {
-    "objectID": "variables-conventions/pool.html#color-change-on-click",
-    "href": "variables-conventions/pool.html#color-change-on-click",
-    "title": "P5.js Variables and Mouse Interaction",
-    "section": "Color Change on Click",
-    "text": "Color Change on Click\nlet r = 255;\nlet g = 100;\nlet b = 100;\n\nfunction draw() {\n  background(220);\n  \n  // Change color when pressed\n  if (mousePressed) {\n    r = random(255);\n    g = random(255);\n    b = random(255);\n  }\n  \n  fill(r, g, b);\n  circle(mouseX, mouseY, 80);\n}"
-  },
-  {
-    "objectID": "variables-conventions/pool.html#multiple-moving-objects",
-    "href": "variables-conventions/pool.html#multiple-moving-objects",
-    "title": "P5.js Variables and Mouse Interaction",
-    "section": "Multiple Moving Objects",
-    "text": "Multiple Moving Objects\nlet x1 = 100, y1 = 200;\nlet x2 = 300, y2 = 200;\nlet speed1 = 2, speed2 = -1.5;\n\nfunction draw() {\n  background(220);\n  \n  // First circle\n  circle(x1, y1, 50);\n  x1 += speed1;\n  \n  // Second circle  \n  circle(x2, y2, 40);\n  x2 += speed2;\n  \n  // Bounce off edges\n  if (x1 &gt; width || x1 &lt; 0) speed1 *= -1;\n  if (x2 &gt; width || x2 &lt; 0) speed2 *= -1;\n}"
-  },
-  {
-    "objectID": "variables-conventions/pool.html#mouse-events",
-    "href": "variables-conventions/pool.html#mouse-events",
-    "title": "P5.js Variables and Mouse Interaction",
-    "section": "Mouse Events",
-    "text": "Mouse Events\nBeyond mousePressed, p5.js offers mouse event functions:\nfunction mousePressed() {\n  // Called once when mouse is pressed\n  diameter = random(20, 100);\n}\n\nfunction mouseReleased() {\n  // Called once when mouse is released\n  diameter = 50;\n}\n\nfunction mouseMoved() {\n  // Called when mouse moves\n  backgroundColor = random(255);\n}"
-  },
-  {
-    "objectID": "variables-conventions/pool.html#practice-exercise",
-    "href": "variables-conventions/pool.html#practice-exercise",
-    "title": "P5.js Variables and Mouse Interaction",
-    "section": "Practice Exercise",
-    "text": "Practice Exercise\nCreate a sketch that:\n\nHas a circle that follows the mouse\nChanges size when mouse is pressed\nChanges color when mouse is released\nLeaves a trail as it moves\n\nTry combining mouseX, mouseY, mousePressed with your own variables!"
-  },
-  {
-    "objectID": "variables-conventions/pool.html#key-takeaways",
-    "href": "variables-conventions/pool.html#key-takeaways",
-    "title": "P5.js Variables and Mouse Interaction",
-    "section": "Key Takeaways",
-    "text": "Key Takeaways\n\nmouseX, mouseY automatically track mouse position\nmousePressed detects when mouse button is held down\nCustom variables need: declare, initialize, use\nGlobal variables are accessible throughout your program\nAnimation = changing variable values over time\nCombine built-in and custom variables for rich interactions"
-  },
-  {
-    "objectID": "variables-conventions/pool.html#next-steps",
-    "href": "variables-conventions/pool.html#next-steps",
-    "title": "P5.js Variables and Mouse Interaction",
-    "section": "Next Steps",
-    "text": "Next Steps\n\nExperiment with different variable types\nTry incrementation operators (++, +=)\nExplore other built-in variables (width, height, frameCount)\nCreate more complex interactive animations\n\nHappy coding! 🎨✨"
+    "objectID": "color/index.html#hexadecimal-color-encoding",
+    "href": "color/index.html#hexadecimal-color-encoding",
+    "title": "Color",
+    "section": "Hexadecimal Color Encoding",
+    "text": "Hexadecimal Color Encoding\nHexadecimal is another way of encoding RGB colors, and p5 can understand it.\n\nYou can learn more about hexadecimal at W3 Schools\nAdobe Color allows you to explore color palettes and encode them in different formats."
   },
   {
     "objectID": "intentionally-random/index.html#how-to-complete-quiz",
@@ -371,151 +252,151 @@
     "text": "Coordinate Systems\n\nAdrian Piper, Charted Work Proposal for January – December 1969, 1968. Typescript and graph paper with space/time coordinate diagrams under sheet protectors in ring binder"
   },
   {
-    "objectID": "conditionals/index.html#project-discussions",
-    "href": "conditionals/index.html#project-discussions",
-    "title": "Conditionals",
-    "section": "Project Discussions",
-    "text": "Project Discussions\nGet in a group with your table. Take turns reading your Math + Language project proposal out loud to each other. Give brief, respectful feedback on:\n\nHow the project incoporates math\nHow the project incorporates language\nWhat p5.js features you might use to achieve your goal"
+    "objectID": "variables-conventions/pool.html#what-well-learn-today",
+    "href": "variables-conventions/pool.html#what-well-learn-today",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "What We’ll Learn Today",
+    "text": "What We’ll Learn Today\n\nBuilt-in mouse variables: mouseX, mouseY, mousePressed\nCreating and using custom variables\nThe three steps of working with variables\nMaking interactive animations\nGlobal vs local variables"
   },
   {
-    "objectID": "conditionals/index.html#what-are-conditionals",
-    "href": "conditionals/index.html#what-are-conditionals",
-    "title": "Conditionals",
-    "section": "What are Conditionals?",
-    "text": "What are Conditionals?\nConditional statements allow your program to make decisions based on certain conditions. They use boolean expressions that evaluate to either true or false.\nThink of it like: “IF this condition is true, THEN do this action.”"
+    "objectID": "variables-conventions/pool.html#built-in-mouse-variables",
+    "href": "variables-conventions/pool.html#built-in-mouse-variables",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Built-in Mouse Variables",
+    "text": "Built-in Mouse Variables\nP5.js provides several built-in variables for mouse interaction:\n\nmouseX - Current horizontal position of mouse\nmouseY - Current vertical position of mouse\n\nmousePressed - Boolean: true when mouse button is pressed\n\nThese update automatically every frame!"
   },
   {
-    "objectID": "conditionals/index.html#boolean-expressions",
-    "href": "conditionals/index.html#boolean-expressions",
-    "title": "Conditionals",
-    "section": "Boolean Expressions",
-    "text": "Boolean Expressions\nBoolean expressions compare values and return either true or false:\nlet x = 50;\n\nx &gt; 25     // true\nx &lt; 10     // false\nx == 50    // true (equal to)\nx != 30    // true (not equal to)"
+    "objectID": "variables-conventions/pool.html#basic-mouse-tracking",
+    "href": "variables-conventions/pool.html#basic-mouse-tracking",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Basic Mouse Tracking",
+    "text": "Basic Mouse Tracking\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(220);\n  \n  // Circle follows mouse\n  fill(255, 100, 100);\n  circle(mouseX, mouseY, 50);\n  \n  // Display coordinates\n  fill(0);\n  text(`x: ${mouseX}, y: ${mouseY}`, 10, 20);\n}"
   },
   {
-    "objectID": "conditionals/index.html#the-if-statement",
-    "href": "conditionals/index.html#the-if-statement",
-    "title": "Conditionals",
-    "section": "The IF Statement",
-    "text": "The IF Statement\nThe basic structure of a conditional statement:\nif (condition) {\n  // code to run if condition is true\n}"
+    "objectID": "variables-conventions/pool.html#the-three-steps-of-variables",
+    "href": "variables-conventions/pool.html#the-three-steps-of-variables",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "The Three Steps of Variables",
+    "text": "The Three Steps of Variables\n1. Declare - Tell the program the variable exists\n2. Initialize - Give it an initial value\n3. Use - Put it to work in your code"
   },
   {
-    "objectID": "conditionals/index.html#if-statement-example",
-    "href": "conditionals/index.html#if-statement-example",
-    "title": "Conditionals",
-    "section": "IF Statement Example",
-    "text": "IF Statement Example\nfunction draw() {\n  fill(0);  // default black fill\n  background(220);\n\n  // if cursor is on right half of canvas \n  if (mouseX &gt; width/2) {\n    fill(255, 0, 0);  // red fill\n  }\n  \n  circle(mouseX, mouseY, 50);\n}\nThe circle turns red when the mouse is on the right half of the canvas. See it live!"
+    "objectID": "variables-conventions/pool.html#step-1-declare",
+    "href": "variables-conventions/pool.html#step-1-declare",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Step 1: Declare",
+    "text": "Step 1: Declare\n// Declare variables (usually at the top)\nlet x;\nlet y;\nlet diameter;\nlet speed;\nThis creates the variables but they have no value yet (undefined)."
   },
   {
-    "objectID": "conditionals/index.html#comparison-operators",
-    "href": "conditionals/index.html#comparison-operators",
-    "title": "Conditionals",
-    "section": "Comparison Operators",
-    "text": "Comparison Operators\n\n&gt; greater than\n&lt; less than\n\n&gt;= greater than or equal to\n&lt;= less than or equal to\n== equal to\n!= not equal to"
+    "objectID": "variables-conventions/pool.html#step-2-initialize",
+    "href": "variables-conventions/pool.html#step-2-initialize",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Step 2: Initialize",
+    "text": "Step 2: Initialize\nlet x;\nlet y;\nlet diameter;\n\nfunction setup() {\n  createCanvas(400, 400);\n  \n  // Initialize variables\n  x = 200;\n  y = 200;\n  diameter = 50;\n}\nNow our variables have starting values!"
   },
   {
-    "objectID": "conditionals/index.html#the-else-statement",
-    "href": "conditionals/index.html#the-else-statement",
-    "title": "Conditionals",
-    "section": "The ELSE Statement",
-    "text": "The ELSE Statement\nUse else when you want to do something when the condition is false:\nif (mouseX &gt; width/2) {\n  fill(255, 0, 0);    // red on right side\n} else {\n  fill(0, 0, 255);    // blue on left side\n}\nSee it live!"
+    "objectID": "variables-conventions/pool.html#step-3-use",
+    "href": "variables-conventions/pool.html#step-3-use",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Step 3: Use",
+    "text": "Step 3: Use\nfunction draw() {\n  background(220);\n  \n  // Use the variables\n  fill(255, 100, 150);\n  circle(x, y, diameter);\n}\nThe variables control the circle’s position and size."
   },
   {
-    "objectID": "conditionals/index.html#multiple-conditions-with-else-if",
-    "href": "conditionals/index.html#multiple-conditions-with-else-if",
-    "title": "Conditionals",
-    "section": "Multiple Conditions with ELSE IF",
-    "text": "Multiple Conditions with ELSE IF\nUse else if to check multiple conditions in sequence:\nif (mouseX &lt; width/3) {\n  fill(255, 0, 0);        // red - left third\n} else if (mouseX &lt; 2*width/3) {\n  fill(0, 255, 0);        // green - middle third  \n} else {\n  fill(0, 0, 255);        // blue - right third\n}\nSee it live!"
+    "objectID": "variables-conventions/pool.html#combining-declaration-initialization",
+    "href": "variables-conventions/pool.html#combining-declaration-initialization",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Combining Declaration & Initialization",
+    "text": "Combining Declaration & Initialization\nYou can do both steps at once:\n// Combined approach\nlet x = 200;\nlet y = 200;\nlet diameter = 50;\n\nfunction setup() {\n  createCanvas(400, 400);\n}\nThis is more concise and often preferred."
   },
   {
-    "objectID": "conditionals/index.html#complex-example",
-    "href": "conditionals/index.html#complex-example",
-    "title": "Conditionals",
-    "section": "Complex Example",
-    "text": "Complex Example\n\nif (mouseX &gt; width/2 && mouseY &gt; height/2) {\n   fill(255, 0, 0);      // red - bottom right\n} else if (mouseX &gt; width/2) {\n   fill(0, 255, 0);      // green - top right\n} else if (mouseY &gt; height/2) {\n   fill(0, 0, 255);      // blue - bottom left\n} else {\n   fill(255, 255, 0);    // yellow - top left\n}\nThe && operator means “AND” - both conditions must be true."
+    "objectID": "variables-conventions/pool.html#global-variables",
+    "href": "variables-conventions/pool.html#global-variables",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Global Variables",
+    "text": "Global Variables\nVariables declared outside functions are global:\nlet x = 200;  // Global - accessible everywhere\nlet y = 200;  // Global - accessible everywhere\n\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  circle(x, y, 50);  // Can use x and y here\n}"
   },
   {
-    "objectID": "conditionals/index.html#logical-operators",
-    "href": "conditionals/index.html#logical-operators",
-    "title": "Conditionals",
-    "section": "Logical Operators",
-    "text": "Logical Operators\n\n\n\nSymbol\nName\nDescription\n\n\n\n\n&&\nAND\nBoth conditions must be true\n\n\n||\nOR\nAt least one condition must be true\n\n\n!\nNOT\nReverses the boolean value"
+    "objectID": "variables-conventions/pool.html#making-things-move",
+    "href": "variables-conventions/pool.html#making-things-move",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Making Things Move",
+    "text": "Making Things Move\nTo animate, we need to change variable values over time:\nlet x = 0;\n\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(220);\n  \n  circle(x, 200, 50);\n  x = x + 1;  // Move right each frame\n}"
   },
   {
-    "objectID": "conditionals/index.html#whats-on-the-quiz-vs.-live-demos",
-    "href": "conditionals/index.html#whats-on-the-quiz-vs.-live-demos",
-    "title": "Conditionals",
-    "section": "What’s on the Quiz vs. Live Demos",
-    "text": "What’s on the Quiz vs. Live Demos\n\nSlides and Coding Train tutorials will include the material you need to know for the next quiz (unless otherwise stated).\nDemos will cover quiz material and may preview more advanced material."
+    "objectID": "variables-conventions/pool.html#interactive-movement",
+    "href": "variables-conventions/pool.html#interactive-movement",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Interactive Movement",
+    "text": "Interactive Movement\nCombine mouse variables with custom variables:\nlet x = 200;\nlet y = 200;\n\nfunction draw() {\n  background(220);\n  \n  // Move towards mouse position\n  x = x + (mouseX - x) * 0.05;\n  y = y + (mouseY - y) * 0.05;\n  \n  circle(x, y, 50);\n}"
   },
   {
-    "objectID": "conditionals/index.html#code-along-with-me",
-    "href": "conditionals/index.html#code-along-with-me",
-    "title": "Conditionals",
-    "section": "Code along with me!",
-    "text": "Code along with me!\n\nor take notes if you prefer"
+    "objectID": "variables-conventions/pool.html#growing-circle-example",
+    "href": "variables-conventions/pool.html#growing-circle-example",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Growing Circle Example",
+    "text": "Growing Circle Example\nlet diameter = 50;\n\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(220);\n  \n  // Grow when mouse pressed\n  if (mousePressed) {\n    diameter = diameter + 2;\n  }\n  \n  circle(mouseX, mouseY, diameter);\n}"
   },
   {
-    "objectID": "conditionals/index.html#exit-ticket",
-    "href": "conditionals/index.html#exit-ticket",
-    "title": "Conditionals",
-    "section": "Exit Ticket",
-    "text": "Exit Ticket\nComplete In-Class Assignments -&gt; Conditionals | Demo Remix in URCourses.\nBe sure to submit your link before class is over!"
+    "objectID": "variables-conventions/pool.html#color-change-on-click",
+    "href": "variables-conventions/pool.html#color-change-on-click",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Color Change on Click",
+    "text": "Color Change on Click\nlet r = 255;\nlet g = 100;\nlet b = 100;\n\nfunction draw() {\n  background(220);\n  \n  // Change color when pressed\n  if (mousePressed) {\n    r = random(255);\n    g = random(255);\n    b = random(255);\n  }\n  \n  fill(r, g, b);\n  circle(mouseX, mouseY, 80);\n}"
   },
   {
-    "objectID": "welcome/index.html#introductions",
-    "href": "welcome/index.html#introductions",
-    "title": "Welcome to 204",
-    "section": "Introductions",
-    "text": "Introductions\nLet’s go around and introduce ourselves.\n\nYour name\nYour pronouns (if you want)\nTalk a little bit about why you chose your piece of media\nYour name again"
+    "objectID": "variables-conventions/pool.html#multiple-moving-objects",
+    "href": "variables-conventions/pool.html#multiple-moving-objects",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Multiple Moving Objects",
+    "text": "Multiple Moving Objects\nlet x1 = 100, y1 = 200;\nlet x2 = 300, y2 = 200;\nlet speed1 = 2, speed2 = -1.5;\n\nfunction draw() {\n  background(220);\n  \n  // First circle\n  circle(x1, y1, 50);\n  x1 += speed1;\n  \n  // Second circle  \n  circle(x2, y2, 40);\n  x2 += speed2;\n  \n  // Bounce off edges\n  if (x1 &gt; width || x1 &lt; 0) speed1 *= -1;\n  if (x2 &gt; width || x2 &lt; 0) speed2 *= -1;\n}"
   },
   {
-    "objectID": "welcome/index.html#cartesian-coordinates",
-    "href": "welcome/index.html#cartesian-coordinates",
-    "title": "Welcome to 204",
-    "section": "Cartesian Coordinates",
-    "text": "Cartesian Coordinates\n\n\n\n\nMost graphical software uses a Cartesian coordinate system to define where things are on the screen."
+    "objectID": "variables-conventions/pool.html#mouse-events",
+    "href": "variables-conventions/pool.html#mouse-events",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Mouse Events",
+    "text": "Mouse Events\nBeyond mousePressed, p5.js offers mouse event functions:\nfunction mousePressed() {\n  // Called once when mouse is pressed\n  diameter = random(20, 100);\n}\n\nfunction mouseReleased() {\n  // Called once when mouse is released\n  diameter = 50;\n}\n\nfunction mouseMoved() {\n  // Called when mouse moves\n  backgroundColor = random(255);\n}"
   },
   {
-    "objectID": "welcome/index.html#next-class",
-    "href": "welcome/index.html#next-class",
-    "title": "Welcome to 204",
-    "section": "Next class",
-    "text": "Next class\n\nNext class, we will have a syllabus quiz (you may reference the syllabus). This will be the last quiz where you can look at outside resources. After that, all quizzes will be closed book.\n\nMake sure you bring a pen or pencil! (Note that you should bring a notebook and pen/pencil to every class.)"
+    "objectID": "variables-conventions/pool.html#practice-exercise",
+    "href": "variables-conventions/pool.html#practice-exercise",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Practice Exercise",
+    "text": "Practice Exercise\nCreate a sketch that:\n\nHas a circle that follows the mouse\nChanges size when mouse is pressed\nChanges color when mouse is released\nLeaves a trail as it moves\n\nTry combining mouseX, mouseY, mousePressed with your own variables!"
   },
   {
-    "objectID": "color/index.html#how-to-complete-quiz",
-    "href": "color/index.html#how-to-complete-quiz",
-    "title": "Color",
-    "section": "How to Complete Quiz",
-    "text": "How to Complete Quiz\n\n\n\n\nIf your computer is on, put it to sleep by clicking the apple in the top left, then “Sleep”\nWrite your first and last name\nWrite today’s date, Sept. 11\nUse black/blue pen or pencil\nOnly use the left column\nFill in the correct bubble completely\nYou have twenty minutes."
+    "objectID": "variables-conventions/pool.html#key-takeaways",
+    "href": "variables-conventions/pool.html#key-takeaways",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\n\nmouseX, mouseY automatically track mouse position\nmousePressed detects when mouse button is held down\nCustom variables need: declare, initialize, use\nGlobal variables are accessible throughout your program\nAnimation = changing variable values over time\nCombine built-in and custom variables for rich interactions"
   },
   {
-    "objectID": "color/index.html#welcome-questions",
-    "href": "color/index.html#welcome-questions",
-    "title": "Color",
-    "section": "Welcome Questions",
-    "text": "Welcome Questions\n\nSay your name\nWhat is your favorite color?\nWhat is an example of something colored your favorite version of your favorite color?\nSay your name again!"
+    "objectID": "variables-conventions/pool.html#next-steps",
+    "href": "variables-conventions/pool.html#next-steps",
+    "title": "P5.js Variables and Mouse Interaction",
+    "section": "Next Steps",
+    "text": "Next Steps\n\nExperiment with different variable types\nTry incrementation operators (++, +=)\nExplore other built-in variables (width, height, frameCount)\nCreate more complex interactive animations\n\nHappy coding! 🎨✨"
   },
   {
-    "objectID": "color/index.html#variables-language",
-    "href": "color/index.html#variables-language",
-    "title": "Color",
-    "section": "Variables & Language",
-    "text": "Variables & Language\nA variable is a symbol/placeholder for a value that may change. Computer variables and natural language might not be as different as you’d think.\nDifferent words and symbols can have different meanings for different people. They may even change over time for an individual. In the same way, the value inside a variable can change."
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "CTCH 204 | Intro to Creative Coding",
+    "section": "",
+    "text": "\u001a:q— title: “About” —\nAbout this site"
   },
   {
-    "objectID": "color/index.html#munsell-color-system",
-    "href": "color/index.html#munsell-color-system",
-    "title": "Color",
-    "section": "Munsell Color System",
-    "text": "Munsell Color System\nAnother way of conceptualizing/encoding color in terms of:\n\nColor/hue\nValue lightness or darkness\nChroma saturation intensity\n\nFind an interactive Munsell palette here"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
+    "section": "",
+    "text": "Sept 23: Conditionals\nSept 18: Intentionally Random\nSept 16: Numerical Operatons\nSept 11: Color Theory and Coding\nSept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
   },
   {
-    "objectID": "color/index.html#hexadecimal-color-encoding",
-    "href": "color/index.html#hexadecimal-color-encoding",
-    "title": "Color",
-    "section": "Hexadecimal Color Encoding",
-    "text": "Hexadecimal Color Encoding\nHexadecimal is another way of encoding RGB colors, and p5 can understand it.\n\nYou can learn more about hexadecimal at W3 Schools\nAdobe Color allows you to explore color palettes and encode them in different formats."
+    "objectID": "index.html#lecture-slides",
+    "href": "index.html#lecture-slides",
+    "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
+    "section": "",
+    "text": "Sept 23: Conditionals\nSept 18: Intentionally Random\nSept 16: Numerical Operatons\nSept 11: Color Theory and Coding\nSept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
   },
   {
     "objectID": "boolean/index.html#entrance-ticket",
@@ -588,102 +469,32 @@
     "text": "Exit Ticket\nComplete In-class Assignments -&gt; Boolean Variables | Demo Remix in UR Courses.\nBe sure to submit your link before class is over!"
   },
   {
-    "objectID": "numbers/index.html#entrance-ticket",
-    "href": "numbers/index.html#entrance-ticket",
-    "title": "Number Operations",
-    "section": "Entrance Ticket",
-    "text": "Entrance Ticket\n\nLook through your classmates’ links in today’s code forum response  in UR Courses.\nThere are a lot of the posts, so let’s split them up. If you are at the front of the room, look at posts at top; middle, middle; back, bottom.\nLook for a place in a classmate’s sketch that uses incrementation or randomness. Copy that section of code.\n\nReply to the post with the line/block of code copied above, and a sentence describing what the code is doing\nMake sure you reply to at least on post by 10:10"
+    "objectID": "words/index.html#how-to-complete-quiz",
+    "href": "words/index.html#how-to-complete-quiz",
+    "title": "Text Art",
+    "section": "How to Complete Quiz",
+    "text": "How to Complete Quiz\n\n\n\n\nDon’t lift your bubble sheet from the quiz until professor says “begin”!\nIf your computer is on, put it to sleep by clicking the apple in the top left, then “Sleep”\nWrite your first and last name\nWrite today’s date, Sept. 25\nUse black/blue pen or pencil\nOnly use the left column\nFill in the correct bubble completely\nYou have twenty minutes."
   },
   {
-    "objectID": "numbers/index.html#experience-levels-in-this-class-vary",
-    "href": "numbers/index.html#experience-levels-in-this-class-vary",
-    "title": "Number Operations",
-    "section": "Experience levels in this class vary!",
-    "text": "Experience levels in this class vary!\nSome students in this class have ten years of coding experience. Others have none!\nTry not to judge yourself by what other students can do. It’s not a fair race if some started earlier than others."
+    "objectID": "words/index.html#quiz-5-october-2",
+    "href": "words/index.html#quiz-5-october-2",
+    "title": "Text Art",
+    "section": "Quiz #5 October 2",
+    "text": "Quiz #5 October 2\nWe will still have a quiz next Thursday. Find the study guide in URCourses!"
   },
   {
-    "objectID": "numbers/index.html#incrementation-operators",
-    "href": "numbers/index.html#incrementation-operators",
-    "title": "Number Operations",
-    "section": "Incrementation Operators",
-    "text": "Incrementation Operators\nIncrementation operators provide shorthand for changing variable values. They’re great for animation becuase they can change values over time.\nThe most common pattern in programming is increasing a variable by 1:\nx = x + 1; // Traditional way\nx++;       // Shorthand - increment by 1\nx += 1;    // Also shorthand - increment by 1"
+    "objectID": "words/index.html#project-1-aesthetics-craftsmanship-criteria",
+    "href": "words/index.html#project-1-aesthetics-craftsmanship-criteria",
+    "title": "Text Art",
+    "section": "Project 1 | Aesthetics & Craftsmanship Criteria",
+    "text": "Project 1 | Aesthetics & Craftsmanship Criteria\n\nBalanced/intentional composition\nPleasing/intentional use of value/color and attributes like alpha channel, stroke, fill\nEffective/intentional use of animation/interaction"
   },
   {
-    "objectID": "numbers/index.html#common-incrementation-operators",
-    "href": "numbers/index.html#common-incrementation-operators",
-    "title": "Number Operations",
-    "section": "Common Incrementation Operators",
-    "text": "Common Incrementation Operators\nx++;     // Increment by 1 (x = x + 1)\nx--;     // Decrement by 1 (x = x - 1)\nx += 5;  // Add 5 to x (x = x + 5)\nx -= 3;  // Subtract 3 from x (x = x - 3)\nx *= 2;  // Multiply x by 2 (x = x * 2)\nx /= 4;  // Divide x by 4 (x = x / 4)\nThese operators make code cleaner and faster to write!"
-  },
-  {
-    "objectID": "numbers/index.html#animation-with-incrementation",
-    "href": "numbers/index.html#animation-with-incrementation",
-    "title": "Number Operations",
-    "section": "Animation with Incrementation",
-    "text": "Animation with Incrementation\nlet x = 0;\n\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(220);\n  \n  // Move circle across screen\n  circle(x, 200, 50);\n  x++; // Increment x by 1 each frame\n  \n  // Reset when off screen \n  // we will learn about this soon! \n  // (it's not on the next quiz)\n  if (x &gt; width) {\n    x = 0;\n  }\n}\nSee it live!"
-  },
-  {
-    "objectID": "numbers/index.html#multiple-incrementation-example",
-    "href": "numbers/index.html#multiple-incrementation-example",
-    "title": "Number Operations",
-    "section": "Multiple Incrementation Example",
-    "text": "Multiple Incrementation Example\nlet x = 0;\nlet rad = 50;\nlet red_val = 0;\n\nfunction setup(){\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(220);\n  \n  fill(red_val, 100, 255);\n  circle(x, 200, rad);\n  \n  x += 2;        // Move right by 2 pixels\n  rad += 0.5;   // Grow by 0.5 pixels\n  red_val ++;         // Increase red_val value by 1\n}\nSee it live!"
-  },
-  {
-    "objectID": "numbers/index.html#the-random-function",
-    "href": "numbers/index.html#the-random-function",
-    "title": "Number Operations",
-    "section": "The random() Function",
-    "text": "The random() Function\nThe random() function generates random numbers, which can create variety and unpredictability in your sketches.\nrandom();           // Random decimal between 0 and 1\nrandom(10);         // Random decimal between 0 and 10\nrandom(5, 15);      // Random decimal between 5 and 15\nrandom([1,2,3,4]);  // Random item from array\n// (arrays are also not on the next quiz)"
-  },
-  {
-    "objectID": "numbers/index.html#basic-random-examples",
-    "href": "numbers/index.html#basic-random-examples",
-    "title": "Number Operations",
-    "section": "Basic Random Examples",
-    "text": "Basic Random Examples\nfunction draw() {\n  background(220);\n  \n  // Random position\n  let x = random(width);\n  let y = random(height);\n  \n  // Random size\n  let diameter = random(20, 80);\n  \n  // Random color\n  fill(random(255), random(255), random(255));\n  circle(x, y, diameter);\n}\nThis creates a new random circle every frame! See it live."
-  },
-  {
-    "objectID": "numbers/index.html#whats-on-the-quiz-vs.-live-demos",
-    "href": "numbers/index.html#whats-on-the-quiz-vs.-live-demos",
-    "title": "Number Operations",
-    "section": "What’s on the Quiz vs. Live Demos",
-    "text": "What’s on the Quiz vs. Live Demos\nSlides and Coding Train tutorials will include the material you need to know for the next quiz (unless otherwise noted).\n\nDemos will cover quiz material and may preview more advanced material."
-  },
-  {
-    "objectID": "numbers/index.html#code-along-with-me",
-    "href": "numbers/index.html#code-along-with-me",
-    "title": "Number Operations",
-    "section": "Code along with me!",
-    "text": "Code along with me!\n\nor take notes if you prefer"
-  },
-  {
-    "objectID": "numbers/index.html#exit-ticket",
-    "href": "numbers/index.html#exit-ticket",
-    "title": "Number Operations",
-    "section": "Exit Ticket",
-    "text": "Exit Ticket\nComplete today’s demo remix  assignment in URCourses.\nBe sure to submit your link before class is over!"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "CTCH 204 | Intro to Creative Coding",
-    "section": "",
-    "text": "\u001a:q— title: “About” —\nAbout this site"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
-    "section": "",
-    "text": "Sept 23: Conditionals\nSept 18: Intentionally Random\nSept 16: Numerical Operatons\nSept 11: Color Theory and Coding\nSept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
-  },
-  {
-    "objectID": "index.html#lecture-slides",
-    "href": "index.html#lecture-slides",
-    "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
-    "section": "",
-    "text": "Sept 23: Conditionals\nSept 18: Intentionally Random\nSept 16: Numerical Operatons\nSept 11: Color Theory and Coding\nSept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
+    "objectID": "words/index.html#project-1-aesthetics-craftsmanship-criteria-1",
+    "href": "words/index.html#project-1-aesthetics-craftsmanship-criteria-1",
+    "title": "Text Art",
+    "section": "Project 1 | Aesthetics & Craftsmanship Criteria",
+    "text": "Project 1 | Aesthetics & Craftsmanship Criteria\n\nBalanced/intentional Composition\nPleasing/intentional Use of Value/Color and attributes like alpha channel, stroke, fill\nEffective/intentional use of animation/interaction"
   },
   {
     "objectID": "variables-conventions/index.html#entrance-ticket",
@@ -803,5 +614,194 @@
     "title": "Variables & Conventions",
     "section": "Exit Ticket",
     "text": "Exit Ticket\nComplete Variables | Demo Remix assignment in URCourses.\nBe sure to submit your link before class is over!"
+  },
+  {
+    "objectID": "numbers/index.html#entrance-ticket",
+    "href": "numbers/index.html#entrance-ticket",
+    "title": "Number Operations",
+    "section": "Entrance Ticket",
+    "text": "Entrance Ticket\n\nLook through your classmates’ links in today’s code forum response  in UR Courses.\nThere are a lot of the posts, so let’s split them up. If you are at the front of the room, look at posts at top; middle, middle; back, bottom.\nLook for a place in a classmate’s sketch that uses incrementation or randomness. Copy that section of code.\n\nReply to the post with the line/block of code copied above, and a sentence describing what the code is doing\nMake sure you reply to at least on post by 10:10"
+  },
+  {
+    "objectID": "numbers/index.html#experience-levels-in-this-class-vary",
+    "href": "numbers/index.html#experience-levels-in-this-class-vary",
+    "title": "Number Operations",
+    "section": "Experience levels in this class vary!",
+    "text": "Experience levels in this class vary!\nSome students in this class have ten years of coding experience. Others have none!\nTry not to judge yourself by what other students can do. It’s not a fair race if some started earlier than others."
+  },
+  {
+    "objectID": "numbers/index.html#incrementation-operators",
+    "href": "numbers/index.html#incrementation-operators",
+    "title": "Number Operations",
+    "section": "Incrementation Operators",
+    "text": "Incrementation Operators\nIncrementation operators provide shorthand for changing variable values. They’re great for animation becuase they can change values over time.\nThe most common pattern in programming is increasing a variable by 1:\nx = x + 1; // Traditional way\nx++;       // Shorthand - increment by 1\nx += 1;    // Also shorthand - increment by 1"
+  },
+  {
+    "objectID": "numbers/index.html#common-incrementation-operators",
+    "href": "numbers/index.html#common-incrementation-operators",
+    "title": "Number Operations",
+    "section": "Common Incrementation Operators",
+    "text": "Common Incrementation Operators\nx++;     // Increment by 1 (x = x + 1)\nx--;     // Decrement by 1 (x = x - 1)\nx += 5;  // Add 5 to x (x = x + 5)\nx -= 3;  // Subtract 3 from x (x = x - 3)\nx *= 2;  // Multiply x by 2 (x = x * 2)\nx /= 4;  // Divide x by 4 (x = x / 4)\nThese operators make code cleaner and faster to write!"
+  },
+  {
+    "objectID": "numbers/index.html#animation-with-incrementation",
+    "href": "numbers/index.html#animation-with-incrementation",
+    "title": "Number Operations",
+    "section": "Animation with Incrementation",
+    "text": "Animation with Incrementation\nlet x = 0;\n\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(220);\n  \n  // Move circle across screen\n  circle(x, 200, 50);\n  x++; // Increment x by 1 each frame\n  \n  // Reset when off screen \n  // we will learn about this soon! \n  // (it's not on the next quiz)\n  if (x &gt; width) {\n    x = 0;\n  }\n}\nSee it live!"
+  },
+  {
+    "objectID": "numbers/index.html#multiple-incrementation-example",
+    "href": "numbers/index.html#multiple-incrementation-example",
+    "title": "Number Operations",
+    "section": "Multiple Incrementation Example",
+    "text": "Multiple Incrementation Example\nlet x = 0;\nlet rad = 50;\nlet red_val = 0;\n\nfunction setup(){\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(220);\n  \n  fill(red_val, 100, 255);\n  circle(x, 200, rad);\n  \n  x += 2;        // Move right by 2 pixels\n  rad += 0.5;   // Grow by 0.5 pixels\n  red_val ++;         // Increase red_val value by 1\n}\nSee it live!"
+  },
+  {
+    "objectID": "numbers/index.html#the-random-function",
+    "href": "numbers/index.html#the-random-function",
+    "title": "Number Operations",
+    "section": "The random() Function",
+    "text": "The random() Function\nThe random() function generates random numbers, which can create variety and unpredictability in your sketches.\nrandom();           // Random decimal between 0 and 1\nrandom(10);         // Random decimal between 0 and 10\nrandom(5, 15);      // Random decimal between 5 and 15\nrandom([1,2,3,4]);  // Random item from array\n// (arrays are also not on the next quiz)"
+  },
+  {
+    "objectID": "numbers/index.html#basic-random-examples",
+    "href": "numbers/index.html#basic-random-examples",
+    "title": "Number Operations",
+    "section": "Basic Random Examples",
+    "text": "Basic Random Examples\nfunction draw() {\n  background(220);\n  \n  // Random position\n  let x = random(width);\n  let y = random(height);\n  \n  // Random size\n  let diameter = random(20, 80);\n  \n  // Random color\n  fill(random(255), random(255), random(255));\n  circle(x, y, diameter);\n}\nThis creates a new random circle every frame! See it live."
+  },
+  {
+    "objectID": "numbers/index.html#whats-on-the-quiz-vs.-live-demos",
+    "href": "numbers/index.html#whats-on-the-quiz-vs.-live-demos",
+    "title": "Number Operations",
+    "section": "What’s on the Quiz vs. Live Demos",
+    "text": "What’s on the Quiz vs. Live Demos\nSlides and Coding Train tutorials will include the material you need to know for the next quiz (unless otherwise noted).\n\nDemos will cover quiz material and may preview more advanced material."
+  },
+  {
+    "objectID": "numbers/index.html#code-along-with-me",
+    "href": "numbers/index.html#code-along-with-me",
+    "title": "Number Operations",
+    "section": "Code along with me!",
+    "text": "Code along with me!\n\nor take notes if you prefer"
+  },
+  {
+    "objectID": "numbers/index.html#exit-ticket",
+    "href": "numbers/index.html#exit-ticket",
+    "title": "Number Operations",
+    "section": "Exit Ticket",
+    "text": "Exit Ticket\nComplete today’s demo remix  assignment in URCourses.\nBe sure to submit your link before class is over!"
+  },
+  {
+    "objectID": "welcome/index.html#introductions",
+    "href": "welcome/index.html#introductions",
+    "title": "Welcome to 204",
+    "section": "Introductions",
+    "text": "Introductions\nLet’s go around and introduce ourselves.\n\nYour name\nYour pronouns (if you want)\nTalk a little bit about why you chose your piece of media\nYour name again"
+  },
+  {
+    "objectID": "welcome/index.html#cartesian-coordinates",
+    "href": "welcome/index.html#cartesian-coordinates",
+    "title": "Welcome to 204",
+    "section": "Cartesian Coordinates",
+    "text": "Cartesian Coordinates\n\n\n\n\nMost graphical software uses a Cartesian coordinate system to define where things are on the screen."
+  },
+  {
+    "objectID": "welcome/index.html#next-class",
+    "href": "welcome/index.html#next-class",
+    "title": "Welcome to 204",
+    "section": "Next class",
+    "text": "Next class\n\nNext class, we will have a syllabus quiz (you may reference the syllabus). This will be the last quiz where you can look at outside resources. After that, all quizzes will be closed book.\n\nMake sure you bring a pen or pencil! (Note that you should bring a notebook and pen/pencil to every class.)"
+  },
+  {
+    "objectID": "conditionals/index.html#project-discussions",
+    "href": "conditionals/index.html#project-discussions",
+    "title": "Conditionals",
+    "section": "Project Discussions",
+    "text": "Project Discussions\nGet in a group with your table. Take turns reading your Math + Language project proposal out loud to each other. Give brief, respectful feedback on:\n\nHow the project incoporates math\nHow the project incorporates language\nWhat p5.js features you might use to achieve your goal"
+  },
+  {
+    "objectID": "conditionals/index.html#what-are-conditionals",
+    "href": "conditionals/index.html#what-are-conditionals",
+    "title": "Conditionals",
+    "section": "What are Conditionals?",
+    "text": "What are Conditionals?\nConditional statements allow your program to make decisions based on certain conditions. They use boolean expressions that evaluate to either true or false.\nThink of it like: “IF this condition is true, THEN do this action.”"
+  },
+  {
+    "objectID": "conditionals/index.html#boolean-expressions",
+    "href": "conditionals/index.html#boolean-expressions",
+    "title": "Conditionals",
+    "section": "Boolean Expressions",
+    "text": "Boolean Expressions\nBoolean expressions compare values and return either true or false:\nlet x = 50;\n\nx &gt; 25     // true\nx &lt; 10     // false\nx == 50    // true (equal to)\nx != 30    // true (not equal to)"
+  },
+  {
+    "objectID": "conditionals/index.html#the-if-statement",
+    "href": "conditionals/index.html#the-if-statement",
+    "title": "Conditionals",
+    "section": "The IF Statement",
+    "text": "The IF Statement\nThe basic structure of a conditional statement:\nif (condition) {\n  // code to run if condition is true\n}"
+  },
+  {
+    "objectID": "conditionals/index.html#if-statement-example",
+    "href": "conditionals/index.html#if-statement-example",
+    "title": "Conditionals",
+    "section": "IF Statement Example",
+    "text": "IF Statement Example\nfunction draw() {\n  fill(0);  // default black fill\n  background(220);\n\n  // if cursor is on right half of canvas \n  if (mouseX &gt; width/2) {\n    fill(255, 0, 0);  // red fill\n  }\n  \n  circle(mouseX, mouseY, 50);\n}\nThe circle turns red when the mouse is on the right half of the canvas. See it live!"
+  },
+  {
+    "objectID": "conditionals/index.html#comparison-operators",
+    "href": "conditionals/index.html#comparison-operators",
+    "title": "Conditionals",
+    "section": "Comparison Operators",
+    "text": "Comparison Operators\n\n&gt; greater than\n&lt; less than\n\n&gt;= greater than or equal to\n&lt;= less than or equal to\n== equal to\n!= not equal to"
+  },
+  {
+    "objectID": "conditionals/index.html#the-else-statement",
+    "href": "conditionals/index.html#the-else-statement",
+    "title": "Conditionals",
+    "section": "The ELSE Statement",
+    "text": "The ELSE Statement\nUse else when you want to do something when the condition is false:\nif (mouseX &gt; width/2) {\n  fill(255, 0, 0);    // red on right side\n} else {\n  fill(0, 0, 255);    // blue on left side\n}\nSee it live!"
+  },
+  {
+    "objectID": "conditionals/index.html#multiple-conditions-with-else-if",
+    "href": "conditionals/index.html#multiple-conditions-with-else-if",
+    "title": "Conditionals",
+    "section": "Multiple Conditions with ELSE IF",
+    "text": "Multiple Conditions with ELSE IF\nUse else if to check multiple conditions in sequence:\nif (mouseX &lt; width/3) {\n  fill(255, 0, 0);        // red - left third\n} else if (mouseX &lt; 2*width/3) {\n  fill(0, 255, 0);        // green - middle third  \n} else {\n  fill(0, 0, 255);        // blue - right third\n}\nSee it live!"
+  },
+  {
+    "objectID": "conditionals/index.html#complex-example",
+    "href": "conditionals/index.html#complex-example",
+    "title": "Conditionals",
+    "section": "Complex Example",
+    "text": "Complex Example\n\nif (mouseX &gt; width/2 && mouseY &gt; height/2) {\n   fill(255, 0, 0);      // red - bottom right\n} else if (mouseX &gt; width/2) {\n   fill(0, 255, 0);      // green - top right\n} else if (mouseY &gt; height/2) {\n   fill(0, 0, 255);      // blue - bottom left\n} else {\n   fill(255, 255, 0);    // yellow - top left\n}\nThe && operator means “AND” - both conditions must be true."
+  },
+  {
+    "objectID": "conditionals/index.html#logical-operators",
+    "href": "conditionals/index.html#logical-operators",
+    "title": "Conditionals",
+    "section": "Logical Operators",
+    "text": "Logical Operators\n\n\n\nSymbol\nName\nDescription\n\n\n\n\n&&\nAND\nBoth conditions must be true\n\n\n||\nOR\nAt least one condition must be true\n\n\n!\nNOT\nReverses the boolean value"
+  },
+  {
+    "objectID": "conditionals/index.html#whats-on-the-quiz-vs.-live-demos",
+    "href": "conditionals/index.html#whats-on-the-quiz-vs.-live-demos",
+    "title": "Conditionals",
+    "section": "What’s on the Quiz vs. Live Demos",
+    "text": "What’s on the Quiz vs. Live Demos\n\nSlides and Coding Train tutorials will include the material you need to know for the next quiz (unless otherwise stated).\nDemos will cover quiz material and may preview more advanced material."
+  },
+  {
+    "objectID": "conditionals/index.html#code-along-with-me",
+    "href": "conditionals/index.html#code-along-with-me",
+    "title": "Conditionals",
+    "section": "Code along with me!",
+    "text": "Code along with me!\n\nor take notes if you prefer"
+  },
+  {
+    "objectID": "conditionals/index.html#exit-ticket",
+    "href": "conditionals/index.html#exit-ticket",
+    "title": "Conditionals",
+    "section": "Exit Ticket",
+    "text": "Exit Ticket\nComplete In-Class Assignments -&gt; Conditionals | Demo Remix in URCourses.\nBe sure to submit your link before class is over!"
   }
 ]
