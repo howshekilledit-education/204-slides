@@ -15,22 +15,37 @@ sansfont: "Josefin Sans"
 ---
 
 
-## Entrance Ticket {.smaller}
-
-* Look through your classmates' links in today's code forum response <!--TODO--> in UR Courses. 
-* There are a lot of the posts, so let's split them up. If you are at the front of the room, look at posts at top; middle, middle; back, bottom.
-* Look for a place in a classmate's sketch defined a variable with `let` OR used `mouseX`/`mouseY`. Copy this section of code. 
-* Reply to the post with the line/block of code copied above, and a sentence describing what the code is doing
-* **Make sure you reply to at least on post by 10:10**
+# The quiz will start at 10:05! You may study until then. 
 
 
-## Experience levels in this class vary!
+## How to Complete Quiz {.smaller}
 
-Some students in this class have ten years of coding experience. Others have none! 
+::: {.column width="30%"}
 
-Try not to judge yourself by what other students can do. It's not a fair race if some started earlier than others.
+![](https://brownbagteacher.com/wp-content/uploads/2020/02/BubbledScantron-1024x770.png)
 
+:::
+
+::: {.column width="70%"}
+
+* Don't lift your bubble sheet from the quiz until professor says "begin"!
+* If your computer is on, put it to sleep by clicking the apple in the top left, then "Sleep"
+* Write your first and last name
+* Write today's date, Sept. 25
+* Use black/blue pen or pencil
+* Only use the left column
+* Fill in the correct bubble completely
+* You have twenty minutes.
 # Review Last Week's Quiz
+
+:::
+
+## A reminder about project grades
+
+* If average grade is too high, everyone might have their grade reduced. 
+* The average grade should be around 70% to avoid a downward curve. Please adjust your grade expecations accordingly. 
+* In art, 100% is virtually impossible.
+* 70% is a solid respectable grade. 
 
 # Boolean Variables
 
