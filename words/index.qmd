@@ -26,6 +26,7 @@ sansfont: "Josefin Sans"
 
 ::: {.column width="70%"}
 
+* Don't lift your bubble sheet from the quiz until professor says "begin"!
 * If your computer is on, put it to sleep by clicking the apple in the top left, then "Sleep"
 * Write your first and last name
 * Write today's date, Sept. 25
@@ -37,6 +38,10 @@ sansfont: "Josefin Sans"
 :::
 
 # No Class September 30
+
+## Quiz #5 October 2
+
+We will still have a quiz next Thursday. Find the study guide in URCourses!
 
 ## Project 1 | Aesthetics & Craftsmanship Criteria
 
@@ -85,7 +90,7 @@ sansfont: "Josefin Sans"
 
 ![Agnes Denes, *Study of Distortions; Isometric Systems in Isotropic Space-Map Projections: The Cube*, 1978](https://assets.capsuleauctions.com/uploads/public/614/7a9/631/thumb_63268_800_0_0_0_auto.jpeg)
 
-# [Hamlet Fragmented? Wittgenstein's Pain?](https://editor.p5js.org/howshekilledit/sketches/nskIIcY_V)
+# [Hamlet Fragmented -- Wittgenstein's "Pain"](https://editor.p5js.org/howshekilledit/sketches/nskIIcY_V)
 
 
 # No Class September 30
