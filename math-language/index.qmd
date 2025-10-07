@@ -1,0 +1,60 @@
+
+---
+title: "Math + Language Projects"
+format:
+  revealjs:
+    theme: 
+      - simple
+    css: ../bl.css
+    header-includes: |
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+code-line-numbers: false
+sansfont: "Josefin Sans"
+---
+
+## Sign-up to Present
+
+If you haven't already done so:
+
+* Sign up in URCourses: Projects > Sign up to Present
+* **You will get extra engagement credit if you present on the first day (today)!**
+* If you are presenting today, place your link in Projects > Presentation Links > Math + Language, Day 1 
+
+## Presentation Guidelines
+
+Share:
+
+* Title + intentions for your project 
+* Inspirations and resources that helped you
+* A detailed overview of 5-15 lines of code
+* What you are most proud of
+* What you would do if you had more time
+
+
+# Study for Quiz #6 on Thursday!
+
+There is a study guide in URCourses. Be sure to bring a pen or pencil!
+
+## Notes on Quiz #7
+
+* Quiz #7 takes place on October 16
+* It will test your knowledge of one section of your Math + Language code project
+* You will receive a print out of your code, with comments removed, along with questions about a subsection of your code
+
+
+# Quiz #5 Review
+
+## Code along with me! {.center}
+
+![or take notes if you prefer](https://img.tpt.cloud/nextavenue/uploads/2021/09/bobrossestate-01.inside.1280x720.jpg)
+
+
+## Exit Ticket
+
+* Complete **In-Class Assignments -> Math + Language | Peer Remix** in URCourses. 
+
+* Be sure to submit your link before class is over! 
+
+

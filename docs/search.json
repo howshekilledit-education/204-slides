@@ -236,5 +236,131 @@
     "title": "Text Art",
     "section": "Project 1 | Aesthetics & Craftsmanship Criteria",
     "text": "Project 1 | Aesthetics & Craftsmanship Criteria\n\nBalanced/intentional Composition\nPleasing/intentional Use of Value/Color and attributes like alpha channel, stroke, fill\nEffective/intentional use of animation/interaction"
+  },
+  {
+    "objectID": "111/index.html#variables-language",
+    "href": "111/index.html#variables-language",
+    "title": "Variables, Color, and p5.js",
+    "section": "Variables & Language",
+    "text": "Variables & Language\n\nA variable is a placeholder for a value that may change.\nComputer variables and natural language might not be as different as you’d think.\nIn English, we use variables all the time!"
+  },
+  {
+    "objectID": "111/index.html#step-1-declare",
+    "href": "111/index.html#step-1-declare",
+    "title": "Variables, Color, and p5.js",
+    "section": "Step 1: Declare",
+    "text": "Step 1: Declare\n// Declare variables (usually at the top)\nlet x;\nlet y;\nlet diameter;\nlet speed;\nThis creates the variables but they have no value yet (undefined)."
+  },
+  {
+    "objectID": "111/index.html#step-2-initialize",
+    "href": "111/index.html#step-2-initialize",
+    "title": "Variables, Color, and p5.js",
+    "section": "Step 2: Initialize",
+    "text": "Step 2: Initialize\nlet x;\nlet y;\nlet diameter;\n\nfunction setup() {\n  createCanvas(400, 400);\n  \n  // Initialize variables\n  x = 200;\n  y = 200;\n  diameter = 50;\n}\nNow our variables have starting values!"
+  },
+  {
+    "objectID": "111/index.html#understanding-rgb-colors",
+    "href": "111/index.html#understanding-rgb-colors",
+    "title": "Variables, Color, and p5.js",
+    "section": "Understanding RGB Colors",
+    "text": "Understanding RGB Colors\nfill(255, 0, 0);     // Pure Red\nfill(0, 255, 0);     // Pure Green  \nfill(0, 0, 255);     // Pure Blue\nfill(255, 255, 0);   // Yellow (Red + Green)\nfill(255, 0, 255);   // Magenta (Red + Blue)\nfill(0, 255, 255);   // Cyan (Green + Blue)\nfill(255, 255, 255); // White\nfill(0, 0, 0);       // Black\nfill(128, 128, 128); // Gray\n\n\nRed, Green, Blue values\nEach value: 0-255 (0 = none, 255 = maximum)\nMix values to create any color"
+  },
+  {
+    "objectID": "111/index.html#munsell-color-system",
+    "href": "111/index.html#munsell-color-system",
+    "title": "Variables, Color, and p5.js",
+    "section": "Munsell Color System",
+    "text": "Munsell Color System\nAnother way of conceptualizing/encoding color in terms of:\n\nColor/hue\nValue lightness or darkness\nChroma saturation intensity\n\nFind an interactive Munsell palette here"
+  },
+  {
+    "objectID": "111/index.html#albers-forum-thread",
+    "href": "111/index.html#albers-forum-thread",
+    "title": "Variables, Color, and p5.js",
+    "section": "Albers Forum Thread",
+    "text": "Albers Forum Thread\nUse RGB encoding and the Munsell palette. Make your own version of Albers’ illusion."
+  },
+  {
+    "objectID": "111/index.html#interaction-of-color-forum-thread",
+    "href": "111/index.html#interaction-of-color-forum-thread",
+    "title": "Variables, Color, and p5.js",
+    "section": "Interaction of Color | Forum Thread",
+    "text": "Interaction of Color | Forum Thread\n\nCreate and log into a p5.js account\nUse RGB encoding and the Munsell palette.\nMake your own version of Albers’ illusion."
+  },
+  {
+    "objectID": "111/index.html#variables-language-1",
+    "href": "111/index.html#variables-language-1",
+    "title": "Variables, Color, and p5.js",
+    "section": "Variables & Language",
+    "text": "Variables & Language\n\nA variable is a placeholder for a value that may change.\nComputer variables and natural language might not be as different as you’d think.\nIn English, we use variables all the time!"
+  },
+  {
+    "objectID": "111/index.html#red-variations-forum-thread",
+    "href": "111/index.html#red-variations-forum-thread",
+    "title": "Variables, Color, and p5.js",
+    "section": "Red Variations | Forum Thread",
+    "text": "Red Variations | Forum Thread\nFollow the instructions in the “Red Variations” forum thread, to make a p5 sketch about what red is to you. Look at your classmates’ responses to see the variety of ways we can think about and represent a color."
+  },
+  {
+    "objectID": "111/index.html#sometimes-you-can-do-both-at-once",
+    "href": "111/index.html#sometimes-you-can-do-both-at-once",
+    "title": "Variables, Color, and p5.js",
+    "section": "Sometimes, you can do both at once",
+    "text": "Sometimes, you can do both at once\nYou can declare and initialize in one step:\nlet x = 200;\nlet y = 200;\nlet diameter = 50;"
+  },
+  {
+    "objectID": "111/index.html#string-variables",
+    "href": "111/index.html#string-variables",
+    "title": "Variables, Color, and p5.js",
+    "section": "String Variables",
+    "text": "String Variables\nIf a variable’s value is text, use quotes:\nlet greeting = \"Hello, World!\";\nlet name = 'Morgan';"
+  },
+  {
+    "objectID": "111/index.html#kind-of-like-search-and-replace",
+    "href": "111/index.html#kind-of-like-search-and-replace",
+    "title": "Variables, Color, and p5.js",
+    "section": "Kind of like search and replace…",
+    "text": "Kind of like search and replace…"
+  },
+  {
+    "objectID": "111/index.html#pause-video",
+    "href": "111/index.html#pause-video",
+    "title": "Variables, Color, and p5.js",
+    "section": "Pause video",
+    "text": "Pause video\nFollow instructions in Forum Creative Coding &gt; Interaction of Color"
+  },
+  {
+    "objectID": "math-language/index.html#sign-up-to-present",
+    "href": "math-language/index.html#sign-up-to-present",
+    "title": "Math + Language Projects",
+    "section": "Sign-up to Present",
+    "text": "Sign-up to Present\nIf you haven’t already done so:\n\nSign up in URCourses: Projects &gt; Sign up to Present\nYou will get extra engagement credit if you present on the first day (today)!\nIf you are presenting today, place your link in Projects &gt; Presentation Links &gt; Math + Language, Day 1"
+  },
+  {
+    "objectID": "math-language/index.html#presentation-guidelines",
+    "href": "math-language/index.html#presentation-guidelines",
+    "title": "Math + Language Projects",
+    "section": "Presentation Guidelines",
+    "text": "Presentation Guidelines\nShare:\n\nTitle + intentions for your project\nInspirations and resources that helped you\nA detailed overview of 5-15 lines of code\nWhat you are most proud of\nWhat you would do if you had more time"
+  },
+  {
+    "objectID": "math-language/index.html#notes-on-quiz-7",
+    "href": "math-language/index.html#notes-on-quiz-7",
+    "title": "Math + Language Projects",
+    "section": "Notes on Quiz #7",
+    "text": "Notes on Quiz #7\n\nQuiz #7 takes place on October 16\nIt will test your knowledge of one section of your Math + Language code project\nYou will receive a print out of your code, with comments removed, along with questions about a subsection of your code"
+  },
+  {
+    "objectID": "math-language/index.html#code-along-with-me",
+    "href": "math-language/index.html#code-along-with-me",
+    "title": "Math + Language Projects",
+    "section": "Code along with me!",
+    "text": "Code along with me!\n\nor take notes if you prefer"
+  },
+  {
+    "objectID": "math-language/index.html#exit-ticket",
+    "href": "math-language/index.html#exit-ticket",
+    "title": "Math + Language Projects",
+    "section": "Exit Ticket",
+    "text": "Exit Ticket\n\nComplete In-Class Assignments -&gt; Math + Language | Peer Remix in URCourses.\nBe sure to submit your link before class is over!"
   }
 ]

@@ -1,0 +1,168 @@
+---
+title: "Variables, Color, and p5.js"
+format:
+  revealjs:
+    theme: 
+      - simple
+    css: ../bl.css
+    header-includes: |
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+code-line-numbers: false
+sansfont: "Josefin Sans"
+---
+
+# Hi, I'm Professor Morgan Green!
+
+---
+
+![Josef Albers, *Interaction of Color*, [see it in action](https://vimeo.com/420347790)](albers.jpg)
+
+---
+
+<br>
+
+> What counts is not the what but the how
+
+—Josef Albers, *The Interaction of Color*, 1963
+
+---
+
+
+<br>
+
+> Color is the most relative medium in art. 
+
+—Josef Albers, *The Interaction of Color*, 1963
+
+---
+
+
+## Understanding RGB Colors {.smaller}
+
+```javascript
+fill(255, 0, 0);     // Pure Red
+fill(0, 255, 0);     // Pure Green  
+fill(0, 0, 255);     // Pure Blue
+fill(255, 255, 0);   // Yellow (Red + Green)
+fill(255, 0, 255);   // Magenta (Red + Blue)
+fill(0, 255, 255);   // Cyan (Green + Blue)
+fill(255, 255, 255); // White
+fill(0, 0, 0);       // Black
+fill(128, 128, 128); // Gray
+```
+
+:::{.incremental}
+- **R**ed, **G**reen, **B**lue values
+- Each value: 0-255 (0 = none, 255 = maximum)
+- Mix values to create any color
+:::
+
+
+---
+
+![Munsell Color System, Source: Encyclopedia Brittanica](https://cdn.britannica.com/34/2834-050-8758A9D8/tree-Munsell-system-colours-representation-scales-chroma.jpg)
+
+---
+
+## Munsell Color System
+
+Another way of conceptualizing/encoding color in terms of:
+
+* **Color/hue**
+* **Value** lightness or darkness
+* **Chroma** saturation intensity
+
+Find an interactive Munsell palette [here](https://pteromys.melonisland.net/munsell/)
+
+
+## Interaction of Color | Forum Thread
+
+* Create and log into a p5.js account
+* Use RGB encoding and the Munsell palette. 
+* Make your own version of [Albers' illusion](https://editor.p5js.org/howshekilledit/sketches/nBh-X9o_4). 
+
+# Variables in p5.js
+
+## Kind of like search and replace...
+
+## Step 1: Declare
+
+```javascript
+// Declare variables (usually at the top)
+let x;
+let y;
+let diameter;
+let speed;
+```
+
+This creates the variables but they have no value yet (`undefined`).
+
+---
+
+## Step 2: Initialize
+
+```javascript
+let x;
+let y;
+let diameter;
+
+function setup() {
+  createCanvas(400, 400);
+  
+  // Initialize variables
+  x = 200;
+  y = 200;
+  diameter = 50;
+}
+```
+
+Now our variables have starting values!
+
+---
+
+## Sometimes, you can do both at once
+
+You can declare and initialize in one step:
+
+```javascript
+let x = 200;
+let y = 200;
+let diameter = 50;
+```
+
+---
+
+## String Variables
+
+If a variable's value is text, use quotes:
+
+```javascript
+let greeting = "Hello, World!";
+let name = 'Morgan';
+```
+
+---
+
+![Josef Albers, *The Interaction of Color*, 1963](https://art287.rarelyasked.com/wp-content/uploads/2022/02/coke.png)
+
+---
+
+## Variables & Language 
+
+* A variable is a placeholder for a value that may change.
+* Computer variables and natural language might not be as different as you’d think.
+* In English, we use variables all the time!
+
+---
+
+## Red Variations | Forum Thread
+
+Follow the instructions in the "Red Variations" forum thread, to make [a p5 sketch](https://editor.p5js.org/howshekilledit/sketches/R3-mpJ51B) about what red is to you. 
+Look at your classmates' responses to see the variety of ways we can think about and represent a color.
+
+
+## Pause video
+
+Follow instructions in Forum **Creative Coding > Interaction of Color**
