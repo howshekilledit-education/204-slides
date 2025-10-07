@@ -53,8 +53,9 @@ There is a study guide in URCourses. Be sure to bring a pen or pencil!
 
 ## Exit Ticket
 
-* Complete **In-Class Assignments -> Math + Language | Peer Remix** in URCourses. 
-
-* Be sure to submit your link before class is over! 
+* Go to Projects > Presentation Links > Math + Language, Day 1 
+* Reply to one your peers with 
+  * A remix of their p5.js sketch OR 
+  * A screenshot from their sketch, and a note on why it stuck out to you
 
 
