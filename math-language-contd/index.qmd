@@ -1,0 +1,81 @@
+
+---
+title: "Math + Language Cont'd"
+format:
+  revealjs:
+    theme: 
+      - simple
+    css: ../bl.css
+    header-includes: |
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+
+mainfont: 'Josefin Sans'
+---
+
+# The quiz will start at 10:05! You may study until then.
+
+## How to Complete Quiz {.smaller}
+
+::: {.column width="30%"}
+
+![](https://brownbagteacher.com/wp-content/uploads/2020/02/BubbledScantron-1024x770.png)
+
+:::
+
+::: {.column width="70%"}
+
+* Don't lift your bubble sheet from the quiz until professor says "begin"!
+* If your computer is on, put it to sleep by clicking the apple in the top left, then "Sleep"
+* Write your first and last name
+* Write today's date, Oct. 9
+* Use dark pen or pencil
+* Only use the left column
+* Fill in the correct bubble completely
+* You have twenty minutes.
+
+:::
+
+
+## Presentation Guidelines
+
+Share:
+
+* Title + intentions for your project 
+* Inspirations and resources that helped you
+* A detailed overview of 5-15 lines of code
+* What you are most proud of
+* What you would do if you had more time
+
+# Creative Research Project
+
+## Assignment Summary 
+
+In your second project, due November 3, you will:
+
+* Use coding concepts from Week 1-7
+* Use research in a creative way, meaning you should directly reference and even analyze outside materials as part of the artwork 
+* You can find some examples in the [forum](https://urcourses.uregina.ca/mod/forum/discuss.php?d=1231167)
+
+## Brainstorm, Part 1
+
+1. For the first part of your brainstorm, open a blank document in OneDrive. 
+2. List and/or link sources you might use for your research. 
+3. Bookmark this document, as you will want to keep track of all works your reference while creating this project! 
+
+## Brainstorm, Part 2
+
+* The professor will set a timer. 
+* In your notebook, write and draw about a potential creative research project. 
+* Feel free to reference resources from part 1. 
+* Keep your pen moving the whole time. (You may also use a tablet)
+
+## Exit Ticket
+
+Follow instructions in URCourses: **In-Class Assignments > Creative Research Brainstorm**
+
+
+
+

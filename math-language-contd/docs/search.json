@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html#try-to-create-a-random-composition",
+    "href": "index.html#try-to-create-a-random-composition",
+    "title": "Intentionally Random",
+    "section": "Try to create a random composition",
+    "text": "Try to create a random composition\nOpen Link 1 in the Google Doc. Click to place shapes randomly."
+  },
+  {
+    "objectID": "index.html#let-the-computer-create-a-random-composition",
+    "href": "index.html#let-the-computer-create-a-random-composition",
+    "title": "Intentionally Random",
+    "section": "Let the computer create a random composition",
+    "text": "Let the computer create a random composition\nOpen Link 2 in the Google Doc. Watch the computer place the shapes."
+  },
+  {
+    "objectID": "index.html#p5-ellipse",
+    "href": "index.html#p5-ellipse",
+    "title": "Intentionally Random",
+    "section": "p5 ellipse()",
+    "text": "p5 ellipse()\n\n\n\n\nTry it yourself: LINK 3 in Google Doc\n\nPress play button to run sketch. Try directions to the right.\n\n\n\n\nWhat happens if we change \nellipse(200, 200, 100) to  ellipse(300, 200, 100)  ?"
+  },
+  {
+    "objectID": "index.html#p5-randomness",
+    "href": "index.html#p5-randomness",
+    "title": "Intentionally Random",
+    "section": "p5 Randomness",
+    "text": "p5 Randomness\n From there, what happens if we change \nellipse(300, 200, 100) to  ellipse(random(300), 200, 100) ?  Be careful to match the text exactly! Try running several times."
+  },
+  {
+    "objectID": "index.html#random-with-one-argument",
+    "href": "index.html#random-with-one-argument",
+    "title": "Intentionally Random",
+    "section": "random() with one argument",
+    "text": "random() with one argument\n\n\n\n\nTry it yourself: LINK 4 in Google Doc\n\nPress play button to run sketch. Try directions to the right.\n\n\n\n\nWhat happens if we change \nrandom(300) to  random(10)  ?"
+  },
+  {
+    "objectID": "index.html#random-with-two-arguments",
+    "href": "index.html#random-with-two-arguments",
+    "title": "Intentionally Random",
+    "section": "random() with two arguments",
+    "text": "random() with two arguments\n\nFrom there, what happens if we change  \nrandom(10) to  random(10, 20) \n?\n\nWhere else does random() appear?"
+  },
+  {
+    "objectID": "index.html#pseudorandomness-vs-true-randomness",
+    "href": "index.html#pseudorandomness-vs-true-randomness",
+    "title": "Intentionally Random",
+    "section": "Pseudorandomness vs True Randomness",
+    "text": "Pseudorandomness vs True Randomness\n\n\n\nPseudorandomness vs True Randomness"
+  },
+  {
+    "objectID": "index.html#tea-divination-in-europe",
+    "href": "index.html#tea-divination-in-europe",
+    "title": "Intentionally Random",
+    "section": "Tea Divination in Europe",
+    "text": "Tea Divination in Europe\n\nTea Divination illustration, 1842, London"
+  },
+  {
+    "objectID": "index.html#contemporary-tasseography-instructions",
+    "href": "index.html#contemporary-tasseography-instructions",
+    "title": "Intentionally Random",
+    "section": "Contemporary Tasseography Instructions",
+    "text": "Contemporary Tasseography Instructions\n\nTasseography Instructions"
+  },
+  {
+    "objectID": "index.html#ifa-divination-in-west-africa",
+    "href": "index.html#ifa-divination-in-west-africa",
+    "title": "Intentionally Random",
+    "section": "Ifa Divination in West Africa",
+    "text": "Ifa Divination in West Africa\n\nIfa Divination Board, West Africa, pseudorandom number generating technique"
+  },
+  {
+    "objectID": "index.html#ifa-instructions",
+    "href": "index.html#ifa-instructions",
+    "title": "Intentionally Random",
+    "section": "Ifa Instructions",
+    "text": "Ifa Instructions\n\nIfa Divination Instructions"
+  },
+  {
+    "objectID": "index.html#predictive-modeling",
+    "href": "index.html#predictive-modeling",
+    "title": "Intentionally Random",
+    "section": "Predictive Modeling",
+    "text": "Predictive Modeling\n\nMany contemporary predictive models include a pseudorandom element"
+  },
+  {
+    "objectID": "index.html#how-does-human-intention-guide-each-of-these-examples",
+    "href": "index.html#how-does-human-intention-guide-each-of-these-examples",
+    "title": "Intentionally Random",
+    "section": "How does human intention guide each of these examples?",
+    "text": "How does human intention guide each of these examples?"
+  },
+  {
+    "objectID": "index.html#jean-arp",
+    "href": "index.html#jean-arp",
+    "title": "Intentionally Random",
+    "section": "Jean Arp",
+    "text": "Jean Arp\n\n\n\n\n\nJean (Hans) Arp, Untitled (Collage with Squares Arranged according to the Law of Chance), 1916–17\n\n\n\n\nWhile chance was undoubtedly the point of departure for this and other works in the series According to the Laws of Chance, the relatively ordered appearance of Arp’s collages suggest he did not fully relinquish control.\n\nsource: moma.org"
+  },
+  {
+    "objectID": "index.html#inspiration-for-next-demo",
+    "href": "index.html#inspiration-for-next-demo",
+    "title": "Intentionally Random",
+    "section": "Inspiration for next demo",
+    "text": "Inspiration for next demo\n\nJean (Hans) Arp, Untitled (Collage with Squares Arranged according to the Law of Chance), 1917"
+  },
+  {
+    "objectID": "index.html#defintions",
+    "href": "index.html#defintions",
+    "title": "Intentionally Random",
+    "section": "Defintions",
+    "text": "Defintions\n\nJavaScript: a programming language that makes web pages interactive\np5.js: a JavaScript library for creative coding"
+  },
+  {
+    "objectID": "index.html#setup-and-draw",
+    "href": "index.html#setup-and-draw",
+    "title": "Intentionally Random",
+    "section": "setup() and draw()",
+    "text": "setup() and draw()\nfunction setup() {\n   // setup code runs once\n   // at the start of the sketch\n}\n\nfunction draw() {\n   // draw code runs repeatedly\n   // after setup\n}\n\nsetup() happens at the start  draw() happens on a loop after setup()"
+  },
+  {
+    "objectID": "index.html#functions-and-arguments",
+    "href": "index.html#functions-and-arguments",
+    "title": "Intentionally Random",
+    "section": "Functions and Arguments",
+    "text": "Functions and Arguments"
+  },
+  {
+    "objectID": "index.html#random-and-ellipse",
+    "href": "index.html#random-and-ellipse",
+    "title": "Intentionally Random",
+    "section": "random() and ellipse()",
+    "text": "random() and ellipse()\nrandom(10) // one argument, returns a number between 0 and 10\n\nellipse(200, 200, 100, 100) // four arguments, x, y, width, height"
+  }
+]

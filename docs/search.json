@@ -200,14 +200,14 @@
     "href": "index.html",
     "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
     "section": "",
-    "text": "Sept 23: Conditionals\nSept 18: Intentionally Random\nSept 16: Numerical Operatons\nSept 11: Color Theory and Coding\nSept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
+    "text": "Oct 1: Boolean Variables\nSept 23: Conditionals\nSept 18: Intentionally Random\nSept 16: Numerical Operatons\nSept 11: Color Theory and Coding\nSept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
   },
   {
     "objectID": "index.html#lecture-slides",
     "href": "index.html#lecture-slides",
     "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
     "section": "",
-    "text": "Sept 23: Conditionals\nSept 18: Intentionally Random\nSept 16: Numerical Operatons\nSept 11: Color Theory and Coding\nSept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
+    "text": "Oct 1: Boolean Variables\nSept 23: Conditionals\nSept 18: Intentionally Random\nSept 16: Numerical Operatons\nSept 11: Color Theory and Coding\nSept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
   },
   {
     "objectID": "conditionals/index.html#whats-on-the-quiz-vs.-live-demos",
@@ -221,7 +221,7 @@
     "href": "words/index.html#how-to-complete-quiz",
     "title": "Text Art",
     "section": "How to Complete Quiz",
-    "text": "How to Complete Quiz\n\n\n\n\nIf your computer is on, put it to sleep by clicking the apple in the top left, then “Sleep”\nWrite your first and last name\nWrite today’s date, Sept. 25\nUse black/blue pen or pencil\nOnly use the left column\nFill in the correct bubble completely\nYou have twenty minutes."
+    "text": "How to Complete Quiz\n\n\n\n\nDon’t lift your bubble sheet from the quiz until professor says “begin”!\nIf your computer is on, put it to sleep by clicking the apple in the top left, then “Sleep”\nWrite your first and last name\nWrite today’s date, Sept. 25\nUse black/blue pen or pencil\nOnly use the left column\nFill in the correct bubble completely\nYou have twenty minutes."
   },
   {
     "objectID": "words/index.html#project-1-aesthetics-craftsmanship-criteria",
@@ -362,5 +362,124 @@
     "title": "Math + Language Projects",
     "section": "Exit Ticket",
     "text": "Exit Ticket\n\nComplete In-Class Assignments -&gt; Math + Language | Peer Remix in URCourses.\nBe sure to submit your link before class is over!"
+  },
+  {
+    "objectID": "words/index.html#quiz-5-october-2",
+    "href": "words/index.html#quiz-5-october-2",
+    "title": "Text Art",
+    "section": "Quiz #5 October 2",
+    "text": "Quiz #5 October 2\nWe will still have a quiz next Thursday. Find the study guide in URCourses!"
+  },
+  {
+    "objectID": "boolean/index.html#how-to-complete-quiz",
+    "href": "boolean/index.html#how-to-complete-quiz",
+    "title": "Boolean Variables",
+    "section": "How to Complete Quiz",
+    "text": "How to Complete Quiz\n\n\n\n\nDon’t lift your bubble sheet from the quiz until professor says “begin”!\nIf your computer is on, put it to sleep by clicking the apple in the top left, then “Sleep”\nWrite your first and last name\nWrite today’s date, Oct. 2\nUse black/blue pen or pencil\nOnly use the left column\nFill in the correct bubble completely\nYou have twenty minutes. # Review Last Week’s Quiz"
+  },
+  {
+    "objectID": "boolean/index.html#a-reminder-about-project-grades",
+    "href": "boolean/index.html#a-reminder-about-project-grades",
+    "title": "Boolean Variables",
+    "section": "A reminder about project grades",
+    "text": "A reminder about project grades\n\nIf average grade is too high, everyone might have their grade reduced.\nThe average grade should be around 70% to avoid a downward curve. Please adjust your grade expecations accordingly.\nIn art, 100% is virtually impossible.\n70% is a solid respectable grade."
+  },
+  {
+    "objectID": "math-language-contd/index.html#how-to-complete-quiz",
+    "href": "math-language-contd/index.html#how-to-complete-quiz",
+    "title": "Math + Language Cont’d",
+    "section": "How to Complete Quiz",
+    "text": "How to Complete Quiz\n\n\n\n\nDon’t lift your bubble sheet from the quiz until professor says “begin”!\nIf your computer is on, put it to sleep by clicking the apple in the top left, then “Sleep”\nWrite your first and last name\nWrite today’s date, Oct. 9\nUse dark pen or pencil\nOnly use the left column\nFill in the correct bubble completely\nYou have twenty minutes."
+  },
+  {
+    "objectID": "math-language-contd/index.html#play-with-randomness",
+    "href": "math-language-contd/index.html#play-with-randomness",
+    "title": "Math + Language Cont’d",
+    "section": "Play with randomness!",
+    "text": "Play with randomness!\nGo to In-Class Assignments&gt;Random Shapes, and respond to BOTH forum prompts with screenshots:\n\nPart 1: Try to create a random composition\nPart 2: Let the computer create a random composition"
+  },
+  {
+    "objectID": "math-language-contd/index.html#questions-to-consider",
+    "href": "math-language-contd/index.html#questions-to-consider",
+    "title": "Math + Language Cont’d",
+    "section": "Questions to Consider",
+    "text": "Questions to Consider\n\nHow does randomness reflect our world?\nHow can randomness enhance a design?\nHow can you control randomness for design that is both intentional and suprising?"
+  },
+  {
+    "objectID": "math-language-contd/index.html#how-does-human-intention-guide-each-of-these-examples",
+    "href": "math-language-contd/index.html#how-does-human-intention-guide-each-of-these-examples",
+    "title": "Math + Language Cont’d",
+    "section": "How does human intention guide each of these examples?",
+    "text": "How does human intention guide each of these examples?"
+  },
+  {
+    "objectID": "math-language-contd/index.html#math-language-brainstorm",
+    "href": "math-language-contd/index.html#math-language-brainstorm",
+    "title": "Math + Language Cont’d",
+    "section": "Math + Language Brainstorm",
+    "text": "Math + Language Brainstorm\nIn your first project, you will:\n\nuse coding concepts from Week 1-4\nuse both math and language visually/conceptually. This prompt is open, as long as you can explain how you are using both.\n\nThe professor will set a timer. In your notebook, write and draw about a potential math + language project. Keep your pen moving the whole time. (You may also use a tablet)"
+  },
+  {
+    "objectID": "math-language-contd/index.html#exit-ticket",
+    "href": "math-language-contd/index.html#exit-ticket",
+    "title": "Math + Language Cont’d",
+    "section": "Exit Ticket",
+    "text": "Exit Ticket\nFollow instructions in URCourses: In-Class Assignments &gt; Creative Research Brainstorm"
+  },
+  {
+    "objectID": "math-language-contd/index.html#presentation-guidelines",
+    "href": "math-language-contd/index.html#presentation-guidelines",
+    "title": "Math + Language Cont’d",
+    "section": "Presentation Guidelines",
+    "text": "Presentation Guidelines\nShare:\n\nTitle + intentions for your project\nInspirations and resources that helped you\nA detailed overview of 5-15 lines of code\nWhat you are most proud of\nWhat you would do if you had more time"
+  },
+  {
+    "objectID": "math-language-contd/index.html#creative-research-brainstorm",
+    "href": "math-language-contd/index.html#creative-research-brainstorm",
+    "title": "Math + Language Cont’d",
+    "section": "Creative Research Brainstorm",
+    "text": "Creative Research Brainstorm\nPart 1\nIn your second project, due November 3, you will:\n\nUse coding concepts from Week 1-7\nUse research in a creative way, meaning you should directly reference and even analyze outside materials as part of the artwork\n\nFor the first part of your brainstorm, open a blank document in Google Docs or OneDrive. List and/or link sources you might use for your research. Bookmark this document, as you will want to keep track of all works your reference while creating this proeject!"
+  },
+  {
+    "objectID": "math-language-contd/index.html#creative-research-brainstorm-part-1",
+    "href": "math-language-contd/index.html#creative-research-brainstorm-part-1",
+    "title": "Math + Language Cont’d",
+    "section": "Creative Research Brainstorm, Part 1",
+    "text": "Creative Research Brainstorm, Part 1\n\nFor the first part of your brainstorm, open a blank document in Google Docs or OneDrive.\nList and/or link sources you might use for your research.\nBookmark this document, as you will want to keep track of all works your reference while creating this proeject!"
+  },
+  {
+    "objectID": "math-language-contd/index.html#creative-research-brainstorm-part-2",
+    "href": "math-language-contd/index.html#creative-research-brainstorm-part-2",
+    "title": "Math + Language Cont’d",
+    "section": "Creative Research Brainstorm | Part 2",
+    "text": "Creative Research Brainstorm | Part 2\n\nThe professor will set a timer.\nIn your notebook, write and draw about a potential creative project.\nFeel free to reference resources from part 1.\nKeep your pen moving the whole time. (You may also use a tablet)"
+  },
+  {
+    "objectID": "math-language-contd/index.html#creative-research-assignment-summary",
+    "href": "math-language-contd/index.html#creative-research-assignment-summary",
+    "title": "Math + Language Cont’d",
+    "section": "Creative Research, Assignment Summary",
+    "text": "Creative Research, Assignment Summary\nIn your second project, due November 3, you will:\n\nUse coding concepts from Week 1-7\nUse research in a creative way, meaning you should directly reference and even analyze outside materials as part of the artwork\nYou can find some examples in the forum"
+  },
+  {
+    "objectID": "math-language-contd/index.html#brainstorm-part-1",
+    "href": "math-language-contd/index.html#brainstorm-part-1",
+    "title": "Math + Language Cont’d",
+    "section": "Brainstorm, Part 1",
+    "text": "Brainstorm, Part 1\n\nFor the first part of your brainstorm, open a blank document in OneDrive.\nList and/or link sources you might use for your research.\nBookmark this document, as you will want to keep track of all works your reference while creating this project!"
+  },
+  {
+    "objectID": "math-language-contd/index.html#brainstorm-part-2",
+    "href": "math-language-contd/index.html#brainstorm-part-2",
+    "title": "Math + Language Cont’d",
+    "section": "Brainstorm, Part 2",
+    "text": "Brainstorm, Part 2\n\nThe professor will set a timer.\nIn your notebook, write and draw about a potential creative research project.\nFeel free to reference resources from part 1.\nKeep your pen moving the whole time. (You may also use a tablet)"
+  },
+  {
+    "objectID": "math-language-contd/index.html#assignment-summary",
+    "href": "math-language-contd/index.html#assignment-summary",
+    "title": "Math + Language Cont’d",
+    "section": "Assignment Summary",
+    "text": "Assignment Summary\nIn your second project, due November 3, you will:\n\nUse coding concepts from Week 1-7\nUse research in a creative way, meaning you should directly reference and even analyze outside materials as part of the artwork\nYou can find some examples in the forum"
   }
 ]
