@@ -49,6 +49,13 @@ Share:
 * What you are most proud of
 * What you would do if you had more time
 
+## Notes on Quiz #7
+
+* Quiz #7 takes place on October 16
+* It will test your knowledge of one section of your Math + Language code project
+* You will receive a print out of your code, with comments removed, along with questions about a subsection of your code
+* You can find a sample quiz [in URCourses](https://urcourses.uregina.ca/mod/assign/view.php?id=3121529)
+
 # Creative Research Project
 
 ## Assignment Summary 
