@@ -1,0 +1,195 @@
+
+---
+title: "Loops"
+format:
+  revealjs:
+    theme: 
+      - simple
+    css: ../bl.css
+    header-includes: |
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+code-line-numbers: false
+sansfont: "Josefin Sans"
+---
+
+
+## Creative Research
+
+* See multiple examples in [this week's forum](https://urcourses.uregina.ca/mod/forum/discuss.php?d=1231167).
+* What research does each artist bring in?
+* How does each project apply artistic methods to research?
+* How do creative methodologies give the research new meaning? 
+
+# Review Last Week's Quiz
+
+# Loops in p5.js
+
+## What are Loops?
+
+Loops allow you to repeat code without writing it over and over again.
+
+Instead of writing:
+```javascript
+circle(50, 200, 40);
+circle(100, 200, 40);
+circle(150, 200, 40);
+circle(200, 200, 40);
+circle(250, 200, 40);
+```
+
+You can use a loop to draw multiple shapes efficiently. [See comparison](https://editor.p5js.org/howshekilledit/sketches/mO1fJqkXK) 
+
+## While Loops
+
+A `while` loop repeats code as long as a condition is true.
+
+``` {.javascript code-line-numbers="false"}
+let x = 50;
+
+while (x < 400) {
+  circle(x, 200, 40);
+  x = x + 50; 
+}
+```
+[See it live](https://editor.p5js.org/howshekilledit/sketches/1nRY0qLmq)
+<br>
+
+**Warning:** Make sure the condition eventually becomes false, or you'll create an infinite loop!
+
+## For Loops
+
+A `for` loop is more structured and commonly used for counting.
+
+``` {.javascript code-line-numbers="false"}
+for (let i = 0; i < 8; i++) {
+  let x = i * 50 + 50;
+  circle(x, 200, 40);
+}
+```
+
+**Structure** (stated several ways):<br> 
+`for (initialization; condition; update) { ... }` 
+<br>
+`for (start state; while state; change) { ... }`
+<br>
+`for (<start>; <end>; <in-between-event>) { ... }`
+
+## For Loop Breakdown
+
+``` {.javascript code-line-numbers="false"}
+for (let i = 0; i < 8; i++) {
+  // code to repeat
+}
+```
+
+- **`let i = 0`** - Start with i equal to 0
+- **`i < 8`** - Continue while i is less than 8  
+- **`i++`** - Add 1 to i after each loop
+- **Result:** Loop runs 8 times (i = 0,1,2,3,4,5,6,7)
+
+## Using the Loop Counter
+
+
+``` {.javascript code-line-numbers="false"}
+for (let i = 0; i < 8; i++) {
+  let diameter = i * 10 + 20; 
+  circle(200, 200, diameter);
+}
+```
+
+This creates concentric circles. What happens when you change initial and terminating conditions?
+[See it live](https://editor.p5js.org/howshekilledit/sketches/B6gUPsjnb)
+
+## Nested Loops
+
+You can put loops inside other loops to create grids and patterns.
+
+``` {.javascript code-line-numbers="false"}
+for (let i = 0; i < 5; i++) {        // rows
+  for (let j = 0; j < 5; j++) {      // columns
+    let x = j * 60 + 30;
+    let y = i * 60 + 30;
+    circle(x, y, 40);
+  }
+}
+```
+
+This creates a 5×5 grid of circles!
+
+## How Nested Loops Work
+
+``` {.javascript code-line-numbers="false"}
+for (let i = 0; i < 3; i++) {        // Outer loop: i = 0,1,2
+  for (let j = 0; j < 3; j++) {      // Inner loop: j = 0,1,2
+    // This runs 9 times total!
+    // (0,0) (0,1) (0,2) (1,0) (1,1) (1,2) (2,0) (2,1) (2,2)
+  }
+}
+```
+
+- Outer loop runs 3 times
+- Inner loop runs 3 times for each outer loop
+- Total: 3 × 3 = 9 repetitions
+- [See it live](https://editor.p5js.org/howshekilledit/sketches/ATSpSJ_FT)
+
+## Loops in draw()
+
+When you put loops inside `draw()`, they run every frame:
+
+``` {.javascript code-line-numbers="false"}
+function draw() {
+  background(220);
+  
+  for (let i = 0; i < 10; i++) {
+    let x = i * 40 + 20;
+    let y = mouseY;  // Follow mouse vertically
+    circle(x, y, 30);
+  }
+}
+```
+
+This creates a row of circles that follows your mouse. [See it live](https://editor.p5js.org/howshekilledit/sketches/lmhHNX94s)
+
+## Arrays
+
+Arrays store multiple values in a single variable.
+``` {.javascript code-line-numbers="false"}
+let colors = ['red', 'green', 'blue', 'yellow'];
+console.log(colors[0]); // 'red'
+```
+
+## Arrays and for loops
+``` {.javascript code-line-numbers="false"}
+let colors = ['red', 'green', 'blue', 'yellow'];
+for (let i = 0; i < colors.length; i++) {
+  fill(colors[i]);
+  circle(i * 60 + 30, 200, 40);
+}
+```
+[See it live](https://editor.p5js.org/howshekilledit/sketches/9bvhivBiY)
+
+## Notes on Quiz #7
+
+* Quiz #7 takes place this Thursday, October 16
+* It will test your knowledge of one section of your Math + Language code project
+* You will receive a print out of your code, with comments removed, along with questions about a subsection of your code
+* You can find a sample quiz [in URCourses](https://urcourses.uregina.ca/mod/assign/view.php?id=3121529)
+
+
+
+
+## Code along with me! {.center}
+
+![or take notes if you prefer](https://img.tpt.cloud/nextavenue/uploads/2021/09/bobrossestate-01.inside.1280x720.jpg)
+
+
+
+## Exit Ticket
+
+Complete today's demo remix assignment in **URCourses > In-Class Assignments > Loops | Demo Remix**. 
+
+Be sure to submit your link before class is over! 
+
+

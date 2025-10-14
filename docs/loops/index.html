@@ -9,7 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.40">
 
-  <title>CTCH 204 | Intro to Creative Coding – Math + Language Cont’d</title>
+  <title>CTCH 204 | Intro to Creative Coding – Loops</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -27,6 +27,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-423d414d36ce366a9d05f36d06304417.css">
   <link rel="stylesheet" href="../bl.css">
@@ -130,87 +195,157 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Math + Language Cont’d</h1>
+  <h1 class="title">Loops</h1>
 
 <div class="quarto-title-authors">
 </div>
 
 </section>
-<section>
-<section id="the-quiz-will-start-at-1005-you-may-study-until-then." class="title-slide slide level1 center">
-<h1>The quiz will start at 10:05! You may study until then.</h1>
+<section id="creative-research" class="slide level2">
+<h2>Creative Research</h2>
+<ul>
+<li>See multiple examples in <a href="https://urcourses.uregina.ca/mod/forum/discuss.php?d=1231167">this week’s forum</a>.</li>
+<li>What research does each artist bring in?</li>
+<li>How does each project apply artistic methods to research?</li>
+<li>How do creative methodologies give the research new meaning?</li>
+</ul>
+</section>
+<section id="review-last-weeks-quiz" class="title-slide slide level1 center">
+<h1>Review Last Week’s Quiz</h1>
 
 </section>
-<section id="how-to-complete-quiz" class="slide level2 smaller">
-<h2>How to Complete Quiz</h2>
-<div class="column" style="width:30%;">
-<p><img data-src="https://brownbagteacher.com/wp-content/uploads/2020/02/BubbledScantron-1024x770.png"></p>
-</div><div class="column" style="width:70%;">
+
+<section>
+<section id="loops-in-p5.js" class="title-slide slide level1 center">
+<h1>Loops in p5.js</h1>
+
+</section>
+<section id="what-are-loops" class="slide level2">
+<h2>What are Loops?</h2>
+<p>Loops allow you to repeat code without writing it over and over again.</p>
+<p>Instead of writing:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">circle</span>(<span class="dv">50</span><span class="op">,</span> <span class="dv">200</span><span class="op">,</span> <span class="dv">40</span>)<span class="op">;</span></span>
+<span id="cb1-2"><a aria-hidden="true" tabindex="-1"></a><span class="fu">circle</span>(<span class="dv">100</span><span class="op">,</span> <span class="dv">200</span><span class="op">,</span> <span class="dv">40</span>)<span class="op">;</span></span>
+<span id="cb1-3"><a aria-hidden="true" tabindex="-1"></a><span class="fu">circle</span>(<span class="dv">150</span><span class="op">,</span> <span class="dv">200</span><span class="op">,</span> <span class="dv">40</span>)<span class="op">;</span></span>
+<span id="cb1-4"><a aria-hidden="true" tabindex="-1"></a><span class="fu">circle</span>(<span class="dv">200</span><span class="op">,</span> <span class="dv">200</span><span class="op">,</span> <span class="dv">40</span>)<span class="op">;</span></span>
+<span id="cb1-5"><a aria-hidden="true" tabindex="-1"></a><span class="fu">circle</span>(<span class="dv">250</span><span class="op">,</span> <span class="dv">200</span><span class="op">,</span> <span class="dv">40</span>)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>You can use a loop to draw multiple shapes efficiently. <a href="https://editor.p5js.org/howshekilledit/sketches/mO1fJqkXK">See comparison</a></p>
+</section>
+<section id="while-loops" class="slide level2">
+<h2>While Loops</h2>
+<p>A <code>while</code> loop repeats code as long as a condition is true.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb2-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> x <span class="op">=</span> <span class="dv">50</span><span class="op">;</span></span>
+<span id="cb2-2"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> (x <span class="op">&lt;</span> <span class="dv">400</span>) {</span>
+<span id="cb2-4"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">circle</span>(x<span class="op">,</span> <span class="dv">200</span><span class="op">,</span> <span class="dv">40</span>)<span class="op">;</span></span>
+<span id="cb2-5"><a aria-hidden="true" tabindex="-1"></a>  x <span class="op">=</span> x <span class="op">+</span> <span class="dv">50</span><span class="op">;</span> </span>
+<span id="cb2-6"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><a href="https://editor.p5js.org/howshekilledit/sketches/1nRY0qLmq">See it live</a> <br></p>
+<p><strong>Warning:</strong> Make sure the condition eventually becomes false, or you’ll create an infinite loop!</p>
+</section>
+<section id="for-loops" class="slide level2">
+<h2>For Loops</h2>
+<p>A <code>for</code> loop is more structured and commonly used for counting.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb3-1"><a aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (<span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="dv">8</span><span class="op">;</span> i<span class="op">++</span>) {</span>
+<span id="cb3-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> x <span class="op">=</span> i <span class="op">*</span> <span class="dv">50</span> <span class="op">+</span> <span class="dv">50</span><span class="op">;</span></span>
+<span id="cb3-3"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">circle</span>(x<span class="op">,</span> <span class="dv">200</span><span class="op">,</span> <span class="dv">40</span>)<span class="op">;</span></span>
+<span id="cb3-4"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Structure</strong> (stated several ways):<br> <code>for (initialization; condition; update) { ... }</code> <br> <code>for (start state; while state; change) { ... }</code> <br> <code>for (&lt;start&gt;; &lt;end&gt;; &lt;in-between-event&gt;) { ... }</code></p>
+</section>
+<section id="for-loop-breakdown" class="slide level2">
+<h2>For Loop Breakdown</h2>
+<div class="sourceCode" id="cb4"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb4-1"><a aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (<span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="dv">8</span><span class="op">;</span> i<span class="op">++</span>) {</span>
+<span id="cb4-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="co">// code to repeat</span></span>
+<span id="cb4-3"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>Don’t lift your bubble sheet from the quiz until professor says “begin”!</li>
-<li>If your computer is on, put it to sleep by clicking the apple in the top left, then “Sleep”</li>
-<li>Write your first and last name</li>
-<li>Write today’s date, Oct.&nbsp;9</li>
-<li>Use dark pen or pencil</li>
-<li>Only use the left column</li>
-<li>Fill in the correct bubble completely</li>
-<li>You have twenty minutes.</li>
+<li><strong><code>let i = 0</code></strong> - Start with i equal to 0</li>
+<li><strong><code>i &lt; 8</code></strong> - Continue while i is less than 8<br>
+</li>
+<li><strong><code>i++</code></strong> - Add 1 to i after each loop</li>
+<li><strong>Result:</strong> Loop runs 8 times (i = 0,1,2,3,4,5,6,7)</li>
 </ul>
-</div></section>
-<section id="presentation-guidelines" class="slide level2">
-<h2>Presentation Guidelines</h2>
-<p>Share:</p>
+</section>
+<section id="using-the-loop-counter" class="slide level2">
+<h2>Using the Loop Counter</h2>
+<div class="sourceCode" id="cb5"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb5-1"><a aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (<span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="dv">8</span><span class="op">;</span> i<span class="op">++</span>) {</span>
+<span id="cb5-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> diameter <span class="op">=</span> i <span class="op">*</span> <span class="dv">10</span> <span class="op">+</span> <span class="dv">20</span><span class="op">;</span> </span>
+<span id="cb5-3"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">circle</span>(<span class="dv">200</span><span class="op">,</span> <span class="dv">200</span><span class="op">,</span> diameter)<span class="op">;</span></span>
+<span id="cb5-4"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This creates concentric circles. What happens when you change initial and terminating conditions? <a href="https://editor.p5js.org/howshekilledit/sketches/B6gUPsjnb">See it live</a></p>
+</section>
+<section id="nested-loops" class="slide level2">
+<h2>Nested Loops</h2>
+<p>You can put loops inside other loops to create grids and patterns.</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb6-1"><a aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (<span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="dv">5</span><span class="op">;</span> i<span class="op">++</span>) {        <span class="co">// rows</span></span>
+<span id="cb6-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (<span class="kw">let</span> j <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> j <span class="op">&lt;</span> <span class="dv">5</span><span class="op">;</span> j<span class="op">++</span>) {      <span class="co">// columns</span></span>
+<span id="cb6-3"><a aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> x <span class="op">=</span> j <span class="op">*</span> <span class="dv">60</span> <span class="op">+</span> <span class="dv">30</span><span class="op">;</span></span>
+<span id="cb6-4"><a aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> y <span class="op">=</span> i <span class="op">*</span> <span class="dv">60</span> <span class="op">+</span> <span class="dv">30</span><span class="op">;</span></span>
+<span id="cb6-5"><a aria-hidden="true" tabindex="-1"></a>    <span class="fu">circle</span>(x<span class="op">,</span> y<span class="op">,</span> <span class="dv">40</span>)<span class="op">;</span></span>
+<span id="cb6-6"><a aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb6-7"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This creates a 5×5 grid of circles!</p>
+</section>
+<section id="how-nested-loops-work" class="slide level2">
+<h2>How Nested Loops Work</h2>
+<div class="sourceCode" id="cb7"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb7-1"><a aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (<span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="dv">3</span><span class="op">;</span> i<span class="op">++</span>) {        <span class="co">// Outer loop: i = 0,1,2</span></span>
+<span id="cb7-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (<span class="kw">let</span> j <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> j <span class="op">&lt;</span> <span class="dv">3</span><span class="op">;</span> j<span class="op">++</span>) {      <span class="co">// Inner loop: j = 0,1,2</span></span>
+<span id="cb7-3"><a aria-hidden="true" tabindex="-1"></a>    <span class="co">// This runs 9 times total!</span></span>
+<span id="cb7-4"><a aria-hidden="true" tabindex="-1"></a>    <span class="co">// (0,0) (0,1) (0,2) (1,0) (1,1) (1,2) (2,0) (2,1) (2,2)</span></span>
+<span id="cb7-5"><a aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb7-6"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>Title + intentions for your project</li>
-<li>Inspirations and resources that helped you</li>
-<li>A detailed overview of 5-15 lines of code</li>
-<li>What you are most proud of</li>
-<li>What you would do if you had more time</li>
+<li>Outer loop runs 3 times</li>
+<li>Inner loop runs 3 times for each outer loop</li>
+<li>Total: 3 × 3 = 9 repetitions</li>
+<li><a href="https://editor.p5js.org/howshekilledit/sketches/ATSpSJ_FT">See it live</a></li>
 </ul>
+</section>
+<section id="loops-in-draw" class="slide level2">
+<h2>Loops in draw()</h2>
+<p>When you put loops inside <code>draw()</code>, they run every frame:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb8-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">draw</span>() {</span>
+<span id="cb8-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">background</span>(<span class="dv">220</span>)<span class="op">;</span></span>
+<span id="cb8-3"><a aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb8-4"><a aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (<span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="dv">10</span><span class="op">;</span> i<span class="op">++</span>) {</span>
+<span id="cb8-5"><a aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> x <span class="op">=</span> i <span class="op">*</span> <span class="dv">40</span> <span class="op">+</span> <span class="dv">20</span><span class="op">;</span></span>
+<span id="cb8-6"><a aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> y <span class="op">=</span> mouseY<span class="op">;</span>  <span class="co">// Follow mouse vertically</span></span>
+<span id="cb8-7"><a aria-hidden="true" tabindex="-1"></a>    <span class="fu">circle</span>(x<span class="op">,</span> y<span class="op">,</span> <span class="dv">30</span>)<span class="op">;</span></span>
+<span id="cb8-8"><a aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb8-9"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This creates a row of circles that follows your mouse. <a href="https://editor.p5js.org/howshekilledit/sketches/lmhHNX94s">See it live</a></p>
+</section>
+<section id="arrays" class="slide level2">
+<h2>Arrays</h2>
+<p>Arrays store multiple values in a single variable.</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb9-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> colors <span class="op">=</span> [<span class="st">'red'</span><span class="op">,</span> <span class="st">'green'</span><span class="op">,</span> <span class="st">'blue'</span><span class="op">,</span> <span class="st">'yellow'</span>]<span class="op">;</span></span>
+<span id="cb9-2"><a aria-hidden="true" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(colors[<span class="dv">0</span>])<span class="op">;</span> <span class="co">// 'red'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="arrays-and-for-loops" class="slide level2">
+<h2>Arrays and for loops</h2>
+<div class="sourceCode" id="cb10"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb10-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> colors <span class="op">=</span> [<span class="st">'red'</span><span class="op">,</span> <span class="st">'green'</span><span class="op">,</span> <span class="st">'blue'</span><span class="op">,</span> <span class="st">'yellow'</span>]<span class="op">;</span></span>
+<span id="cb10-2"><a aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (<span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> colors<span class="op">.</span><span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) {</span>
+<span id="cb10-3"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">fill</span>(colors[i])<span class="op">;</span></span>
+<span id="cb10-4"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">circle</span>(i <span class="op">*</span> <span class="dv">60</span> <span class="op">+</span> <span class="dv">30</span><span class="op">,</span> <span class="dv">200</span><span class="op">,</span> <span class="dv">40</span>)<span class="op">;</span></span>
+<span id="cb10-5"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><a href="https://editor.p5js.org/howshekilledit/sketches/9bvhivBiY">See it live</a></p>
 </section>
 <section id="notes-on-quiz-7" class="slide level2">
 <h2>Notes on Quiz #7</h2>
 <ul>
-<li>Quiz #7 takes place on October 16</li>
+<li>Quiz #7 takes place this Thursday, October 16</li>
 <li>It will test your knowledge of one section of your Math + Language code project</li>
 <li>You will receive a print out of your code, with comments removed, along with questions about a subsection of your code</li>
 <li>You can find a sample quiz <a href="https://urcourses.uregina.ca/mod/assign/view.php?id=3121529">in URCourses</a></li>
 </ul>
-</section></section>
-<section>
-<section id="creative-research-project" class="title-slide slide level1 center">
-<h1>Creative Research Project</h1>
+</section>
+<section id="code-along-with-me" class="slide level2 center">
+<h2>Code along with me!</h2>
 
-</section>
-<section id="assignment-summary" class="slide level2">
-<h2>Assignment Summary</h2>
-<p>In your second project, due November 3, you will:</p>
-<ul>
-<li>Use coding concepts from Week 1-7</li>
-<li>Use research in a creative way, meaning you should directly reference and even analyze outside materials as part of the artwork</li>
-<li>You can find some examples in the <a href="https://urcourses.uregina.ca/mod/forum/discuss.php?d=1231167">forum</a></li>
-</ul>
-</section>
-<section id="brainstorm-part-1" class="slide level2">
-<h2>Brainstorm, Part 1</h2>
-<ol type="1">
-<li>For the first part of your brainstorm, open a blank document in OneDrive.</li>
-<li>List and/or link sources you might use for your research.</li>
-<li>Bookmark this document, as you will want to keep track of all works your reference while creating this project!</li>
-</ol>
-</section>
-<section id="brainstorm-part-2" class="slide level2">
-<h2>Brainstorm, Part 2</h2>
-<ul>
-<li>The professor will set a timer.</li>
-<li>In your notebook, write and draw about a potential creative research project.</li>
-<li>Feel free to reference resources from part 1.</li>
-<li>Keep your pen moving the whole time. (You may also use a tablet)</li>
-</ul>
-</section>
+<img data-src="https://img.tpt.cloud/nextavenue/uploads/2021/09/bobrossestate-01.inside.1280x720.jpg" class="r-stretch quarto-figure-center"><p class="caption">or take notes if you prefer</p></section>
 <section id="exit-ticket" class="slide level2">
 <h2>Exit Ticket</h2>
-<p>Follow instructions in URCourses: <strong>In-Class Assignments &gt; Creative Research Brainstorm</strong></p>
+<p>Complete today’s demo remix assignment in <strong>URCourses &gt; In-Class Assignments &gt; Loops | Demo Remix</strong>.</p>
+<p>Be sure to submit your link before class is over!</p>
 
 
 </section></section>

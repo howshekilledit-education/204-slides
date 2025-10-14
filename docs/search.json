@@ -361,7 +361,7 @@
     "href": "math-language/index.html#exit-ticket",
     "title": "Math + Language Projects",
     "section": "Exit Ticket",
-    "text": "Exit Ticket\n\nComplete In-Class Assignments -&gt; Math + Language | Peer Remix in URCourses.\nBe sure to submit your link before class is over!"
+    "text": "Exit Ticket\n\nGo to Projects &gt; Presentation Links &gt; Math + Language, Day 1\nReply to one your peers with\n\nA remix of their p5.js sketch AND\nA screenshot from their sketch, and a note on why it stuck out to you"
   },
   {
     "objectID": "words/index.html#quiz-5-october-2",
@@ -481,5 +481,145 @@
     "title": "Math + Language Cont’d",
     "section": "Assignment Summary",
     "text": "Assignment Summary\nIn your second project, due November 3, you will:\n\nUse coding concepts from Week 1-7\nUse research in a creative way, meaning you should directly reference and even analyze outside materials as part of the artwork\nYou can find some examples in the forum"
+  },
+  {
+    "objectID": "loops/index.html#entrance-ticket",
+    "href": "loops/index.html#entrance-ticket",
+    "title": "Loops",
+    "section": "Entrance Ticket",
+    "text": "Entrance Ticket\n\nLook through your classmates’ links in today’s code forum response  in UR Courses.\nThere are a lot of the posts, so let’s split them up. If you are at the front of the room, look at posts at top; middle, middle; back, bottom.\nLook for a place in a classmate’s sketch defined a variable with let OR used mouseX/mouseY. Copy this section of code.\nReply to the post with the line/block of code copied above, and a sentence describing what the code is doing\nMake sure you reply to at least on post by 10:10"
+  },
+  {
+    "objectID": "loops/index.html#experience-levels-in-this-class-vary",
+    "href": "loops/index.html#experience-levels-in-this-class-vary",
+    "title": "Loops",
+    "section": "Experience levels in this class vary!",
+    "text": "Experience levels in this class vary!\nSome students in this class have ten years of coding experience. Others have none!\nTry not to judge yourself by what other students can do. It’s not a fair race if some started earlier than others."
+  },
+  {
+    "objectID": "loops/index.html#what-are-loops",
+    "href": "loops/index.html#what-are-loops",
+    "title": "Loops",
+    "section": "What are Loops?",
+    "text": "What are Loops?\nLoops allow you to repeat code without writing it over and over again.\nInstead of writing:\ncircle(50, 200, 40);\ncircle(100, 200, 40);\ncircle(150, 200, 40);\ncircle(200, 200, 40);\ncircle(250, 200, 40);\nYou can use a loop to draw multiple shapes efficiently. See comparison"
+  },
+  {
+    "objectID": "loops/index.html#while-loops",
+    "href": "loops/index.html#while-loops",
+    "title": "Loops",
+    "section": "While Loops",
+    "text": "While Loops\nA while loop repeats code as long as a condition is true.\nlet x = 50;\n\nwhile (x &lt; 400) {\n  circle(x, 200, 40);\n  x = x + 50; \n}\nSee it live \nWarning: Make sure the condition eventually becomes false, or you’ll create an infinite loop!"
+  },
+  {
+    "objectID": "loops/index.html#for-loops",
+    "href": "loops/index.html#for-loops",
+    "title": "Loops",
+    "section": "For Loops",
+    "text": "For Loops\nA for loop is more structured and commonly used for counting.\nfor (let i = 0; i &lt; 8; i++) {\n  let x = i * 50 + 50;\n  circle(x, 200, 40);\n}\nStructure (stated several ways): for (initialization; condition; update) { ... }  for (start state; while state; change) { ... }  for (&lt;start&gt;; &lt;end&gt;; &lt;in-between-event&gt;) { ... }"
+  },
+  {
+    "objectID": "loops/index.html#for-loop-breakdown",
+    "href": "loops/index.html#for-loop-breakdown",
+    "title": "Loops",
+    "section": "For Loop Breakdown",
+    "text": "For Loop Breakdown\nfor (let i = 0; i &lt; 8; i++) {\n  // code to repeat\n}\n\nlet i = 0 - Start with i equal to 0\ni &lt; 8 - Continue while i is less than 8\n\ni++ - Add 1 to i after each loop\nResult: Loop runs 8 times (i = 0,1,2,3,4,5,6,7)"
+  },
+  {
+    "objectID": "loops/index.html#using-the-loop-counter",
+    "href": "loops/index.html#using-the-loop-counter",
+    "title": "Loops",
+    "section": "Using the Loop Counter",
+    "text": "Using the Loop Counter\nfor (let i = 0; i &lt; 8; i++) {\n  let diameter = i * 10 + 20; \n  circle(200, 200, diameter);\n}\nThis creates concentric circles. What happens when you change initial and terminating conditions? See it live"
+  },
+  {
+    "objectID": "loops/index.html#nested-loops",
+    "href": "loops/index.html#nested-loops",
+    "title": "Loops",
+    "section": "Nested Loops",
+    "text": "Nested Loops\nYou can put loops inside other loops to create grids and patterns.\nfor (let i = 0; i &lt; 5; i++) {        // rows\n  for (let j = 0; j &lt; 5; j++) {      // columns\n    let x = j * 60 + 30;\n    let y = i * 60 + 30;\n    circle(x, y, 40);\n  }\n}\nThis creates a 5×5 grid of circles!"
+  },
+  {
+    "objectID": "loops/index.html#how-nested-loops-work",
+    "href": "loops/index.html#how-nested-loops-work",
+    "title": "Loops",
+    "section": "How Nested Loops Work",
+    "text": "How Nested Loops Work\nfor (let i = 0; i &lt; 3; i++) {        // Outer loop: i = 0,1,2\n  for (let j = 0; j &lt; 3; j++) {      // Inner loop: j = 0,1,2\n    // This runs 9 times total!\n    // (0,0) (0,1) (0,2) (1,0) (1,1) (1,2) (2,0) (2,1) (2,2)\n  }\n}\n\nOuter loop runs 3 times\nInner loop runs 3 times for each outer loop\nTotal: 3 × 3 = 9 repetitions\nSee it live"
+  },
+  {
+    "objectID": "loops/index.html#loops-in-draw",
+    "href": "loops/index.html#loops-in-draw",
+    "title": "Loops",
+    "section": "Loops in draw()",
+    "text": "Loops in draw()\nWhen you put loops inside draw(), they run every frame:\nfunction draw() {\n  background(220);\n  \n  for (let i = 0; i &lt; 10; i++) {\n    let x = i * 40 + 20;\n    let y = mouseY;  // Follow mouse vertically\n    circle(x, y, 30);\n  }\n}\nThis creates a row of circles that follows your mouse. See it live"
+  },
+  {
+    "objectID": "loops/index.html#creative-loop-examples",
+    "href": "loops/index.html#creative-loop-examples",
+    "title": "Loops",
+    "section": "Creative Loop Examples",
+    "text": "Creative Loop Examples\n// Spiral pattern\nfor (let i = 0; i &lt; 100; i++) {\n  let angle = i * 0.1;\n  let x = cos(angle) * i + width/2;\n  let y = sin(angle) * i + height/2;\n  circle(x, y, 5);\n}\n// Rainbow circles\nfor (let i = 0; i &lt; 10; i++) {\n  fill(i * 25, 100, 200);\n  circle(i * 40 + 20, 200, 35);\n}"
+  },
+  {
+    "objectID": "loops/index.html#whats-on-the-quiz-vs.-live-demos",
+    "href": "loops/index.html#whats-on-the-quiz-vs.-live-demos",
+    "title": "Loops",
+    "section": "What’s on the Quiz vs. Live Demos",
+    "text": "What’s on the Quiz vs. Live Demos\nSlides and Coding Train tutorials will include the material you need to know for the next quiz.\nDemos will cover quiz material and may preview more advanced material."
+  },
+  {
+    "objectID": "loops/index.html#code-along-with-me",
+    "href": "loops/index.html#code-along-with-me",
+    "title": "Loops",
+    "section": "Code along with me!",
+    "text": "Code along with me!\n\nor take notes if you prefer"
+  },
+  {
+    "objectID": "loops/index.html#exit-ticket",
+    "href": "loops/index.html#exit-ticket",
+    "title": "Loops",
+    "section": "Exit Ticket",
+    "text": "Exit Ticket\nComplete today’s demo remix assignment in URCourses &gt; In-Class Assignments &gt; Loops | Demo Remix.\nBe sure to submit your link before class is over!"
+  },
+  {
+    "objectID": "math-language-contd/index.html#notes-on-quiz-7",
+    "href": "math-language-contd/index.html#notes-on-quiz-7",
+    "title": "Math + Language Cont’d",
+    "section": "Notes on Quiz #7",
+    "text": "Notes on Quiz #7\n\nQuiz #7 takes place on October 16\nIt will test your knowledge of one section of your Math + Language code project\nYou will receive a print out of your code, with comments removed, along with questions about a subsection of your code\nYou can find a sample quiz in URCourses"
+  },
+  {
+    "objectID": "loops/index.html#creative-research",
+    "href": "loops/index.html#creative-research",
+    "title": "Loops",
+    "section": "Creative Research",
+    "text": "Creative Research\n\nSee multiple examples in this week’s forum.\nWhat research does each artist bring in?\nHow does each project apply artistic methods to research?\nHow do creative methodologies give the research new meaning?"
+  },
+  {
+    "objectID": "loops/index.html#arrays",
+    "href": "loops/index.html#arrays",
+    "title": "Loops",
+    "section": "Arrays",
+    "text": "Arrays\nArrays store multiple values in a single variable.\nlet colors = ['red', 'green', 'blue', 'yellow'];\nconsole.log(colors[0]); // 'red'"
+  },
+  {
+    "objectID": "loops/index.html#arrays-and-for-loops-work-great-together",
+    "href": "loops/index.html#arrays-and-for-loops-work-great-together",
+    "title": "Loops",
+    "section": "Arrays and for loops work great together!",
+    "text": "Arrays and for loops work great together!\nlet colors = ['red', 'green', 'blue', 'yellow'];\nfor (let i = 0; i &lt; colors.length; i++) {\n  fill(colors[i]);\n  circle(i * 60 + 30, 200, 40);\n}\nSee it live"
+  },
+  {
+    "objectID": "loops/index.html#notes-on-quiz-7",
+    "href": "loops/index.html#notes-on-quiz-7",
+    "title": "Loops",
+    "section": "Notes on Quiz #7",
+    "text": "Notes on Quiz #7\n\nQuiz #7 takes place this Thursday, October 16\nIt will test your knowledge of one section of your Math + Language code project\nYou will receive a print out of your code, with comments removed, along with questions about a subsection of your code\nYou can find a sample quiz in URCourses"
+  },
+  {
+    "objectID": "loops/index.html#arrays-and-for-loops",
+    "href": "loops/index.html#arrays-and-for-loops",
+    "title": "Loops",
+    "section": "Arrays and for loops",
+    "text": "Arrays and for loops\nlet colors = ['red', 'green', 'blue', 'yellow'];\nfor (let i = 0; i &lt; colors.length; i++) {\n  fill(colors[i]);\n  circle(i * 60 + 30, 200, 40);\n}\nSee it live"
   }
 ]
