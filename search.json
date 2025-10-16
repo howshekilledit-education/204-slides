@@ -543,14 +543,14 @@
     "href": "index.html",
     "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
     "section": "",
-    "text": "Oct 1: Boolean Variables\nSept 23: Conditionals\nSept 18: Intentionally Random\nSept 16: Numerical Operatons\nSept 11: Color Theory and Coding\nSept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
+    "text": "Oct 14: Loops\nOct 1: Boolean Variables\nSept 23: Conditionals\nSept 18: Intentionally Random\nSept 16: Numerical Operatons\nSept 11: Color Theory and Coding\nSept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
   },
   {
     "objectID": "index.html#lecture-slides",
     "href": "index.html#lecture-slides",
     "title": "Welcome to CTCH 204, Introduction to Creative Coding!",
     "section": "",
-    "text": "Oct 1: Boolean Variables\nSept 23: Conditionals\nSept 18: Intentionally Random\nSept 16: Numerical Operatons\nSept 11: Color Theory and Coding\nSept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
+    "text": "Oct 14: Loops\nOct 1: Boolean Variables\nSept 23: Conditionals\nSept 18: Intentionally Random\nSept 16: Numerical Operatons\nSept 11: Color Theory and Coding\nSept 9: Variables and Conventions\nSept 5: Syllabus, p5.js, shapes, colors"
   },
   {
     "objectID": "boolean/index.html#how-to-complete-quiz",
@@ -621,6 +621,55 @@
     "title": "Boolean Variables",
     "section": "Exit Ticket",
     "text": "Exit Ticket\nComplete In-class Assignments -&gt; Boolean Variables | Demo Remix in UR Courses.\nBe sure to submit your link before class is over!"
+  },
+  {
+    "objectID": "creative-research/index.html#how-to-complete-quiz",
+    "href": "creative-research/index.html#how-to-complete-quiz",
+    "title": "Math + Language Quiz Day",
+    "section": "How to Complete Quiz",
+    "text": "How to Complete Quiz\n\nPut your computer to sleep\nYou have two documents: a printout of your code and a double-sided sheet of questions\nWhen I say begin, remove your paperclip and begin work\nNote that question 1 is worth the most points\nThe questions are about the bold section of your code, marked FOCUS BLOCK, which may appear anywhere in your code. The rest of your code is there for context.\nDo not feel pressure to use all the space provided. Often (but not always), a short simple answer will do the job.\nYou have thirty minutes. (If this is not enough time for most students, quiz will be curved – just do your best)"
+  },
+  {
+    "objectID": "creative-research/index.html#forum-response-shares",
+    "href": "creative-research/index.html#forum-response-shares",
+    "title": "Math + Language Quiz Day",
+    "section": "Forum Response Shares",
+    "text": "Forum Response Shares\n\nLoops Forum\nLoops Demo Remix"
+  },
+  {
+    "objectID": "creative-research/index.html#image-class-in-p5",
+    "href": "creative-research/index.html#image-class-in-p5",
+    "title": "Math + Language Quiz Day",
+    "section": "Image Class in p5",
+    "text": "Image Class in p5\nlet img;\n\n// Load the image.\nfunction preload() {\n  img = loadImage('/assets/laDefense.jpg');\n}\n\nfunction setup() {\n  createCanvas(100, 100);\n  background(50);\n  \n  // Draw the image.\n  image(img, 0, 0);\n}\nFrom p5 Web Reference. Also, see baby Yoda example"
+  },
+  {
+    "objectID": "creative-research/index.html#assignment-summary",
+    "href": "creative-research/index.html#assignment-summary",
+    "title": "Math + Language Quiz Day",
+    "section": "Assignment Summary",
+    "text": "Assignment Summary\nIn your second project, due November 3, you will:\n\nUse coding concepts from Week 1-7\nUse research in a creative way, meaning you should directly reference and even analyze outside materials as part of the artwork\nYou can find some examples in the forum"
+  },
+  {
+    "objectID": "creative-research/index.html#brainstorm-part-1",
+    "href": "creative-research/index.html#brainstorm-part-1",
+    "title": "Math + Language Quiz Day",
+    "section": "Brainstorm, Part 1",
+    "text": "Brainstorm, Part 1\n\nThe professor will set a timer.\nIn your notebook, write and draw about a potential creative research project.\nFeel free to reference resources from this week’s forum response.\nKeep your pen moving the whole time. (You may also use a tablet)"
+  },
+  {
+    "objectID": "creative-research/index.html#brainstorm-part-2",
+    "href": "creative-research/index.html#brainstorm-part-2",
+    "title": "Math + Language Quiz Day",
+    "section": "Brainstorm, Part 2",
+    "text": "Brainstorm, Part 2\nIn your notebook or on your tablet (preferably in your own handwriting), write freely in response to the following questions\n\nHow will you represent or respond to your research creatively?\nHow will you give your research sources new meaning?"
+  },
+  {
+    "objectID": "creative-research/index.html#exit-ticket",
+    "href": "creative-research/index.html#exit-ticket",
+    "title": "Math + Language Quiz Day",
+    "section": "Exit Ticket",
+    "text": "Exit Ticket\nFollow instructions in URCourses: In-Class Assignments &gt; Creative Research Brainstorm"
   },
   {
     "objectID": "math-language-contd/index.html#how-to-complete-quiz",
