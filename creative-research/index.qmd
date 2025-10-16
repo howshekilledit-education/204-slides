@@ -1,0 +1,88 @@
+
+---
+title: "Math + Language Quiz Day"
+format:
+  revealjs:
+    theme: 
+      - simple
+    css: ../bl.css
+    header-includes: |
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+code-line-numbers: false
+mainfont: 'Josefin Sans'
+---
+
+# The quiz will start at 10:05! You may study until then.
+
+## How to Complete Quiz {.smaller}
+
+* Put your computer to sleep
+* You have two documents: a printout of your code and a double-sided sheet of questions
+* When I say begin, remove your paperclip and begin work
+* Note that question 1 is worth the most points
+* The questions are about the bold section of your code, marked `FOCUS BLOCK`, which may appear anywhere in your code. The rest of your code is there for context.
+* Do not feel pressure to use all the space provided. Often (but not always), a short simple answer will do the job. 
+* You have thirty minutes. (If this is not enough time for most students, quiz will be curved -- just do your best) 
+
+## Forum Response Shares
+
+- [Loops Forum](https://urcourses.uregina.ca/mod/forum/discuss.php?d=1231164)
+- [Loops Demo Remix](https://urcourses.uregina.ca/mod/forum/view.php?id=3123521)
+
+## Image Class in p5
+
+```javascript
+let img;
+
+// Load the image.
+function preload() {
+  img = loadImage('/assets/laDefense.jpg');
+}
+
+function setup() {
+  createCanvas(100, 100);
+  background(50);
+  
+  // Draw the image.
+  image(img, 0, 0);
+}
+``` 
+
+From [p5 Web Reference](https://p5js.org/reference/p5/image/). Also, see [baby Yoda example](https://editor.p5js.org/howshekilledit/sketches/C7k76Dj1R)
+
+
+# Creative Research Project
+
+## Assignment Summary 
+
+In your second project, due November 3, you will:
+
+* Use coding concepts from Week 1-7
+* Use research in a creative way, meaning you should directly reference and even analyze outside materials as part of the artwork 
+* You can find some examples in the [forum](https://urcourses.uregina.ca/mod/forum/discuss.php?d=1231167)
+
+## Brainstorm, Part 1
+
+* The professor will set a timer. 
+* In your notebook, write and draw about a potential creative research project. 
+* Feel free to reference resources from this week's forum response. 
+* Keep your pen moving the whole time. (You may also use a tablet)
+
+## Brainstorm, Part 2
+
+In your notebook or on your tablet (preferably in your own handwriting), write freely in response to the following questions
+
+1) How will you represent or respond to your research creatively?
+2) How will you give your research sources new meaning? 
+
+
+## Exit Ticket
+
+Follow instructions in URCourses: **In-Class Assignments > Creative Research Brainstorm**
+
+
+
+

@@ -2,6 +2,7 @@
 
 ## Lecture Slides
 
+* [Oct 14: Loops](/loops)
 * [Oct 1: Boolean Variables](/boolean)
 * [Sept 23: Conditionals](/conditionals)
 * [Sept 18: Intentionally Random](/intentionally-random)
