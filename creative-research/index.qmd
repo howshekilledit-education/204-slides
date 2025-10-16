@@ -16,7 +16,8 @@ mainfont: 'Josefin Sans'
 ---
 
 ## The quiz will start at 10:05!
-* You can come get your quiz from the table next to the professor, but **do not open it yet.** 
+* You can come get your quiz from the table next to the professor, but **do not open it yet.**
+* Quizzes are ordered alphabetically by first name (as it appears in URCourses) 
 * You can study until the quiz starts. 
 
 
