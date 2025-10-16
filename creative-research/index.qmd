@@ -15,7 +15,10 @@ code-line-numbers: false
 mainfont: 'Josefin Sans'
 ---
 
-# The quiz will start at 10:05! You may study until then.
+## The quiz will start at 10:05!
+* You can come get your quiz from the table next to the professor, but **do not open it yet.** 
+* You can study until the quiz starts. 
+
 
 ## How to Complete Quiz {.smaller}
 
